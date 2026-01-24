@@ -1,15 +1,16 @@
 .pairing-list {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
 }
 
 .pairing-list-empty {
-  padding: 24px;
+  padding: 20px;
   text-align: center;
-  color: #888;
-  background: #f9f9f9;
-  border-radius: 8px;
+  color: var(--color-text-muted);
+  background: var(--color-bg-subtle);
+  border-radius: var(--radius-sm);
+  font-size: 14px;
 }
 
 .pairing-card-link {
@@ -18,96 +19,97 @@
 }
 
 .pairing-card {
-  padding: 16px;
-  background: white;
-  border: 1px solid #e0e0e0;
-  border-radius: 8px;
-  border-left: 4px solid var(--category-color);
+  padding: 14px;
+  background: var(--color-bg-elevated);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  border-left: 3px solid var(--category-color);
   cursor: pointer;
-  transition: transform 0.2s, box-shadow 0.2s;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
 }
 
 .pairing-card:hover {
-  transform: translateX(4px);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transform: translateX(2px);
+  box-shadow: var(--shadow-sm);
 }
 
 .pairing-header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .pairing-info {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 2px;
 }
 
 .pairing-name {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
-  color: #333;
+  color: var(--color-text);
 }
 
 .pairing-category {
-  font-size: 12px;
-  color: #888;
+  font-size: 11px;
+  color: var(--color-text-muted);
   text-transform: capitalize;
 }
 
 .pairing-score {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 700;
-  padding: 4px 12px;
+  padding: 3px 10px;
   border-radius: 4px;
+  font-variant-numeric: tabular-nums;
 }
 
 .pairing-score.excellent {
-  background: #d3f9d8;
-  color: #2b8a3e;
+  background: rgba(43, 138, 62, 0.15);
+  color: var(--color-success);
 }
 
 .pairing-score.good {
-  background: #fff3bf;
-  color: #e67700;
+  background: rgba(230, 119, 0, 0.15);
+  color: var(--color-warning);
 }
 
 .pairing-score.moderate {
-  background: #ffe3e3;
-  color: #c92a2a;
+  background: rgba(201, 42, 42, 0.15);
+  color: var(--color-error);
 }
 
 .pairing-compounds {
   display: flex;
   flex-wrap: wrap;
-  gap: 6px;
-  margin-bottom: 12px;
+  gap: 4px;
+  margin-bottom: 10px;
 }
 
 .compound-badge {
-  font-size: 11px;
-  padding: 4px 8px;
-  background: #f0f0f0;
-  color: #555;
-  border-radius: 4px;
+  font-size: 10px;
+  padding: 3px 6px;
+  background: var(--color-bg-subtle);
+  color: var(--color-text-secondary);
+  border-radius: 3px;
 }
 
 .compound-more {
-  font-size: 11px;
-  padding: 4px 8px;
-  color: #888;
+  font-size: 10px;
+  padding: 3px 6px;
+  color: var(--color-text-muted);
 }
 
 .pairing-explanation {
-  margin: 0 0 12px;
-  font-size: 14px;
-  color: #555;
+  margin: 0 0 10px;
+  font-size: 13px;
+  color: var(--color-text-secondary);
   line-height: 1.5;
 }
 
 .pairing-meta {
-  font-size: 12px;
-  color: #999;
+  font-size: 11px;
+  color: var(--color-text-muted);
 }

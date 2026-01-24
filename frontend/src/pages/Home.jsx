@@ -1,158 +1,236 @@
 /**
  * Home Page
  *
- * Landing page with search, stats, and featured pairings.
+ * Main landing page with knowledge graph visualization and stats.
  */
 
-import { useState } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { SearchBar } from '../components/SearchBar';
-import { IngredientCard } from '../components/IngredientCard';
-import { useStats, useSurprisePairings, useCategories } from '../hooks/useApi';
+import * as d3 from 'd3';
+import { useStats } from '../hooks/useApi';
+import { getCategoryColor } from '../components/IngredientCard';
 import api from '../api/client';
 import './Home.css';
 
 export function Home() {
   const navigate = useNavigate();
   const { data: stats } = useStats();
-  const { data: surprisePairings } = useSurprisePairings({ limit: 6 });
-  const { data: categories } = useCategories();
-  const [randomIngredient, setRandomIngredient] = useState(null);
+  const svgRef = useRef(null);
+  const containerRef = useRef(null);
+  const [dimensions, setDimensions] = useState({ width: 800, height: 500 });
+  const [graphData, setGraphData] = useState(null);
+  const [loading, setLoading] = useState(true);
 
-  const handleSurpriseMe = async () => {
+  // Fetch graph data on mount
+  useEffect(() => {
+    const fetchGraph = async () => {
+      try {
+        const randomIng = await api.getRandomIngredient();
+        const data = await api.getGraphData(randomIng.id, { minScore: 0.3, limit: 25 });
+        setGraphData(data);
+      } catch (err) {
+        console.error('Failed to load graph:', err);
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchGraph();
+  }, []);
+
+  // Handle resize
+  useEffect(() => {
+    const updateDimensions = () => {
+      if (containerRef.current) {
+        const rect = containerRef.current.getBoundingClientRect();
+        setDimensions({
+          width: rect.width,
+          height: Math.max(400, window.innerHeight - 280)
+        });
+      }
+    };
+
+    updateDimensions();
+    window.addEventListener('resize', updateDimensions);
+    return () => window.removeEventListener('resize', updateDimensions);
+  }, []);
+
+  // D3 Graph Rendering
+  const createGraph = useCallback(() => {
+    if (!graphData?.nodes?.length || !svgRef.current) return;
+
+    const svg = d3.select(svgRef.current);
+    svg.selectAll('*').remove();
+
+    const { width, height } = dimensions;
+    const g = svg.append('g');
+
+    // Zoom behavior
+    const zoom = d3.zoom()
+      .scaleExtent([0.3, 3])
+      .on('zoom', (event) => g.attr('transform', event.transform));
+
+    svg.call(zoom);
+
+    const nodes = graphData.nodes.map(d => ({ ...d }));
+    const links = graphData.links.map(d => ({ ...d }));
+
+    // Force simulation
+    const simulation = d3.forceSimulation(nodes)
+      .force('link', d3.forceLink(links)
+        .id(d => d.id)
+        .distance(100)
+        .strength(d => (d.score || 0.5) * 0.3))
+      .force('charge', d3.forceManyBody().strength(-200))
+      .force('center', d3.forceCenter(width / 2, height / 2))
+      .force('collision', d3.forceCollide().radius(35));
+
+    // Links
+    const link = g.append('g')
+      .attr('class', 'links')
+      .selectAll('line')
+      .data(links)
+      .join('line')
+      .attr('stroke', 'var(--color-border)')
+      .attr('stroke-opacity', d => 0.3 + (d.score || 0.5) * 0.4)
+      .attr('stroke-width', d => 1 + (d.score || 0.5) * 2);
+
+    // Nodes
+    const node = g.append('g')
+      .attr('class', 'nodes')
+      .selectAll('g')
+      .data(nodes)
+      .join('g')
+      .attr('class', 'node')
+      .style('cursor', 'pointer')
+      .call(d3.drag()
+        .on('start', (event) => {
+          if (!event.active) simulation.alphaTarget(0.3).restart();
+          event.subject.fx = event.subject.x;
+          event.subject.fy = event.subject.y;
+        })
+        .on('drag', (event) => {
+          event.subject.fx = event.x;
+          event.subject.fy = event.y;
+        })
+        .on('end', (event) => {
+          if (!event.active) simulation.alphaTarget(0);
+          event.subject.fx = null;
+          event.subject.fy = null;
+        }));
+
+    node.append('circle')
+      .attr('r', d => d.id === nodes[0]?.id ? 22 : 16)
+      .attr('fill', d => getCategoryColor(d.category))
+      .attr('stroke', 'var(--color-bg-elevated)')
+      .attr('stroke-width', 2)
+      .on('click', (event, d) => {
+        event.stopPropagation();
+        navigate(`/ingredient/${d.id}`);
+      })
+      .on('mouseover', function() {
+        d3.select(this).attr('stroke-width', 3);
+      })
+      .on('mouseout', function() {
+        d3.select(this).attr('stroke-width', 2);
+      });
+
+    node.append('text')
+      .text(d => d.name)
+      .attr('x', 0)
+      .attr('y', d => (d.id === nodes[0]?.id ? 22 : 16) + 12)
+      .attr('text-anchor', 'middle')
+      .attr('font-size', d => d.id === nodes[0]?.id ? '11px' : '10px')
+      .attr('font-weight', d => d.id === nodes[0]?.id ? '600' : '400')
+      .attr('fill', 'var(--color-text-secondary)')
+      .style('pointer-events', 'none');
+
+    simulation.on('tick', () => {
+      link
+        .attr('x1', d => d.source.x)
+        .attr('y1', d => d.source.y)
+        .attr('x2', d => d.target.x)
+        .attr('y2', d => d.target.y);
+      node.attr('transform', d => `translate(${d.x},${d.y})`);
+    });
+
+    // Center view
+    svg.call(zoom.transform, d3.zoomIdentity.translate(0, 0).scale(1));
+
+    return () => simulation.stop();
+  }, [graphData, dimensions, navigate]);
+
+  useEffect(() => {
+    createGraph();
+  }, [createGraph]);
+
+  const handleRefresh = async () => {
+    setLoading(true);
     try {
-      const ingredient = await api.getRandomIngredient();
-      setRandomIngredient(ingredient);
-      // Navigate after a short delay to show the selection
-      setTimeout(() => {
-        navigate(`/ingredient/${ingredient.id}`);
-      }, 500);
-    } catch (error) {
-      console.error('Failed to get random ingredient:', error);
+      const randomIng = await api.getRandomIngredient();
+      const data = await api.getGraphData(randomIng.id, { minScore: 0.3, limit: 25 });
+      setGraphData(data);
+    } catch (err) {
+      console.error('Failed to load graph:', err);
+    } finally {
+      setLoading(false);
     }
   };
 
   return (
     <div className="home-page">
-      {/* Hero Section */}
-      <section className="hero">
-        <h1>Flavor Pairing Explorer</h1>
-        <p className="hero-subtitle">
-          Discover unexpected ingredient combinations backed by food science
-        </p>
+      <header className="home-header">
+        <h1>Flavour Pairing Knowledge Graph</h1>
+        <p>Discover ingredient pairings through shared flavor compounds</p>
+      </header>
 
-        <div className="hero-search">
-          <SearchBar placeholder="Search for an ingredient..." />
-        </div>
-
-        <button className="surprise-button" onClick={handleSurpriseMe}>
-          Surprise Me
-        </button>
-
-        {randomIngredient && (
-          <div className="random-selection">
-            Selected: <strong>{randomIngredient.name}</strong>
-          </div>
-        )}
-      </section>
-
-      {/* Stats Section */}
       {stats && (
-        <section className="stats-section">
-          <div className="stat-card">
-            <span className="stat-number">{stats.ingredients.toLocaleString()}</span>
+        <div className="stats-row">
+          <div className="stat-item">
+            <span className="stat-value">{stats.ingredients.toLocaleString()}</span>
             <span className="stat-label">Ingredients</span>
           </div>
-          <div className="stat-card">
-            <span className="stat-number">{stats.compounds.toLocaleString()}</span>
-            <span className="stat-label">Flavor Compounds</span>
+          <div className="stat-divider" />
+          <div className="stat-item">
+            <span className="stat-value">{stats.compounds.toLocaleString()}</span>
+            <span className="stat-label">Compounds</span>
           </div>
-          <div className="stat-card">
-            <span className="stat-number">{stats.pairings.toLocaleString()}</span>
+          <div className="stat-divider" />
+          <div className="stat-item">
+            <span className="stat-value">{stats.pairings.toLocaleString()}</span>
             <span className="stat-label">Pairings</span>
           </div>
-        </section>
-      )}
-
-      {/* Surprise Pairings Section */}
-      {surprisePairings && surprisePairings.length > 0 && (
-        <section className="surprise-section">
-          <h2>Unexpected Pairings</h2>
-          <p className="section-subtitle">
-            High-scoring combinations from different categories
-          </p>
-
-          <div className="surprise-grid">
-            {surprisePairings.map((pairing, index) => (
-              <div key={index} className="surprise-card">
-                <div className="surprise-pair">
-                  <IngredientCard
-                    ingredient={pairing.ingredient_1}
-                    showLink={true}
-                  />
-                  <span className="plus-sign">+</span>
-                  <IngredientCard
-                    ingredient={pairing.ingredient_2}
-                    showLink={true}
-                  />
-                </div>
-                <div className="surprise-score">
-                  {Math.round(pairing.score * 100)}% match
-                </div>
-                <p className="surprise-explanation">{pairing.explanation}</p>
-              </div>
-            ))}
-          </div>
-        </section>
-      )}
-
-      {/* Categories Section */}
-      {categories && categories.length > 0 && (
-        <section className="categories-section">
-          <h2>Browse by Category</h2>
-
-          <div className="category-grid">
-            {categories.slice(0, 12).map((category) => (
-              <button
-                key={category.id}
-                className="category-button"
-                onClick={() => navigate(`/browse?category=${category.id}`)}
-              >
-                <span className="category-name">{category.name}</span>
-                <span className="category-count">{category.count}</span>
-              </button>
-            ))}
-          </div>
-        </section>
-      )}
-
-      {/* About Section */}
-      <section className="about-section">
-        <h2>How It Works</h2>
-        <div className="about-grid">
-          <div className="about-card">
-            <h3>Flavor Compounds</h3>
-            <p>
-              Every ingredient contains hundreds of flavor compounds - molecules
-              that contribute to taste and aroma.
-            </p>
-          </div>
-          <div className="about-card">
-            <h3>Shared Chemistry</h3>
-            <p>
-              Ingredients that share key flavor compounds often pair well together,
-              creating harmonious taste combinations.
-            </p>
-          </div>
-          <div className="about-card">
-            <h3>Discovery</h3>
-            <p>
-              Explore unexpected pairings like strawberry + balsamic or chocolate +
-              blue cheese, backed by molecular analysis.
-            </p>
-          </div>
         </div>
-      </section>
+      )}
+
+      <div className="graph-container" ref={containerRef}>
+        {loading ? (
+          <div className="graph-loading">
+            <div className="spinner" aria-label="Loading graph" />
+            <span>Loading knowledge graph...</span>
+          </div>
+        ) : (
+          <>
+            <svg
+              ref={svgRef}
+              width={dimensions.width}
+              height={dimensions.height}
+              viewBox={`0 0 ${dimensions.width} ${dimensions.height}`}
+              role="img"
+              aria-label="Interactive knowledge graph showing ingredient relationships"
+            />
+            <div className="graph-actions">
+              <button onClick={handleRefresh} className="refresh-btn" aria-label="Load different ingredient graph">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                  <path d="M23 4v6h-6M1 20v-6h6" />
+                  <path d="M3.51 9a9 9 0 0114.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0020.49 15" />
+                </svg>
+                New Graph
+              </button>
+            </div>
+            <p className="graph-hint">Click any node to explore. Drag to rearrange. Scroll to zoom.</p>
+          </>
+        )}
+      </div>
     </div>
   );
 }

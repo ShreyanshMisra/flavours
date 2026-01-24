@@ -6,3 +6,4 @@ export { Home } from './Home';
 export { Ingredient } from './Ingredient';
 export { Compare } from './Compare';
 export { Explore } from './Explore';
+export { About } from './About';

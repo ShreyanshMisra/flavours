@@ -1,17 +1,3 @@
-/* Global Styles */
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  background: #f5f5f5;
-  color: #333;
-  line-height: 1.5;
-}
-
 /* App Layout */
 .app {
   min-height: 100vh;
@@ -25,42 +11,111 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0 24px;
-  height: 60px;
-  background: white;
-  border-bottom: 1px solid #e0e0e0;
+  height: 56px;
+  background: var(--color-bg-elevated);
+  border-bottom: 1px solid var(--color-border);
   position: sticky;
   top: 0;
   z-index: 1000;
 }
 
 .nav-brand {
-  font-size: 20px;
-  font-weight: 700;
-  color: #4a90d9;
-  text-decoration: none;
-}
-
-.nav-links {
   display: flex;
-  gap: 24px;
-}
-
-.nav-links a {
-  color: #555;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-text);
   text-decoration: none;
+}
+
+.nav-brand:hover {
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
+.nav-brand svg {
+  width: 20px;
+  height: 20px;
+  color: var(--color-primary);
+}
+
+.nav-center {
+  display: flex;
+  gap: 4px;
+}
+
+.nav-center a {
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  font-size: 14px;
   font-weight: 500;
-  padding: 8px 0;
-  border-bottom: 2px solid transparent;
-  transition: color 0.2s, border-color 0.2s;
+  padding: 8px 16px;
+  border-radius: var(--radius-sm);
+  transition: background-color var(--transition-fast), color var(--transition-fast);
 }
 
-.nav-links a:hover {
-  color: #4a90d9;
+.nav-center a:hover {
+  color: var(--color-text);
+  background: var(--color-bg-subtle);
+  text-decoration: none;
 }
 
-.nav-links a.active {
-  color: #4a90d9;
-  border-bottom-color: #4a90d9;
+.nav-center a.active {
+  color: var(--color-primary);
+  background: var(--color-primary-subtle);
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-icon-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  border-radius: var(--radius-sm);
+  color: var(--color-text-secondary);
+  transition: background-color var(--transition-fast), color var(--transition-fast);
+}
+
+.nav-icon-btn:hover {
+  background: var(--color-bg-subtle);
+  color: var(--color-text);
+}
+
+.nav-icon-btn svg {
+  width: 18px;
+  height: 18px;
+}
+
+.github-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  color: var(--color-text-secondary);
+  border-radius: var(--radius-sm);
+  transition: background-color var(--transition-fast), color var(--transition-fast);
+}
+
+.github-link:hover {
+  background: var(--color-bg-subtle);
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.github-link svg {
+  width: 18px;
+  height: 18px;
 }
 
 /* Main Content */
@@ -70,51 +125,48 @@ body {
 
 /* Footer */
 .footer {
-  padding: 24px;
+  padding: 16px 24px;
   text-align: center;
-  background: white;
-  border-top: 1px solid #e0e0e0;
+  background: var(--color-bg-elevated);
+  border-top: 1px solid var(--color-border);
 }
 
 .footer p {
   margin: 0;
-  font-size: 14px;
-  color: #888;
+  font-size: 13px;
+  color: var(--color-text-muted);
 }
 
 .footer a {
-  color: #4a90d9;
-  text-decoration: none;
-}
-
-.footer a:hover {
-  text-decoration: underline;
-}
-
-/* Utility Classes */
-.text-center {
-  text-align: center;
-}
-
-.mt-4 {
-  margin-top: 16px;
-}
-
-.mb-4 {
-  margin-bottom: 16px;
+  color: var(--color-primary);
 }
 
 /* Responsive */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .navbar {
     padding: 0 16px;
   }
 
-  .nav-links {
-    gap: 16px;
+  .nav-brand {
+    font-size: 14px;
   }
 
-  .nav-links a {
-    font-size: 14px;
+  .nav-brand span {
+    display: none;
+  }
+
+  .nav-center a {
+    padding: 8px 12px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-center {
+    gap: 2px;
+  }
+
+  .nav-center a {
+    padding: 8px;
   }
 }

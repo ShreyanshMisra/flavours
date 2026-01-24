@@ -4,50 +4,50 @@
 }
 
 .ingredient-card {
-  padding: 16px;
-  background: white;
-  border: 1px solid #e0e0e0;
-  border-radius: 8px;
-  border-left: 4px solid var(--category-color);
+  padding: 14px;
+  background: var(--color-bg-elevated);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  border-left: 3px solid var(--category-color);
   cursor: pointer;
-  transition: transform 0.2s, box-shadow 0.2s;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
 }
 
 .ingredient-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
 }
 
 .ingredient-card-header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 12px;
+  gap: 10px;
 }
 
 .ingredient-name {
   margin: 0;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
-  color: #333;
+  color: var(--color-text);
 }
 
 .category-badge {
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
-  padding: 4px 8px;
+  letter-spacing: 0.3px;
+  padding: 3px 6px;
   background: var(--category-color);
   color: white;
-  border-radius: 4px;
+  border-radius: 3px;
   white-space: nowrap;
 }
 
 .ingredient-subcategory {
-  margin: 8px 0 0;
-  font-size: 13px;
-  color: #666;
+  margin: 6px 0 0;
+  font-size: 12px;
+  color: var(--color-text-muted);
   text-transform: capitalize;
 }
 
@@ -55,27 +55,27 @@
 .ingredient-card-compact {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  padding: 8px 12px;
-  background: white;
-  border: 1px solid #e0e0e0;
-  border-radius: 20px;
+  gap: 6px;
+  padding: 6px 10px;
+  background: var(--color-bg-elevated);
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
   cursor: pointer;
-  transition: background-color 0.2s;
+  transition: background-color var(--transition-fast);
 }
 
 .ingredient-card-compact:hover {
-  background-color: #f5f5f5;
+  background-color: var(--color-bg-subtle);
 }
 
 .ingredient-card-compact .ingredient-name {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 500;
 }
 
 .category-dot {
-  width: 8px;
-  height: 8px;
+  width: 6px;
+  height: 6px;
   border-radius: 50%;
   background: var(--category-color);
 }
