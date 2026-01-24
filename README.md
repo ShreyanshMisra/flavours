@@ -14,7 +14,7 @@ A knowledge graph application that models ingredients, their flavor compounds, a
 
 - **Database**: Neo4j Aura (graph database)
 - **Backend**: FastAPI (Python) on Render
-- **Frontend**: React 18 + Vite + D3.js on Vercel
+- **Frontend**: React 18, Vite, D3.js deployed with Vercel
 
 ## Graph Schema
 
