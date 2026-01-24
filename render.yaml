@@ -1,0 +1,24 @@
+# Render Blueprint for Flavor Pairing API
+# https://render.com/docs/blueprint-spec
+
+services:
+  - type: web
+    name: flavours-api
+    runtime: python
+    region: oregon
+    plan: free
+    rootDir: api
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: NEO4J_URI
+        value: neo4j+s://89d335c7.databases.neo4j.io
+      - key: NEO4J_USER
+        value: neo4j
+      - key: NEO4J_PASSWORD
+        sync: false  # Will prompt for value during setup
+      - key: CORS_ORIGINS
+        value: http://localhost:3000,http://localhost:5173,https://flavours-neo4j.vercel.app,https://flavours-api.onrender.com
+      - key: API_KEY_REQUIRED
+        value: "false"
+    healthCheckPath: /health
