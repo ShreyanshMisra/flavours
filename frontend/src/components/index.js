@@ -7,3 +7,4 @@ export { IngredientCard, IngredientCardCompact, getCategoryColor } from './Ingre
 export { PairingList, PairingCard } from './PairingList';
 export { GraphExplorer } from './GraphExplorer';
 export { CompoundBadge, CompoundTag } from './CompoundBadge';
+export { WarmupOverlay } from './WarmupOverlay';

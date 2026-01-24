@@ -4,11 +4,13 @@
 
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import { Home, Ingredient, Compare, Explore } from './pages';
+import { WarmupOverlay } from './components';
 import './App.css';
 
 function App() {
   return (
     <BrowserRouter>
+      <WarmupOverlay />
       <div className="app">
         <nav className="navbar">
           <Link to="/" className="nav-brand">
