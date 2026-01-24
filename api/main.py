@@ -31,7 +31,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Security configuration
-CORS_ORIGINS = os.getenv("CORS_ORIGINS", "http://localhost:3000,http://localhost:5173,https://flavours-neo4j.vercel.app,https://flavours-api.onrender.com").split(",")
+CORS_ORIGINS = os.getenv("CORS_ORIGINS", "http://localhost:3000,http://localhost:5173,https://flavours-neo4j.vercel.app,https://flavours-api-3cxe.onrender.com").split(",")
 API_KEY = os.getenv("API_KEY", "")
 API_KEY_REQUIRED = os.getenv("API_KEY_REQUIRED", "false").lower() == "true"
 
