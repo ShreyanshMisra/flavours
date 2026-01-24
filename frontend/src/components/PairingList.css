@@ -1,0 +1,113 @@
+.pairing-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.pairing-list-empty {
+  padding: 24px;
+  text-align: center;
+  color: #888;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+.pairing-card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.pairing-card {
+  padding: 16px;
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  border-left: 4px solid var(--category-color);
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.pairing-card:hover {
+  transform: translateX(4px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.pairing-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+
+.pairing-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.pairing-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.pairing-category {
+  font-size: 12px;
+  color: #888;
+  text-transform: capitalize;
+}
+
+.pairing-score {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 4px;
+}
+
+.pairing-score.excellent {
+  background: #d3f9d8;
+  color: #2b8a3e;
+}
+
+.pairing-score.good {
+  background: #fff3bf;
+  color: #e67700;
+}
+
+.pairing-score.moderate {
+  background: #ffe3e3;
+  color: #c92a2a;
+}
+
+.pairing-compounds {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.compound-badge {
+  font-size: 11px;
+  padding: 4px 8px;
+  background: #f0f0f0;
+  color: #555;
+  border-radius: 4px;
+}
+
+.compound-more {
+  font-size: 11px;
+  padding: 4px 8px;
+  color: #888;
+}
+
+.pairing-explanation {
+  margin: 0 0 12px;
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.pairing-meta {
+  font-size: 12px;
+  color: #999;
+}

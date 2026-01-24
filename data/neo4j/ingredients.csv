@@ -1,0 +1,51 @@
+id,name,category,subcategory,aliases
+bakery-products,Bakery Products,bakery,,bakery
+bread,Bread,bakery,,bread
+rye-bread,Rye Bread,bakery,,bread-rye
+wheaten-bread,Wheaten Bread,bakery,,bread-wheaten
+white-bread,White Bread,bakery,,bread-white
+wholewheat-bread,Wholewheat Bread,bakery,,bread-wholewheat
+wort,Wort,beverage,,wort
+arrack,Arrack,beverage-alcoholic,,arrack
+beer,Beer,beverage-alcoholic,,beer
+bantu-beer,Bantu Beer,beverage-alcoholic,,beer
+brandy,Brandy,beverage-alcoholic,,brandy
+anise-brandy,Anise Brandy,beverage-alcoholic,,brandy-anise
+apple-brandy,Apple Brandy,beverage-alcoholic,,brandy-apple
+armagnac-brandy,Armagnac Brandy,beverage-alcoholic,,brandy-armagnac
+blackberry-brandy,Blackberry Brandy,beverage-alcoholic,,brandy-blackberry
+cherry-brandy,Cherry Brandy,beverage-alcoholic,,brandy-cherry
+cognac-brandy,Cognac Brandy,beverage-alcoholic,,brandy-cognac
+papaya-brandy,Papaya Brandy,beverage-alcoholic,,brandy-papaya
+pear-brandy,Pear Brandy,beverage-alcoholic,,brandy-pear
+plum-brandy,Plum Brandy,beverage-alcoholic,,brandy-plum
+raspberry-brandy,Raspberry Brandy,beverage-alcoholic,,brandy-raspberry
+weinbrand-brandy,Weinbrand Brandy,beverage-alcoholic,,brandy-weinbrand
+gin,Gin,beverage-alcoholic,,gin
+rum,Rum,beverage-alcoholic,,rum
+whisky,Whisky,beverage-alcoholic,,whisky
+bourbon-whisky,Bourbon Whisky,beverage-alcoholic,,whisky-bourbon
+canadian-whisky,Canadian Whisky,beverage-alcoholic,,whisky-canadian
+finnish-whisky,Finnish Whisky,beverage-alcoholic,,whisky-finnish
+japanese-whisky,Japanese Whisky,beverage-alcoholic,,whisky-japanese
+malt-whisky,Malt Whisky,beverage-alcoholic,,whisky-malt
+scotch-whisky,Scotch Whisky,beverage-alcoholic,,whisky-scotch
+wine,Wine,beverage-alcoholic,,wine
+bilberry-wine,Bilberry Wine,beverage-alcoholic,,wine-bilberry
+botrytized-wine,Botrytized Wine,beverage-alcoholic,,wine-botrytized
+champagne,Champagne,beverage-alcoholic,,wine-champagne
+cider,Cider,beverage-alcoholic,,wine-cider
+plum-wine,Plum Wine,beverage-alcoholic,,wine-plum
+port-wine,Port Wine,beverage-alcoholic,,wine-port
+red-wine,Red Wine,beverage-alcoholic,,wine-red
+rose-wine,Rose Wine,beverage-alcoholic,,wine-rose
+sake,Sake,beverage-alcoholic,,wine-sake
+sherry,Sherry,beverage-alcoholic,,wine-sherry
+sparkling-wine,Sparkling Wine,beverage-alcoholic,,wine-sparkling
+strawberry-wine,Strawberry Wine,beverage-alcoholic,,wine-strawberry
+white-wine,White Wine,beverage-alcoholic,,wine-white
+coffee,Coffee,beverage-caffeinated,,coffee
+mate,Mate,beverage-caffeinated,,mate
+black-tea,Black Tea,beverage-caffeinated,,tea-black
+green-tea,Green Tea,beverage-caffeinated,,tea-green
+roibos-tea,Roibos Tea,beverage-caffeinated,,tea-rooibos

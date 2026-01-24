@@ -1,0 +1,108 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+ENV/
+.eggs/
+*.egg-info/
+dist/
+build/
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environment variables - NEVER commit these
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+*.env
+
+# Secrets and credentials - NEVER commit these
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+credentials.json
+secrets.json
+config.secret.*
+*.secret
+
+# IDE
+.idea/
+.vscode/
+.claude/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Data (keep structure, ignore large files)
+data/raw/*.json
+data/raw/compounds/
+data/processed/*.json
+data/processed/*.csv
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/neo4j/.gitkeep
+
+# Neo4j
+neo4j_data/
+neo4j_logs/
+*.db
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Logs
+*.log
+logs/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# mypy / type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+
+# Docker
+*.tar
+docker-compose.override.yml

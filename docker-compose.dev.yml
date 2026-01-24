@@ -1,0 +1,26 @@
+version: '3.8'
+
+# Development overrides
+# Use with: docker-compose -f docker-compose.yml -f docker-compose.dev.yml up
+#
+# Or copy to docker-compose.override.yml for automatic loading:
+#   cp docker-compose.dev.yml docker-compose.override.yml
+
+services:
+  neo4j:
+    # Expose Neo4j ports for browser access (DEV ONLY)
+    ports:
+      - "7474:7474"  # HTTP (Neo4j Browser)
+      - "7687:7687"  # Bolt protocol
+    environment:
+      # Allow default password for dev (remove the required check)
+      - NEO4J_AUTH=neo4j/${NEO4J_PASSWORD:-flavorpairing123}
+
+  api:
+    # Hot reload for development
+    volumes:
+      - ./api:/app
+    command: uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+    environment:
+      # Use default password for dev
+      - NEO4J_PASSWORD=${NEO4J_PASSWORD:-flavorpairing123}

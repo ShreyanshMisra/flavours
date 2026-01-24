@@ -1,0 +1,5 @@
+id,name,parent_id
+bakery,Bakery,
+beverage,Beverage,
+beverage-alcoholic,Beverage-alcoholic,
+beverage-caffeinated,Beverage-caffeinated,

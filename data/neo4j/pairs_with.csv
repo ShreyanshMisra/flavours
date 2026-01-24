@@ -1,0 +1,1069 @@
+ingredient_a,ingredient_b,score,shared_compounds,key_compounds,explanation
+bakery-products,wort,0.26,2,"2,3,5-Trimethylpyrazine;2-Methylpyrazine","Subtle pairing; both contain 2,3,5-Trimethylpyrazine and 2-Methylpyrazine"
+bakery-products,beer,0.306,5,"2-Ethylpyrazine;2,3,5-Trimethylpyrazine;2-Methylpyrazine;2,3-Dimethylpyrazine;2-Ethyl-3-Methylpyrazine",Subtle pairing with 5 shared flavor compounds including 2-Ethylpyrazine
+bakery-products,rum,0.339,5,"2,5-Dimethylpyrazine;2,3,5-Trimethylpyrazine;2-Methylpyrazine;2,3-Dimethylpyrazine;2-Ethyl-3-Methylpyrazine","Subtle pairing with 5 shared flavor compounds including 2,5-Dimethylpyrazine"
+bakery-products,whisky,0.431,5,"2,5-Dimethylpyrazine;2,3,5-Trimethylpyrazine;2-Methylpyrazine;2,3-Dimethylpyrazine;2-Ethylpyrazine","Good pairing with 5 shared flavor compounds including 2,5-Dimethylpyrazine"
+bakery-products,bourbon-whisky,0.421,5,"2,5-Dimethylpyrazine;2,3,5-Trimethylpyrazine;2-Methylpyrazine;2,3-Dimethylpyrazine;2-Ethylpyrazine","Good pairing with 5 shared flavor compounds including 2,5-Dimethylpyrazine"
+bakery-products,canadian-whisky,0.437,5,"2,5-Dimethylpyrazine;2,3,5-Trimethylpyrazine;2-Methylpyrazine;2,3-Dimethylpyrazine;2-Ethylpyrazine","Good pairing with 5 shared flavor compounds including 2,5-Dimethylpyrazine"
+bakery-products,finnish-whisky,0.424,5,"2,5-Dimethylpyrazine;2,3,5-Trimethylpyrazine;2-Methylpyrazine;2,3-Dimethylpyrazine;2-Ethylpyrazine","Good pairing with 5 shared flavor compounds including 2,5-Dimethylpyrazine"
+bakery-products,japanese-whisky,0.426,5,"2,5-Dimethylpyrazine;2,3,5-Trimethylpyrazine;2-Methylpyrazine;2,3-Dimethylpyrazine;2-Ethylpyrazine","Good pairing with 5 shared flavor compounds including 2,5-Dimethylpyrazine"
+bakery-products,malt-whisky,0.394,5,"2,5-Dimethylpyrazine;2,3,5-Trimethylpyrazine;2-Methylpyrazine;2,3-Dimethylpyrazine;2-Ethylpyrazine","Subtle pairing with 5 shared flavor compounds including 2,5-Dimethylpyrazine"
+bakery-products,scotch-whisky,0.407,5,"2,5-Dimethylpyrazine;2,3,5-Trimethylpyrazine;2-Methylpyrazine;2,3-Dimethylpyrazine;2-Ethylpyrazine","Good pairing with 5 shared flavor compounds including 2,5-Dimethylpyrazine"
+bakery-products,coffee,0.323,6,"2,5-Dimethylpyrazine;2-Ethylpyrazine;2,3,5-Trimethylpyrazine;2-Methylpyrazine;2,3-Dimethylpyrazine","Subtle pairing with 6 shared flavor compounds including 2,5-Dimethylpyrazine"
+bread,rye-bread,0.514,10,"Thiamine Hydrochloride;3-(Methylthio)propionaldehyde;Phenylacetic Acid;Heptanoic Acid;3,4-Dihydroxybenzoic Acid",Good pairing with 10 shared flavor compounds including Thiamine Hydrochloride
+bread,wheaten-bread,0.257,3,2-Acetylpyridine;2-Pentanone;Acetylpyrazine,"Subtle pairing; both contain 2-Acetylpyridine, 2-Pentanone and Acetylpyrazine"
+bread,wholewheat-bread,0.451,9,Thiamine Hydrochloride;3-(Methylthio)propionaldehyde;methanethiol;betaine;Heptanoic Acid,Good pairing with 9 shared flavor compounds including Thiamine Hydrochloride
+bread,wort,0.665,20,5-Methylfurfural;3-Methylbutanal;2-Furaldehyde;lauric acid;Pentanal,Strong pairing with 20 shared flavor compounds including 5-Methylfurfural
+bread,arrack,0.276,3,benzaldehyde;Methyl Acetate;1-propanol,"Subtle pairing; both contain benzaldehyde, Methyl Acetate and 1-propanol"
+bread,beer,0.813,62,"5-Methylfurfural;naringenin;2,6-Dimethylpyridine;salicylic acid;3-Hexanone",Excellent pairing with 62 shared flavor compounds including 5-Methylfurfural
+bread,bantu-beer,0.424,6,benzaldehyde;Phenethyl acetate;2-Acetylpyridine;Propionaldehyde;Pentanal,Good pairing with 6 shared flavor compounds including benzaldehyde
+bread,brandy,0.595,15,Phenethyl acetate;2-Acetylpyridine;Heptanoic Acid;Methyl Acetate;4-hydroxybenzaldehyde,Good pairing with 15 shared flavor compounds including Phenethyl acetate
+bread,anise-brandy,0.613,16,1-propanol;Phenethyl acetate;2-Acetylpyridine;Heptanoic Acid;Methyl Acetate,Strong pairing with 16 shared flavor compounds including 1-propanol
+bread,apple-brandy,0.613,18,1-propanol;Phenethyl acetate;6-Methyl-5-Hepten-2-One;2-Acetylpyridine;Heptanoic Acid,Strong pairing with 18 shared flavor compounds including 1-propanol
+bread,armagnac-brandy,0.613,16,1-propanol;Phenethyl acetate;2-Acetylpyridine;Heptanoic Acid;Methyl Acetate,Strong pairing with 16 shared flavor compounds including 1-propanol
+bread,blackberry-brandy,0.593,15,Phenethyl acetate;2-Acetylpyridine;Heptanoic Acid;Methyl Acetate;4-hydroxybenzaldehyde,Good pairing with 15 shared flavor compounds including Phenethyl acetate
+bread,cherry-brandy,0.592,15,Phenethyl acetate;2-Acetylpyridine;Heptanoic Acid;Methyl Acetate;4-hydroxybenzaldehyde,Good pairing with 15 shared flavor compounds including Phenethyl acetate
+bread,cognac-brandy,0.739,43,5-Methylfurfural;3-Methylbutanal;3-Methyl-2-butenal;2-Furaldehyde;lauric acid,Strong pairing with 43 shared flavor compounds including 5-Methylfurfural
+bread,papaya-brandy,0.593,15,Phenethyl acetate;2-Acetylpyridine;Heptanoic Acid;Methyl Acetate;4-hydroxybenzaldehyde,Good pairing with 15 shared flavor compounds including Phenethyl acetate
+bread,pear-brandy,0.611,17,1-propanol;Phenethyl acetate;2-Acetylpyridine;Heptanoic Acid;Methyl Acetate,Strong pairing with 17 shared flavor compounds including 1-propanol
+bread,plum-brandy,0.611,18,1-propanol;Phenethyl acetate;2-Acetylpyridine;Heptanoic Acid;Methyl Acetate,Strong pairing with 18 shared flavor compounds including 1-propanol
+bread,raspberry-brandy,0.592,15,Phenethyl acetate;2-Acetylpyridine;Heptanoic Acid;Methyl Acetate;4-hydroxybenzaldehyde,Good pairing with 15 shared flavor compounds including Phenethyl acetate
+bread,weinbrand-brandy,0.59,15,Phenethyl acetate;2-Acetylpyridine;Heptanoic Acid;Methyl Acetate;4-hydroxybenzaldehyde,Good pairing with 15 shared flavor compounds including Phenethyl acetate
+bread,gin,0.564,11,Thiamine Hydrochloride;1-propanol;Heptanoic Acid;CID 644104;3-Methyl-1-butanol,Good pairing with 11 shared flavor compounds including Thiamine Hydrochloride
+bread,rum,0.696,37,salicylic acid;3-Hexanone;3-Methylbutanal;2-Furaldehyde;lauric acid,Strong pairing with 37 shared flavor compounds including salicylic acid
+bread,whisky,0.708,28,"2,6-Dimethylpyridine;2-Furaldehyde;Isobutyric Acid;lauric acid;octanoic acid","Strong pairing with 28 shared flavor compounds including 2,6-Dimethylpyridine"
+bread,bourbon-whisky,0.687,27,"2,6-Dimethylpyridine;2-Furaldehyde;Isobutyric Acid;lauric acid;octanoic acid","Strong pairing with 27 shared flavor compounds including 2,6-Dimethylpyridine"
+bread,canadian-whisky,0.673,25,"2,6-Dimethylpyridine;2-Furaldehyde;Isobutyric Acid;lauric acid;octanoic acid","Strong pairing with 25 shared flavor compounds including 2,6-Dimethylpyridine"
+bread,finnish-whisky,0.689,27,"2,6-Dimethylpyridine;2-Furaldehyde;Isobutyric Acid;lauric acid;octanoic acid","Strong pairing with 27 shared flavor compounds including 2,6-Dimethylpyridine"
+bread,japanese-whisky,0.665,25,"2,6-Dimethylpyridine;2-Furaldehyde;Isobutyric Acid;lauric acid;octanoic acid","Strong pairing with 25 shared flavor compounds including 2,6-Dimethylpyridine"
+bread,malt-whisky,0.673,28,"2,6-Dimethylpyridine;2-Furaldehyde;lauric acid;Isobutyric Acid;octanoic acid","Strong pairing with 28 shared flavor compounds including 2,6-Dimethylpyridine"
+bread,scotch-whisky,0.687,28,"2,6-Dimethylpyridine;2-Furaldehyde;Isobutyric Acid;Pentanal;lauric acid","Strong pairing with 28 shared flavor compounds including 2,6-Dimethylpyridine"
+bread,wine,0.814,45,naringenin;salicylic acid;3-Methylbutanal;2-Furaldehyde;lauric acid,Excellent pairing with 45 shared flavor compounds including naringenin
+bread,bilberry-wine,0.734,33,salicylic acid;3-Methylbutanal;2-Furaldehyde;lauric acid;Isobutyric Acid,Strong pairing with 33 shared flavor compounds including salicylic acid
+bread,botrytized-wine,0.73,33,salicylic acid;3-Methylbutanal;2-Furaldehyde;lauric acid;Isobutyric Acid,Strong pairing with 33 shared flavor compounds including salicylic acid
+bread,champagne,0.737,33,salicylic acid;3-Methylbutanal;2-Furaldehyde;Isobutyric Acid;lauric acid,Strong pairing with 33 shared flavor compounds including salicylic acid
+bread,cider,0.626,20,2-Furaldehyde;lauric acid;Pentanal;Isobutyric Acid;octanoic acid,Strong pairing with 20 shared flavor compounds including 2-Furaldehyde
+bread,plum-wine,0.736,33,salicylic acid;3-Methylbutanal;2-Furaldehyde;Isobutyric Acid;lauric acid,Strong pairing with 33 shared flavor compounds including salicylic acid
+bread,port-wine,0.749,36,salicylic acid;3-Methylbutanal;2-Furaldehyde;lauric acid;Isobutyric Acid,Strong pairing with 36 shared flavor compounds including salicylic acid
+bread,red-wine,0.718,36,salicylic acid;3-Methylbutanal;2-Furaldehyde;lauric acid;Isobutyric Acid,Strong pairing with 36 shared flavor compounds including salicylic acid
+bread,rose-wine,0.729,33,salicylic acid;3-Methylbutanal;2-Furaldehyde;lauric acid;Isobutyric Acid,Strong pairing with 33 shared flavor compounds including salicylic acid
+bread,sake,0.643,16,1-propanol;4-Methylpentanoic Acid;methanethiol;Phenylacetic Acid;Heptanoic Acid,Strong pairing with 16 shared flavor compounds including 1-propanol
+bread,sherry,0.753,42,"2,6-Dimethylpyridine;salicylic acid;3-Methylbutanal;ethyl acetoacetate;2-Furaldehyde","Strong pairing with 42 shared flavor compounds including 2,6-Dimethylpyridine"
+bread,sparkling-wine,0.718,33,salicylic acid;3-Methylbutanal;2-Furaldehyde;lauric acid;Isobutyric Acid,Strong pairing with 33 shared flavor compounds including salicylic acid
+bread,strawberry-wine,0.732,33,salicylic acid;3-Methylbutanal;2-Furaldehyde;lauric acid;Isobutyric Acid,Strong pairing with 33 shared flavor compounds including salicylic acid
+bread,white-wine,0.709,42,salicylic acid;3-Methylbutanal;2-Furaldehyde;lauric acid;Pentanal,Strong pairing with 42 shared flavor compounds including salicylic acid
+bread,coffee,0.764,55,"14400-67-0;5-Methylfurfural;2,6-Dimethylpyridine;3-Hexanone;ethyl acetoacetate",Strong pairing with 55 shared flavor compounds including 14400-67-0
+bread,mate,0.573,14,5-Methylfurfural;Octanal;indole;phenylacetaldehyde;Isoeugenol,Good pairing with 14 shared flavor compounds including 5-Methylfurfural
+bread,black-tea,0.423,9,benzaldehyde;Acetylpyrazine;4-Methylpentanoic Acid;palmitic acid;2-Acetylpyridine,Good pairing with 9 shared flavor compounds including benzaldehyde
+bread,green-tea,0.336,4,cis-3-Hexenyl acetate;Pyrazine;coumarin;phenylacetaldehyde,Subtle pairing with 4 shared flavor compounds including cis-3-Hexenyl acetate
+rye-bread,wholewheat-bread,0.815,14,Thiamine Hydrochloride;Violet leaf aldehyde;3-(Methylthio)propionaldehyde;1-Penten-3-Ol;Isoamyl Acetate,Excellent pairing with 14 shared flavor compounds including Thiamine Hydrochloride
+rye-bread,wort,0.563,7,vanillin;Methyl Hexanoate;Nonanoic Acid;Phenylacetic Acid;2-Methoxy-4-vinylphenol,Good pairing with 7 shared flavor compounds including vanillin
+rye-bread,beer,0.636,28,Violet leaf aldehyde;Nonanoic Acid;Phenylacetic Acid;thiamine;23747-48-0,Strong pairing with 28 shared flavor compounds including Violet leaf aldehyde
+rye-bread,brandy,0.562,6,Heptanoic Acid;Pyridine;Ethyl Lactate;Isobutyraldehyde;guaiacol,Good pairing with 6 shared flavor compounds including Heptanoic Acid
+rye-bread,anise-brandy,0.559,6,Heptanoic Acid;Pyridine;Ethyl Lactate;Isobutyraldehyde;guaiacol,Good pairing with 6 shared flavor compounds including Heptanoic Acid
+rye-bread,apple-brandy,0.57,8,Hexyl acetate;Heptanoic Acid;Pyridine;Ethyl Lactate;Isobutyraldehyde,Good pairing with 8 shared flavor compounds including Hexyl acetate
+rye-bread,armagnac-brandy,0.559,6,Heptanoic Acid;Pyridine;Ethyl Lactate;Isobutyraldehyde;guaiacol,Good pairing with 6 shared flavor compounds including Heptanoic Acid
+rye-bread,blackberry-brandy,0.559,6,Heptanoic Acid;Pyridine;Ethyl Lactate;Isobutyraldehyde;guaiacol,Good pairing with 6 shared flavor compounds including Heptanoic Acid
+rye-bread,cherry-brandy,0.555,6,Heptanoic Acid;Pyridine;Ethyl Lactate;Isobutyraldehyde;guaiacol,Good pairing with 6 shared flavor compounds including Heptanoic Acid
+rye-bread,cognac-brandy,0.553,17,Hexyl acetate;Isoamyl Acetate;vanillin;Damascenone;Heptanoic Acid,Good pairing with 17 shared flavor compounds including Hexyl acetate
+rye-bread,papaya-brandy,0.559,6,Heptanoic Acid;Pyridine;Ethyl Lactate;Isobutyraldehyde;guaiacol,Good pairing with 6 shared flavor compounds including Heptanoic Acid
+rye-bread,pear-brandy,0.56,7,Hexyl acetate;Heptanoic Acid;Pyridine;Ethyl Lactate;Isobutyraldehyde,Good pairing with 7 shared flavor compounds including Hexyl acetate
+rye-bread,plum-brandy,0.49,6,Heptanoic Acid;Pyridine;Ethyl Lactate;Isobutyraldehyde;guaiacol,Good pairing with 6 shared flavor compounds including Heptanoic Acid
+rye-bread,raspberry-brandy,0.555,6,Heptanoic Acid;Pyridine;Ethyl Lactate;Isobutyraldehyde;guaiacol,Good pairing with 6 shared flavor compounds including Heptanoic Acid
+rye-bread,weinbrand-brandy,0.552,6,Heptanoic Acid;Pyridine;Ethyl Lactate;Isobutyraldehyde;guaiacol,Good pairing with 6 shared flavor compounds including Heptanoic Acid
+rye-bread,gin,0.6,4,Thiamine Hydrochloride;Heptanoic Acid;CID 644104;thiamine,Good pairing with 4 shared flavor compounds including Thiamine Hydrochloride
+rye-bread,rum,0.547,16,Thiamine Hydrochloride;Hexyl acetate;Isoamyl Acetate;vanillin;Damascenone,Good pairing with 16 shared flavor compounds including Thiamine Hydrochloride
+rye-bread,whisky,0.679,15,Thiamine Hydrochloride;Hexyl acetate;Isoamyl Acetate;Damascenone;Heptanoic Acid,Strong pairing with 15 shared flavor compounds including Thiamine Hydrochloride
+rye-bread,bourbon-whisky,0.593,12,Hexyl acetate;Isoamyl Acetate;Damascenone;Heptanoic Acid;Ethyl Palmitate,Good pairing with 12 shared flavor compounds including Hexyl acetate
+rye-bread,canadian-whisky,0.613,12,Hexyl acetate;Isoamyl Acetate;Damascenone;Heptanoic Acid;Ethyl Palmitate,Strong pairing with 12 shared flavor compounds including Hexyl acetate
+rye-bread,finnish-whisky,0.623,13,Hexyl acetate;Isoamyl Acetate;Damascenone;Heptanoic Acid;Pyridine,Strong pairing with 13 shared flavor compounds including Hexyl acetate
+rye-bread,japanese-whisky,0.6,12,Hexyl acetate;Isoamyl Acetate;Damascenone;Heptanoic Acid;Ethyl Palmitate,Good pairing with 12 shared flavor compounds including Hexyl acetate
+rye-bread,malt-whisky,0.645,16,3-(Methylthio)propionaldehyde;Hexyl acetate;Isoamyl Acetate;Damascenone;Heptanoic Acid,Strong pairing with 16 shared flavor compounds including 3-(Methylthio)propionaldehyde
+rye-bread,scotch-whisky,0.622,14,Hexyl acetate;Isoamyl Acetate;Damascenone;Heptanoic Acid;Pyridine,Strong pairing with 14 shared flavor compounds including Hexyl acetate
+rye-bread,wine,0.71,22,Nonanoic Acid;Phenylacetic Acid;thiamine;Damascenone;Ethyl Palmitate,Strong pairing with 22 shared flavor compounds including Nonanoic Acid
+rye-bread,bilberry-wine,0.651,16,Hexyl acetate;Isoamyl Acetate;vanillin;Damascenone;Heptanoic Acid,Strong pairing with 16 shared flavor compounds including Hexyl acetate
+rye-bread,botrytized-wine,0.645,16,Hexyl acetate;Isoamyl Acetate;vanillin;Damascenone;Heptanoic Acid,Strong pairing with 16 shared flavor compounds including Hexyl acetate
+rye-bread,champagne,0.655,16,Hexyl acetate;Isoamyl Acetate;vanillin;Damascenone;Heptanoic Acid,Strong pairing with 16 shared flavor compounds including Hexyl acetate
+rye-bread,cider,0.601,10,Hexyl acetate;Isoamyl Acetate;Damascenone;Propyl acetate;Methyl Hexanoate,Strong pairing with 10 shared flavor compounds including Hexyl acetate
+rye-bread,plum-wine,0.653,16,Hexyl acetate;Isoamyl Acetate;vanillin;Damascenone;Heptanoic Acid,Strong pairing with 16 shared flavor compounds including Hexyl acetate
+rye-bread,port-wine,0.666,18,Thiamine Hydrochloride;Hexyl acetate;Isoamyl Acetate;vanillin;Damascenone,Strong pairing with 18 shared flavor compounds including Thiamine Hydrochloride
+rye-bread,red-wine,0.622,18,1-Penten-3-Ol;Hexyl acetate;Isoamyl Acetate;vanillin;Damascenone,Strong pairing with 18 shared flavor compounds including 1-Penten-3-Ol
+rye-bread,rose-wine,0.643,16,Hexyl acetate;Isoamyl Acetate;vanillin;Damascenone;Heptanoic Acid,Strong pairing with 16 shared flavor compounds including Hexyl acetate
+rye-bread,sake,0.764,9,Phenylacetic Acid;Isoamyl Acetate;Heptanoic Acid;Propyl acetate;Maltol,Strong pairing with 9 shared flavor compounds including Phenylacetic Acid
+rye-bread,sherry,0.645,21,Nonanoic Acid;Phenylacetic Acid;Damascenone;Pyridine;Ethyl Palmitate,Strong pairing with 21 shared flavor compounds including Nonanoic Acid
+rye-bread,sparkling-wine,0.628,16,Hexyl acetate;Isoamyl Acetate;vanillin;Damascenone;Heptanoic Acid,Strong pairing with 16 shared flavor compounds including Hexyl acetate
+rye-bread,strawberry-wine,0.647,16,Hexyl acetate;Isoamyl Acetate;vanillin;Damascenone;Heptanoic Acid,Strong pairing with 16 shared flavor compounds including Hexyl acetate
+rye-bread,white-wine,0.53,17,Hexyl acetate;Isoamyl Acetate;vanillin;Damascenone;Heptanoic Acid,Good pairing with 17 shared flavor compounds including Hexyl acetate
+rye-bread,coffee,0.57,23,Violet leaf aldehyde;Nonanoic Acid;thiamine;23747-48-0;Damascenone,Good pairing with 23 shared flavor compounds including Violet leaf aldehyde
+rye-bread,mate,0.349,3,Violet leaf aldehyde;1-Penten-3-Ol;Nonanoic Acid,"Subtle pairing; both contain Violet leaf aldehyde, 1-Penten-3-Ol and Nonanoic Acid"
+rye-bread,black-tea,0.295,3,Damascenone;1-Penten-3-Ol;Pyridine,"Subtle pairing; both contain Damascenone, 1-Penten-3-Ol and Pyridine"
+rye-bread,green-tea,0.392,3,1-Penten-3-Ol;Ethyl Palmitate;23747-48-0,"Subtle pairing; both contain 1-Penten-3-Ol, Ethyl Palmitate and 23747-48-0"
+wheaten-bread,white-bread,0.628,4,2-Ethylbutanal;methylglyoxal;Furfuryl acetate;2-Octen-4-one,Strong pairing with 4 shared flavor compounds including 2-Ethylbutanal
+wheaten-bread,wort,0.427,4,"2-Undecanone;Pyrrole;2,3,5-Trimethylpyrazine;phenol",Good pairing with 4 shared flavor compounds including 2-Undecanone
+wheaten-bread,beer,0.508,18,"2-Undecanone;2-Pentanol;2,3-Pentanedione;Furfuryl acetate;2-Acetylpyridine",Good pairing with 18 shared flavor compounds including 2-Undecanone
+wheaten-bread,brandy,0.513,5,2-Acetylpyridine;Pyridine;3-Acetylpyridine;Dimethyl trisulfide;2-Phenylethyl formate,Good pairing with 5 shared flavor compounds including 2-Acetylpyridine
+wheaten-bread,anise-brandy,0.51,5,2-Acetylpyridine;Pyridine;3-Acetylpyridine;Dimethyl trisulfide;2-Phenylethyl formate,Good pairing with 5 shared flavor compounds including 2-Acetylpyridine
+wheaten-bread,apple-brandy,0.451,5,2-Acetylpyridine;Pyridine;3-Acetylpyridine;Dimethyl trisulfide;2-Phenylethyl formate,Good pairing with 5 shared flavor compounds including 2-Acetylpyridine
+wheaten-bread,armagnac-brandy,0.51,5,2-Acetylpyridine;Pyridine;3-Acetylpyridine;Dimethyl trisulfide;2-Phenylethyl formate,Good pairing with 5 shared flavor compounds including 2-Acetylpyridine
+wheaten-bread,blackberry-brandy,0.51,5,2-Acetylpyridine;Pyridine;3-Acetylpyridine;Dimethyl trisulfide;2-Phenylethyl formate,Good pairing with 5 shared flavor compounds including 2-Acetylpyridine
+wheaten-bread,cherry-brandy,0.506,5,2-Acetylpyridine;Pyridine;3-Acetylpyridine;Dimethyl trisulfide;2-Phenylethyl formate,Good pairing with 5 shared flavor compounds including 2-Acetylpyridine
+wheaten-bread,cognac-brandy,0.465,12,"2-Undecanone;2-Pentanol;2,3-Pentanedione;2-Acetylpyridine;Pyridine",Good pairing with 12 shared flavor compounds including 2-Undecanone
+wheaten-bread,papaya-brandy,0.51,5,2-Acetylpyridine;Pyridine;3-Acetylpyridine;Dimethyl trisulfide;2-Phenylethyl formate,Good pairing with 5 shared flavor compounds including 2-Acetylpyridine
+wheaten-bread,pear-brandy,0.518,6,2-Acetylpyridine;Pyridine;3-Acetylpyridine;Dimethyl trisulfide;2-Phenylethyl formate,Good pairing with 6 shared flavor compounds including 2-Acetylpyridine
+wheaten-bread,plum-brandy,0.53,7,2-Pentanol;2-Acetylpyridine;Pyridine;3-Acetylpyridine;Dimethyl trisulfide,Good pairing with 7 shared flavor compounds including 2-Pentanol
+wheaten-bread,raspberry-brandy,0.506,5,2-Acetylpyridine;Pyridine;3-Acetylpyridine;Dimethyl trisulfide;2-Phenylethyl formate,Good pairing with 5 shared flavor compounds including 2-Acetylpyridine
+wheaten-bread,weinbrand-brandy,0.503,5,2-Acetylpyridine;Pyridine;3-Acetylpyridine;Dimethyl trisulfide;2-Phenylethyl formate,Good pairing with 5 shared flavor compounds including 2-Acetylpyridine
+wheaten-bread,rum,0.434,10,"2-Undecanone;2,3-Pentanedione;2,3,5-Trimethylpyrazine;2-Phenylethyl formate;Pyridine",Good pairing with 10 shared flavor compounds including 2-Undecanone
+wheaten-bread,whisky,0.494,8,"2,3-Pentanedione;2,3,5-Trimethylpyrazine;phenol;trimethylamine;Dimethyl trisulfide","Good pairing with 8 shared flavor compounds including 2,3-Pentanedione"
+wheaten-bread,bourbon-whisky,0.513,9,"2,3-Pentanedione;2,3,5-Trimethylpyrazine;phenol;trimethylamine;Dimethyl trisulfide","Good pairing with 9 shared flavor compounds including 2,3-Pentanedione"
+wheaten-bread,canadian-whisky,0.499,8,"2,3-Pentanedione;2,3,5-Trimethylpyrazine;phenol;trimethylamine;Dimethyl trisulfide","Good pairing with 8 shared flavor compounds including 2,3-Pentanedione"
+wheaten-bread,finnish-whisky,0.516,9,"2,3-Pentanedione;2,3,5-Trimethylpyrazine;Pyridine;phenol;trimethylamine","Good pairing with 9 shared flavor compounds including 2,3-Pentanedione"
+wheaten-bread,japanese-whisky,0.489,8,"2,3-Pentanedione;2,3,5-Trimethylpyrazine;phenol;trimethylamine;Dimethyl trisulfide","Good pairing with 8 shared flavor compounds including 2,3-Pentanedione"
+wheaten-bread,malt-whisky,0.455,8,"2,3-Pentanedione;2,3,5-Trimethylpyrazine;phenol;trimethylamine;Dimethyl trisulfide","Good pairing with 8 shared flavor compounds including 2,3-Pentanedione"
+wheaten-bread,scotch-whisky,0.524,10,"2-Pentanol;2,3-Pentanedione;2,3,5-Trimethylpyrazine;Pyridine;phenol",Good pairing with 10 shared flavor compounds including 2-Pentanol
+wheaten-bread,bilberry-wine,0.256,3,"Dimethyl trisulfide;2,3-Pentanedione;Ethyl Nonanoate","Subtle pairing; both contain Dimethyl trisulfide, 2,3-Pentanedione and Ethyl Nonanoate"
+wheaten-bread,botrytized-wine,0.337,4,"Dimethyl trisulfide;2,3-Pentanedione;Pyruvic acid;Ethyl Nonanoate",Subtle pairing with 4 shared flavor compounds including Dimethyl trisulfide
+wheaten-bread,champagne,0.258,3,"Dimethyl trisulfide;2,3-Pentanedione;Ethyl Nonanoate","Subtle pairing; both contain Dimethyl trisulfide, 2,3-Pentanedione and Ethyl Nonanoate"
+wheaten-bread,plum-wine,0.257,3,"Dimethyl trisulfide;2,3-Pentanedione;Ethyl Nonanoate","Subtle pairing; both contain Dimethyl trisulfide, 2,3-Pentanedione and Ethyl Nonanoate"
+wheaten-bread,port-wine,0.33,4,"Dimethyl trisulfide;2,3-Pentanedione;2-Phenylethyl formate;Ethyl Nonanoate",Subtle pairing with 4 shared flavor compounds including Dimethyl trisulfide
+wheaten-bread,red-wine,0.367,6,"Dimethyl trisulfide;2-Pentanol;Octyl acetate;gamma-Valerolactone;2,3-Pentanedione",Subtle pairing with 6 shared flavor compounds including Dimethyl trisulfide
+wheaten-bread,rose-wine,0.367,5,"2-Phenylethyl formate;phenol;Dimethyl trisulfide;2,3-Pentanedione;Ethyl Nonanoate",Subtle pairing with 5 shared flavor compounds including 2-Phenylethyl formate
+wheaten-bread,sherry,0.423,9,"2,3-Pentanedione;2,3,5-Trimethylpyrazine;Pyridine;Piperidine;2-Furylacetone","Good pairing with 9 shared flavor compounds including 2,3-Pentanedione"
+wheaten-bread,sparkling-wine,0.36,5,"2-Undecanone;Dimethyl trisulfide;Octyl acetate;2,3-Pentanedione;Ethyl Nonanoate",Subtle pairing with 5 shared flavor compounds including 2-Undecanone
+wheaten-bread,strawberry-wine,0.255,3,"Dimethyl trisulfide;2,3-Pentanedione;Ethyl Nonanoate","Subtle pairing; both contain Dimethyl trisulfide, 2,3-Pentanedione and Ethyl Nonanoate"
+wheaten-bread,white-wine,0.332,6,"2,3-Pentanedione;Pyruvic acid;Dimethyl trisulfide;2-Pentanone;gamma-Valerolactone","Subtle pairing with 6 shared flavor compounds including 2,3-Pentanedione"
+wheaten-bread,coffee,0.531,20,2-Furylacetone;2-Phenylethyl formate;gamma-Valerolactone;2-Undecanone;Furfuryl acetate,Good pairing with 20 shared flavor compounds including 2-Furylacetone
+wheaten-bread,mate,0.349,3,"2-Undecanone;2,3-Pentanedione;2-Pentadecanone","Subtle pairing; both contain 2-Undecanone, 2,3-Pentanedione and 2-Pentadecanone"
+wheaten-bread,black-tea,0.541,8,"2,3-Pentanedione;Acetylpyrazine;2-Acetylpyridine;2,3,5-Trimethylpyrazine;2-Phenylethyl formate","Good pairing with 8 shared flavor compounds including 2,3-Pentanedione"
+wheaten-bread,green-tea,0.269,2,"Octyl acetate;2,3,5-Trimethylpyrazine","Subtle pairing; both contain Octyl acetate and 2,3,5-Trimethylpyrazine"
+white-bread,beer,0.283,4,Furfuryl Alcohol;3-Methyl-2-Buten-1-Ol;methylglyoxal;Furfuryl acetate,Subtle pairing with 4 shared flavor compounds including Furfuryl Alcohol
+white-bread,brandy,0.273,2,Furfuryl Alcohol;2-Furaldehyde,Subtle pairing; both contain Furfuryl Alcohol and 2-Furaldehyde
+white-bread,anise-brandy,0.271,2,Furfuryl Alcohol;2-Furaldehyde,Subtle pairing; both contain Furfuryl Alcohol and 2-Furaldehyde
+white-bread,armagnac-brandy,0.271,2,Furfuryl Alcohol;2-Furaldehyde,Subtle pairing; both contain Furfuryl Alcohol and 2-Furaldehyde
+white-bread,blackberry-brandy,0.271,2,Furfuryl Alcohol;2-Furaldehyde,Subtle pairing; both contain Furfuryl Alcohol and 2-Furaldehyde
+white-bread,cherry-brandy,0.269,2,Furfuryl Alcohol;2-Furaldehyde,Subtle pairing; both contain Furfuryl Alcohol and 2-Furaldehyde
+white-bread,cognac-brandy,0.329,5,Furfuryl Alcohol;3-Methyl-2-butenal;2-Furaldehyde;methylglyoxal;Ethyl Levulinate,Subtle pairing with 5 shared flavor compounds including Furfuryl Alcohol
+white-bread,papaya-brandy,0.271,2,Furfuryl Alcohol;2-Furaldehyde,Subtle pairing; both contain Furfuryl Alcohol and 2-Furaldehyde
+white-bread,raspberry-brandy,0.269,2,Furfuryl Alcohol;2-Furaldehyde,Subtle pairing; both contain Furfuryl Alcohol and 2-Furaldehyde
+white-bread,weinbrand-brandy,0.266,2,Furfuryl Alcohol;2-Furaldehyde,Subtle pairing; both contain Furfuryl Alcohol and 2-Furaldehyde
+white-bread,malt-whisky,0.266,3,Furfuryl Alcohol;2-Furaldehyde;Ethyl Levulinate,"Subtle pairing; both contain Furfuryl Alcohol, 2-Furaldehyde and Ethyl Levulinate"
+white-bread,wine,0.252,3,Furfuryl Alcohol;2-Furaldehyde;Ethyl Levulinate,"Subtle pairing; both contain Furfuryl Alcohol, 2-Furaldehyde and Ethyl Levulinate"
+white-bread,bilberry-wine,0.268,3,Furfuryl Alcohol;2-Furaldehyde;Ethyl Levulinate,"Subtle pairing; both contain Furfuryl Alcohol, 2-Furaldehyde and Ethyl Levulinate"
+white-bread,botrytized-wine,0.266,3,Furfuryl Alcohol;2-Furaldehyde;Ethyl Levulinate,"Subtle pairing; both contain Furfuryl Alcohol, 2-Furaldehyde and Ethyl Levulinate"
+white-bread,champagne,0.27,3,Furfuryl Alcohol;2-Furaldehyde;Ethyl Levulinate,"Subtle pairing; both contain Furfuryl Alcohol, 2-Furaldehyde and Ethyl Levulinate"
+white-bread,plum-wine,0.269,3,Furfuryl Alcohol;2-Furaldehyde;Ethyl Levulinate,"Subtle pairing; both contain Furfuryl Alcohol, 2-Furaldehyde and Ethyl Levulinate"
+white-bread,port-wine,0.26,3,Furfuryl Alcohol;2-Furaldehyde;Ethyl Levulinate,"Subtle pairing; both contain Furfuryl Alcohol, 2-Furaldehyde and Ethyl Levulinate"
+white-bread,rose-wine,0.265,3,Furfuryl Alcohol;2-Furaldehyde;Ethyl Levulinate,"Subtle pairing; both contain Furfuryl Alcohol, 2-Furaldehyde and Ethyl Levulinate"
+white-bread,sparkling-wine,0.26,3,Furfuryl Alcohol;2-Furaldehyde;Ethyl Levulinate,"Subtle pairing; both contain Furfuryl Alcohol, 2-Furaldehyde and Ethyl Levulinate"
+white-bread,strawberry-wine,0.267,3,Furfuryl Alcohol;2-Furaldehyde;Ethyl Levulinate,"Subtle pairing; both contain Furfuryl Alcohol, 2-Furaldehyde and Ethyl Levulinate"
+white-bread,coffee,0.301,5,Furfuryl Alcohol;2-Furaldehyde;methylglyoxal;3-Methyl-2-Buten-1-Ol;Furfuryl acetate,Subtle pairing with 5 shared flavor compounds including Furfuryl Alcohol
+wholewheat-bread,wort,0.591,10,1-Octen-3-Ol;2-Acetylpyrrole;4-Methyl-2-pentanone;gamma-Nonanolactone;dimethyl sulfide,Good pairing with 10 shared flavor compounds including 1-Octen-3-Ol
+wholewheat-bread,beer,0.744,42,Dodecanal;Violet leaf aldehyde;1-Octen-3-Ol;1-Nonanol;4-Methyl-2-pentanone,Strong pairing with 42 shared flavor compounds including Dodecanal
+wholewheat-bread,bantu-beer,0.374,3,dimethyl sulfide;1-octanol;Isobutyl Acetate,"Subtle pairing; both contain dimethyl sulfide, 1-octanol and Isobutyl Acetate"
+wholewheat-bread,brandy,0.483,6,Heptanoic Acid;Ethyl Lactate;Isobutyraldehyde;Ethyl Undecanoate;1-octanol,Good pairing with 6 shared flavor compounds including Heptanoic Acid
+wholewheat-bread,anise-brandy,0.481,6,Heptanoic Acid;Ethyl Lactate;Isobutyraldehyde;Ethyl Undecanoate;1-octanol,Good pairing with 6 shared flavor compounds including Heptanoic Acid
+wholewheat-bread,apple-brandy,0.439,6,Heptanoic Acid;Ethyl Lactate;Isobutyraldehyde;Ethyl Undecanoate;1-octanol,Good pairing with 6 shared flavor compounds including Heptanoic Acid
+wholewheat-bread,armagnac-brandy,0.481,6,Heptanoic Acid;Ethyl Lactate;Isobutyraldehyde;Ethyl Undecanoate;1-octanol,Good pairing with 6 shared flavor compounds including Heptanoic Acid
+wholewheat-bread,blackberry-brandy,0.481,6,Heptanoic Acid;Ethyl Lactate;Isobutyraldehyde;Ethyl Undecanoate;1-octanol,Good pairing with 6 shared flavor compounds including Heptanoic Acid
+wholewheat-bread,cherry-brandy,0.479,6,Heptanoic Acid;Ethyl Lactate;Isobutyraldehyde;Ethyl Undecanoate;1-octanol,Good pairing with 6 shared flavor compounds including Heptanoic Acid
+wholewheat-bread,cognac-brandy,0.596,22,1-Octen-3-Ol;4-Methyl-2-pentanone;Octan-2-one;2-Methylbutanoic acid;isopropanol,Good pairing with 22 shared flavor compounds including 1-Octen-3-Ol
+wholewheat-bread,papaya-brandy,0.481,6,Heptanoic Acid;Ethyl Lactate;Isobutyraldehyde;Ethyl Undecanoate;1-octanol,Good pairing with 6 shared flavor compounds including Heptanoic Acid
+wholewheat-bread,pear-brandy,0.456,6,Heptanoic Acid;Ethyl Lactate;Isobutyraldehyde;Ethyl Undecanoate;1-octanol,Good pairing with 6 shared flavor compounds including Heptanoic Acid
+wholewheat-bread,plum-brandy,0.503,8,4-Methyl-2-pentanone;Heptanoic Acid;Ethyl Lactate;Isobutyraldehyde;isopropanol,Good pairing with 8 shared flavor compounds including 4-Methyl-2-pentanone
+wholewheat-bread,raspberry-brandy,0.479,6,Heptanoic Acid;Ethyl Lactate;Isobutyraldehyde;Ethyl Undecanoate;1-octanol,Good pairing with 6 shared flavor compounds including Heptanoic Acid
+wholewheat-bread,weinbrand-brandy,0.477,6,Heptanoic Acid;Ethyl Lactate;Isobutyraldehyde;Ethyl Undecanoate;1-octanol,Good pairing with 6 shared flavor compounds including Heptanoic Acid
+wholewheat-bread,gin,0.474,4,Thiamine Hydrochloride;Heptanoic Acid;CID 644104;thiamine,Good pairing with 4 shared flavor compounds including Thiamine Hydrochloride
+wholewheat-bread,rum,0.634,24,Dodecanal;1-Octen-3-Ol;1-Nonanol;Octan-2-one;2-Methylbutanoic acid,Strong pairing with 24 shared flavor compounds including Dodecanal
+wholewheat-bread,whisky,0.639,16,Thiamine Hydrochloride;Isoamyl Acetate;gamma-Nonanolactone;Heptanoic Acid;Ethyl Lactate,Strong pairing with 16 shared flavor compounds including Thiamine Hydrochloride
+wholewheat-bread,bourbon-whisky,0.565,13,Isoamyl Acetate;gamma-Nonanolactone;Heptanoic Acid;Ethyl Lactate;2-Methylbutanoic acid,Good pairing with 13 shared flavor compounds including Isoamyl Acetate
+wholewheat-bread,canadian-whisky,0.58,13,Isoamyl Acetate;gamma-Nonanolactone;Heptanoic Acid;Ethyl Lactate;2-Methylbutanoic acid,Good pairing with 13 shared flavor compounds including Isoamyl Acetate
+wholewheat-bread,finnish-whisky,0.59,14,Isoamyl Acetate;gamma-Nonanolactone;Heptanoic Acid;Pyrrolidine;Ethyl Lactate,Good pairing with 14 shared flavor compounds including Isoamyl Acetate
+wholewheat-bread,japanese-whisky,0.57,13,Isoamyl Acetate;gamma-Nonanolactone;Heptanoic Acid;Ethyl Lactate;2-Methylbutanoic acid,Good pairing with 13 shared flavor compounds including Isoamyl Acetate
+wholewheat-bread,malt-whisky,0.649,19,2-Methylbutanoic acid;lactic acid;Nonanoic Acid;1-octanol;Isobutyl Acetate,Strong pairing with 19 shared flavor compounds including 2-Methylbutanoic acid
+wholewheat-bread,scotch-whisky,0.571,14,Isoamyl Acetate;gamma-Nonanolactone;Heptanoic Acid;Ethyl Lactate;2-Methylbutanoic acid,Good pairing with 14 shared flavor compounds including Isoamyl Acetate
+wholewheat-bread,wine,0.77,30,1-Octen-3-Ol;1-Nonanol;Octan-2-one;Gallocatechin;isopropanol,Strong pairing with 30 shared flavor compounds including 1-Octen-3-Ol
+wholewheat-bread,bilberry-wine,0.672,20,1-Octen-3-Ol;1-Nonanol;Octan-2-one;isopropanol;lactic acid,Strong pairing with 20 shared flavor compounds including 1-Octen-3-Ol
+wholewheat-bread,botrytized-wine,0.666,20,1-Octen-3-Ol;1-Nonanol;Octan-2-one;isopropanol;lactic acid,Strong pairing with 20 shared flavor compounds including 1-Octen-3-Ol
+wholewheat-bread,champagne,0.675,20,1-Octen-3-Ol;1-Nonanol;Octan-2-one;isopropanol;lactic acid,Strong pairing with 20 shared flavor compounds including 1-Octen-3-Ol
+wholewheat-bread,cider,0.451,7,Isoamyl Acetate;Propyl acetate;2-Methylbutanoic acid;Isobutyraldehyde;lactic acid,Good pairing with 7 shared flavor compounds including Isoamyl Acetate
+wholewheat-bread,plum-wine,0.674,20,1-Octen-3-Ol;1-Nonanol;Octan-2-one;isopropanol;lactic acid,Strong pairing with 20 shared flavor compounds including 1-Octen-3-Ol
+wholewheat-bread,port-wine,0.683,22,1-Octen-3-Ol;1-Nonanol;Octan-2-one;isopropanol;lactic acid,Strong pairing with 22 shared flavor compounds including 1-Octen-3-Ol
+wholewheat-bread,red-wine,0.658,23,1-Octen-3-Ol;1-Nonanol;Octan-2-one;isopropanol;lactic acid,Strong pairing with 23 shared flavor compounds including 1-Octen-3-Ol
+wholewheat-bread,rose-wine,0.665,20,1-Octen-3-Ol;1-Nonanol;Octan-2-one;isopropanol;lactic acid,Strong pairing with 20 shared flavor compounds including 1-Octen-3-Ol
+wholewheat-bread,sake,0.795,14,Levulinic Acid;methanethiol;Isoamyl Acetate;dimethyl sulfide;Heptanoic Acid,Strong pairing with 14 shared flavor compounds including Levulinic Acid
+wholewheat-bread,sherry,0.662,25,1-Octen-3-Ol;1-Nonanol;Octan-2-one;isopropanol;lactic acid,Strong pairing with 25 shared flavor compounds including 1-Octen-3-Ol
+wholewheat-bread,sparkling-wine,0.651,20,1-Octen-3-Ol;1-Nonanol;Octan-2-one;isopropanol;lactic acid,Strong pairing with 20 shared flavor compounds including 1-Octen-3-Ol
+wholewheat-bread,strawberry-wine,0.668,20,1-Octen-3-Ol;1-Nonanol;Octan-2-one;isopropanol;lactic acid,Strong pairing with 20 shared flavor compounds including 1-Octen-3-Ol
+wholewheat-bread,white-wine,0.573,22,1-Octen-3-Ol;1-Nonanol;Octan-2-one;isopropanol;lactic acid,Good pairing with 22 shared flavor compounds including 1-Octen-3-Ol
+wholewheat-bread,coffee,0.702,38,"Violet leaf aldehyde;1-Octen-3-Ol;5,6,7,8-Tetrahydroquinoxaline;4-Methyl-2-pentanone;Octan-2-one",Strong pairing with 38 shared flavor compounds including Violet leaf aldehyde
+wholewheat-bread,mate,0.711,13,Dodecanal;Violet leaf aldehyde;1-Octen-3-Ol;1-Nonanol;1-Penten-3-Ol,Strong pairing with 13 shared flavor compounds including Dodecanal
+wholewheat-bread,black-tea,0.355,4,"3,3-Dimethylacrylic acid;1-Penten-3-Ol;(2E,4E)-Octa-2,4-dienal;2,3,5,6-Tetramethylpyrazine","Subtle pairing with 4 shared flavor compounds including 3,3-Dimethylacrylic acid"
+wholewheat-bread,green-tea,0.427,4,"gamma-Nonanolactone;2,3,5,6-Tetramethylpyrazine;1-octanol;1-Penten-3-Ol",Good pairing with 4 shared flavor compounds including gamma-Nonanolactone
+wort,beer,0.802,50,alpha-TERPINEOL;2-Methoxy-4-Methylphenol;5-Methylfurfural;1-Octen-3-Ol;Nerolidol,Excellent pairing with 50 shared flavor compounds including alpha-TERPINEOL
+wort,bantu-beer,0.471,4,dimethyl sulfide;Phenethyl acetate;2-Methyl-1-propanol;Pentanal,Good pairing with 4 shared flavor compounds including dimethyl sulfide
+wort,brandy,0.58,9,Phenethyl acetate;Thiazole;Isovaleric Acid;nerol;2-Furaldehyde,Good pairing with 9 shared flavor compounds including Phenethyl acetate
+wort,anise-brandy,0.577,9,Phenethyl acetate;Thiazole;Isovaleric Acid;nerol;2-Furaldehyde,Good pairing with 9 shared flavor compounds including Phenethyl acetate
+wort,apple-brandy,0.555,10,Phenethyl acetate;Thiazole;6-Methyl-5-Hepten-2-One;Isovaleric Acid;nerol,Good pairing with 10 shared flavor compounds including Phenethyl acetate
+wort,armagnac-brandy,0.577,9,Phenethyl acetate;Thiazole;Isovaleric Acid;nerol;2-Furaldehyde,Good pairing with 9 shared flavor compounds including Phenethyl acetate
+wort,blackberry-brandy,0.577,9,Phenethyl acetate;Thiazole;Isovaleric Acid;nerol;2-Furaldehyde,Good pairing with 9 shared flavor compounds including Phenethyl acetate
+wort,cherry-brandy,0.575,9,Phenethyl acetate;Thiazole;Isovaleric Acid;nerol;2-Furaldehyde,Good pairing with 9 shared flavor compounds including Phenethyl acetate
+wort,cognac-brandy,0.811,42,alpha-TERPINEOL;5-Methylfurfural;1-Octen-3-Ol;Thiazole;Nerolidol,Excellent pairing with 42 shared flavor compounds including alpha-TERPINEOL
+wort,papaya-brandy,0.577,9,Phenethyl acetate;Thiazole;Isovaleric Acid;nerol;2-Furaldehyde,Good pairing with 9 shared flavor compounds including Phenethyl acetate
+wort,pear-brandy,0.605,11,2-Methoxy-4-Methylphenol;Phenethyl acetate;Thiazole;Isovaleric Acid;nerol,Strong pairing with 11 shared flavor compounds including 2-Methoxy-4-Methylphenol
+wort,plum-brandy,0.58,11,Phenethyl acetate;Thiazole;4-Methyl-2-pentanone;Isovaleric Acid;nerol,Good pairing with 11 shared flavor compounds including Phenethyl acetate
+wort,raspberry-brandy,0.575,9,Phenethyl acetate;Thiazole;Isovaleric Acid;nerol;2-Furaldehyde,Good pairing with 9 shared flavor compounds including Phenethyl acetate
+wort,weinbrand-brandy,0.572,9,Phenethyl acetate;Thiazole;Isovaleric Acid;nerol;2-Furaldehyde,Good pairing with 9 shared flavor compounds including Phenethyl acetate
+wort,gin,0.351,3,nerol;2-Methyl-1-propanol;3-Methyl-1-butanol,"Subtle pairing; both contain nerol, 2-Methyl-1-propanol and 3-Methyl-1-butanol"
+wort,rum,0.736,33,alpha-TERPINEOL;2-Methoxy-4-Methylphenol;1-Octen-3-Ol;Thiazole;2-Methylpyrazine,Strong pairing with 33 shared flavor compounds including alpha-TERPINEOL
+wort,whisky,0.704,20,2-Methylpyrazine;oleic acid;2-Furaldehyde;lactic acid;lauric acid,Strong pairing with 20 shared flavor compounds including 2-Methylpyrazine
+wort,bourbon-whisky,0.709,21,2-Methoxy-4-Methylphenol;2-Methylpyrazine;oleic acid;2-Furaldehyde;lactic acid,Strong pairing with 21 shared flavor compounds including 2-Methoxy-4-Methylphenol
+wort,canadian-whisky,0.71,20,2-Methylpyrazine;oleic acid;2-Furaldehyde;lactic acid;lauric acid,Strong pairing with 20 shared flavor compounds including 2-Methylpyrazine
+wort,finnish-whisky,0.713,21,2-Methylpyrazine;oleic acid;2-Furaldehyde;lactic acid;lauric acid,Strong pairing with 21 shared flavor compounds including 2-Methylpyrazine
+wort,japanese-whisky,0.698,20,2-Methylpyrazine;oleic acid;2-Furaldehyde;lactic acid;lauric acid,Strong pairing with 20 shared flavor compounds including 2-Methylpyrazine
+wort,malt-whisky,0.705,23,2-Methylpyrazine;oleic acid;2-Furaldehyde;lactic acid;lauric acid,Strong pairing with 23 shared flavor compounds including 2-Methylpyrazine
+wort,scotch-whisky,0.724,23,2-Methoxy-4-Methylphenol;2-Methylpyrazine;oleic acid;2-Furaldehyde;lactic acid,Strong pairing with 23 shared flavor compounds including 2-Methoxy-4-Methylphenol
+wort,wine,0.724,27,alpha-TERPINEOL;1-Octen-3-Ol;Octan-2-one;3-Methylbutanal;2-Furaldehyde,Strong pairing with 27 shared flavor compounds including alpha-TERPINEOL
+wort,bilberry-wine,0.754,26,alpha-TERPINEOL;1-Octen-3-Ol;Octan-2-one;3-Methylbutanal;2-Furaldehyde,Strong pairing with 26 shared flavor compounds including alpha-TERPINEOL
+wort,botrytized-wine,0.749,26,alpha-TERPINEOL;1-Octen-3-Ol;Octan-2-one;3-Methylbutanal;2-Furaldehyde,Strong pairing with 26 shared flavor compounds including alpha-TERPINEOL
+wort,champagne,0.758,26,alpha-TERPINEOL;1-Octen-3-Ol;Octan-2-one;3-Methylbutanal;2-Furaldehyde,Strong pairing with 26 shared flavor compounds including alpha-TERPINEOL
+wort,cider,0.651,15,Phenethyl acetate;6-Methyl-5-Hepten-2-One;Isovaleric Acid;oleic acid;Methyl Hexanoate,Strong pairing with 15 shared flavor compounds including Phenethyl acetate
+wort,plum-wine,0.756,26,alpha-TERPINEOL;1-Octen-3-Ol;Octan-2-one;3-Methylbutanal;2-Furaldehyde,Strong pairing with 26 shared flavor compounds including alpha-TERPINEOL
+wort,port-wine,0.733,26,alpha-TERPINEOL;1-Octen-3-Ol;Octan-2-one;3-Methylbutanal;2-Furaldehyde,Strong pairing with 26 shared flavor compounds including alpha-TERPINEOL
+wort,red-wine,0.743,30,alpha-TERPINEOL;2-Methoxy-4-Methylphenol;1-Octen-3-Ol;Octan-2-one;3-Methylbutanal,Strong pairing with 30 shared flavor compounds including alpha-TERPINEOL
+wort,rose-wine,0.774,28,alpha-TERPINEOL;1-Octen-3-Ol;Octan-2-one;3-Methylbutanal;2-Furaldehyde,Strong pairing with 28 shared flavor compounds including alpha-TERPINEOL
+wort,sake,0.749,13,4-Methylpentanoic Acid;dimethyl sulfide;Isovaleric Acid;oleic acid;Dimethyl disulfide,Strong pairing with 13 shared flavor compounds including 4-Methylpentanoic Acid
+wort,sherry,0.751,33,alpha-TERPINEOL;2-Methoxy-4-Methylphenol;1-Octen-3-Ol;4'-Hydroxyacetophenone;Octan-2-one,Strong pairing with 33 shared flavor compounds including alpha-TERPINEOL
+wort,sparkling-wine,0.746,27,alpha-TERPINEOL;1-Octen-3-Ol;Octan-2-one;3-Methylbutanal;2-Furaldehyde,Strong pairing with 27 shared flavor compounds including alpha-TERPINEOL
+wort,strawberry-wine,0.751,26,alpha-TERPINEOL;1-Octen-3-Ol;Octan-2-one;3-Methylbutanal;2-Furaldehyde,Strong pairing with 26 shared flavor compounds including alpha-TERPINEOL
+wort,white-wine,0.718,35,alpha-TERPINEOL;2-Methoxy-4-Methylphenol;1-Octen-3-Ol;Nerolidol;Octan-2-one,Strong pairing with 35 shared flavor compounds including alpha-TERPINEOL
+wort,coffee,0.697,38,2-Methoxy-4-Methylphenol;5-Methylfurfural;1-Octen-3-Ol;Thiazole;4-Methyl-2-pentanone,Strong pairing with 38 shared flavor compounds including 2-Methoxy-4-Methylphenol
+wort,mate,0.886,22,2-Methoxy-4-Methylphenol;5-Methylfurfural;1-Octen-3-Ol;Nerolidol;2-Methylpyrazine,Excellent pairing with 22 shared flavor compounds including 2-Methoxy-4-Methylphenol
+wort,black-tea,0.383,5,"4-Methylpentanoic Acid;2,3,5-Trimethylpyrazine;3,3-Dimethylacrylic acid;Methyl octanoate;4-Vinylphenol",Subtle pairing with 5 shared flavor compounds including 4-Methylpentanoic Acid
+wort,green-tea,0.464,5,"Nerolidol;phenylacetaldehyde;gamma-Nonanolactone;2,3,5-Trimethylpyrazine;23747-48-0",Good pairing with 5 shared flavor compounds including Nerolidol
+arrack,anise-brandy,0.293,2,1-propanol;Methyl Acetate,Subtle pairing; both contain 1-propanol and Methyl Acetate
+arrack,apple-brandy,0.354,3,1-propanol;Diethyl Succinate;Methyl Acetate,"Subtle pairing; both contain 1-propanol, Diethyl Succinate and Methyl Acetate"
+arrack,armagnac-brandy,0.293,2,1-propanol;Methyl Acetate,Subtle pairing; both contain 1-propanol and Methyl Acetate
+arrack,cherry-brandy,0.29,2,Diethyl Succinate;Methyl Acetate,Subtle pairing; both contain Diethyl Succinate and Methyl Acetate
+arrack,cognac-brandy,0.308,4,1-propanol;Diethyl Succinate;Methyl Acetate;Propyl acetate,Subtle pairing with 4 shared flavor compounds including 1-propanol
+arrack,pear-brandy,0.26,2,1-propanol;Methyl Acetate,Subtle pairing; both contain 1-propanol and Methyl Acetate
+arrack,plum-brandy,0.351,3,1-propanol;Diethyl Succinate;Methyl Acetate,"Subtle pairing; both contain 1-propanol, Diethyl Succinate and Methyl Acetate"
+arrack,gin,0.52,2,1-propanol;Methyl Acetate,Good pairing; both contain 1-propanol and Methyl Acetate
+arrack,bourbon-whisky,0.29,3,1-propanol;Diethyl Succinate;Methyl Acetate,"Subtle pairing; both contain 1-propanol, Diethyl Succinate and Methyl Acetate"
+arrack,malt-whisky,0.36,4,1-propanol;Diethyl Succinate;Methyl Acetate;Propyl acetate,Subtle pairing with 4 shared flavor compounds including 1-propanol
+arrack,scotch-whisky,0.281,3,1-propanol;Diethyl Succinate;Methyl Acetate,"Subtle pairing; both contain 1-propanol, Diethyl Succinate and Methyl Acetate"
+arrack,wine,0.256,3,1-propanol;Methyl Acetate;Propyl acetate,"Subtle pairing; both contain 1-propanol, Methyl Acetate and Propyl acetate"
+arrack,bilberry-wine,0.275,3,1-propanol;Methyl Acetate;Propyl acetate,"Subtle pairing; both contain 1-propanol, Methyl Acetate and Propyl acetate"
+arrack,botrytized-wine,0.272,3,1-propanol;Methyl Acetate;Propyl acetate,"Subtle pairing; both contain 1-propanol, Methyl Acetate and Propyl acetate"
+arrack,champagne,0.277,3,1-propanol;Methyl Acetate;Propyl acetate,"Subtle pairing; both contain 1-propanol, Methyl Acetate and Propyl acetate"
+arrack,cider,0.43,4,1-propanol;Diethyl Succinate;Methyl Acetate;Propyl acetate,Good pairing with 4 shared flavor compounds including 1-propanol
+arrack,plum-wine,0.276,3,1-propanol;Methyl Acetate;Propyl acetate,"Subtle pairing; both contain 1-propanol, Methyl Acetate and Propyl acetate"
+arrack,port-wine,0.351,4,1-propanol;Diethyl Succinate;Methyl Acetate;Propyl acetate,Subtle pairing with 4 shared flavor compounds including 1-propanol
+arrack,red-wine,0.33,4,1-propanol;Diethyl Succinate;Methyl Acetate;Propyl acetate,Subtle pairing with 4 shared flavor compounds including 1-propanol
+arrack,rose-wine,0.271,3,1-propanol;Methyl Acetate;Propyl acetate,"Subtle pairing; both contain 1-propanol, Methyl Acetate and Propyl acetate"
+arrack,sake,0.359,2,1-propanol;Propyl acetate,Subtle pairing; both contain 1-propanol and Propyl acetate
+arrack,sherry,0.319,4,1-propanol;Diethyl Succinate;Methyl Acetate;Propyl acetate,Subtle pairing with 4 shared flavor compounds including 1-propanol
+arrack,sparkling-wine,0.351,4,1-propanol;Diethyl Succinate;Methyl Acetate;Propyl acetate,Subtle pairing with 4 shared flavor compounds including 1-propanol
+arrack,strawberry-wine,0.361,4,1-propanol;Diethyl Succinate;Methyl Acetate;Propyl acetate,Subtle pairing with 4 shared flavor compounds including 1-propanol
+arrack,white-wine,0.299,4,1-propanol;Diethyl Succinate;Methyl Acetate;Propyl acetate,Subtle pairing with 4 shared flavor compounds including 1-propanol
+beer,bantu-beer,0.378,9,Phenethyl acetate;2-Acetylpyridine;dimethyl sulfide;Propionaldehyde;2-Methylbutyl Acetate,Subtle pairing with 9 shared flavor compounds including Phenethyl acetate
+beer,brandy,0.659,32,Thiazole;Ethyl dodecanoate;octanoic acid;1-octanol;Isobutyl Acetate,Strong pairing with 32 shared flavor compounds including Thiazole
+beer,anise-brandy,0.668,33,Thiazole;Ethyl dodecanoate;octanoic acid;1-octanol;Isobutyl Acetate,Strong pairing with 33 shared flavor compounds including Thiazole
+beer,apple-brandy,0.743,44,Thiazole;Ethyl dodecanoate;Isopentyl hexanoate;octanoic acid;Isoamyl propionate,Strong pairing with 44 shared flavor compounds including Thiazole
+beer,armagnac-brandy,0.668,33,Thiazole;Ethyl dodecanoate;octanoic acid;1-octanol;Isobutyl Acetate,Strong pairing with 33 shared flavor compounds including Thiazole
+beer,blackberry-brandy,0.657,32,Thiazole;Ethyl dodecanoate;octanoic acid;1-octanol;Isobutyl Acetate,Strong pairing with 32 shared flavor compounds including Thiazole
+beer,cherry-brandy,0.656,32,Thiazole;Ethyl dodecanoate;octanoic acid;1-octanol;Isobutyl Acetate,Strong pairing with 32 shared flavor compounds including Thiazole
+beer,cognac-brandy,0.975,116,3-Methylbutanal;2-Methylbutanoic acid;oleic acid;Fenchol;Damascenone,Excellent pairing with 116 shared flavor compounds including 3-Methylbutanal
+beer,papaya-brandy,0.657,32,Thiazole;Ethyl dodecanoate;octanoic acid;1-octanol;Isobutyl Acetate,Strong pairing with 32 shared flavor compounds including Thiazole
+beer,pear-brandy,0.702,38,2-Methoxy-4-Methylphenol;Thiazole;Ethyl dodecanoate;Isopentyl hexanoate;octanoic acid,Strong pairing with 38 shared flavor compounds including 2-Methoxy-4-Methylphenol
+beer,plum-brandy,0.726,42,Thiazole;4-Methyl-2-pentanone;Ethyl dodecanoate;Isopentyl hexanoate;Pentanal,Strong pairing with 42 shared flavor compounds including Thiazole
+beer,raspberry-brandy,0.656,32,Thiazole;Ethyl dodecanoate;octanoic acid;1-octanol;Isobutyl Acetate,Strong pairing with 32 shared flavor compounds including Thiazole
+beer,weinbrand-brandy,0.655,32,Thiazole;Ethyl dodecanoate;octanoic acid;1-octanol;Isobutyl Acetate,Strong pairing with 32 shared flavor compounds including Thiazole
+beer,gin,0.427,12,Thiamine Hydrochloride;1-propanol;Myrcene;Heptanoic Acid;nerol,Good pairing with 12 shared flavor compounds including Thiamine Hydrochloride
+beer,rum,0.987,118,3-Hexanone;2-Methylbutanoic acid;oleic acid;3-Methylbutanal;Damascenone,Excellent pairing with 118 shared flavor compounds including 3-Hexanone
+beer,whisky,0.907,76,"2,6-Dimethylpyridine;1-Decanol;3-Ethylpyridine;2-Methylpyrazine;2-Methylbutanoic acid","Excellent pairing with 76 shared flavor compounds including 2,6-Dimethylpyridine"
+beer,bourbon-whisky,0.916,79,2-Methylbutanoic acid;oleic acid;farnesol;Damascenone;trimethylamine,Excellent pairing with 79 shared flavor compounds including 2-Methylbutanoic acid
+beer,canadian-whisky,0.896,73,"2,6-Dimethylpyridine;1-Decanol;3-Ethylpyridine;2-Methylpyrazine;2-Methylbutanoic acid","Excellent pairing with 73 shared flavor compounds including 2,6-Dimethylpyridine"
+beer,finnish-whisky,0.908,77,2-Methylbutanoic acid;oleic acid;farnesol;Damascenone;Pyridine,Excellent pairing with 77 shared flavor compounds including 2-Methylbutanoic acid
+beer,japanese-whisky,0.895,74,"2,6-Dimethylpyridine;1-Decanol;3-Ethylpyridine;2-Methylpyrazine;2-Methylbutanoic acid","Excellent pairing with 74 shared flavor compounds including 2,6-Dimethylpyridine"
+beer,malt-whisky,0.944,90,2-Methylbutanoic acid;oleic acid;farnesol;Damascenone;trimethylamine,Excellent pairing with 90 shared flavor compounds including 2-Methylbutanoic acid
+beer,scotch-whisky,0.916,81,2-Methylbutanoic acid;oleic acid;farnesol;Damascenone;Pyridine,Excellent pairing with 81 shared flavor compounds including 2-Methylbutanoic acid
+beer,wine,0.978,105,3-Methylbutanal;Damascenone;Sinapic Acid;Methyl Hexanoate;Dimethyl disulfide,Excellent pairing with 105 shared flavor compounds including 3-Methylbutanal
+beer,bilberry-wine,0.927,85,3-Methylbutanal;Damascenone;Methyl Hexanoate;Dimethyl disulfide;Geranyl Acetate,Excellent pairing with 85 shared flavor compounds including 3-Methylbutanal
+beer,botrytized-wine,0.94,89,3-Methylbutanal;Damascenone;Pyruvic acid;Methyl Hexanoate;Dimethyl disulfide,Excellent pairing with 89 shared flavor compounds including 3-Methylbutanal
+beer,champagne,0.929,85,3-Methylbutanal;Damascenone;Methyl Hexanoate;Dimethyl disulfide;Geranyl Acetate,Excellent pairing with 85 shared flavor compounds including 3-Methylbutanal
+beer,cider,0.81,55,Isoamyl butyrate;2-Methylbutanoic acid;oleic acid;Ethyl dodecanoate;glycerol,Excellent pairing with 55 shared flavor compounds including Isoamyl butyrate
+beer,plum-wine,0.932,86,3-Methylbutanal;Damascenone;Methyl Hexanoate;Dimethyl disulfide;Geranyl Acetate,Excellent pairing with 86 shared flavor compounds including 3-Methylbutanal
+beer,port-wine,0.94,91,3-Methylbutanal;Damascenone;Isopentyl formate;Methyl Hexanoate;Dimethyl disulfide,Excellent pairing with 91 shared flavor compounds including 3-Methylbutanal
+beer,red-wine,0.975,107,3-Methylbutanal;Damascenone;2-Acetylfuran;Methyl Hexanoate;Dimethyl disulfide,Excellent pairing with 107 shared flavor compounds including 3-Methylbutanal
+beer,rose-wine,0.936,88,3-Methylbutanal;Damascenone;Methyl Hexanoate;Dimethyl disulfide;Geranyl Acetate,Excellent pairing with 88 shared flavor compounds including 3-Methylbutanal
+beer,sake,0.653,30,oleic acid;lauric acid;Nonanoic Acid;lactic acid;Isobutyric Acid,Strong pairing with 30 shared flavor compounds including oleic acid
+beer,sherry,0.984,114,3-Methylbutanal;oleic acid;Damascenone;Pyridine;Methyl Hexanoate,Excellent pairing with 114 shared flavor compounds including 3-Methylbutanal
+beer,sparkling-wine,0.944,92,3-Methylbutanal;Isoamyl nonanoate;Damascenone;Methyl Hexanoate;Dimethyl disulfide,Excellent pairing with 92 shared flavor compounds including 3-Methylbutanal
+beer,strawberry-wine,0.925,85,3-Methylbutanal;Damascenone;Methyl Hexanoate;Dimethyl disulfide;Geranyl Acetate,Excellent pairing with 85 shared flavor compounds including 3-Methylbutanal
+beer,white-wine,0.974,121,3-Methylbutanal;Damascenone;Pyruvic acid;Methyl Hexanoate;Dimethyl disulfide,Excellent pairing with 121 shared flavor compounds including 3-Methylbutanal
+beer,coffee,0.942,120,"Violet leaf aldehyde;2,3-Hexanedione;3-Methylbutanal;3-Hexanone;2-Methylbutanoic acid",Excellent pairing with 120 shared flavor compounds including Violet leaf aldehyde
+beer,mate,0.678,34,Dodecanal;Violet leaf aldehyde;2-Methoxy-4-Methylphenol;1-Octen-3-Ol;Nerolidol,Strong pairing with 34 shared flavor compounds including Dodecanal
+beer,black-tea,0.441,16,"Delta-Nonalactone;2,3-Pentanedione;palmitic acid;1-Penten-3-Ol;2-Acetyl-5-Methylfuran",Good pairing with 16 shared flavor compounds including Delta-Nonalactone
+beer,green-tea,0.415,12,"Nerolidol;phenylacetaldehyde;1-Penten-3-Ol;gamma-Nonanolactone;2,3,5-Trimethylpyrazine",Good pairing with 12 shared flavor compounds including Nerolidol
+bantu-beer,brandy,0.579,5,Phenethyl acetate;2-Acetylpyridine;2-Methyl-1-propanol;1-octanol;Isobutyl Acetate,Good pairing with 5 shared flavor compounds including Phenethyl acetate
+bantu-beer,anise-brandy,0.574,5,Phenethyl acetate;2-Acetylpyridine;2-Methyl-1-propanol;1-octanol;Isobutyl Acetate,Good pairing with 5 shared flavor compounds including Phenethyl acetate
+bantu-beer,apple-brandy,0.539,6,Phenethyl acetate;2-Acetylpyridine;2-Methyl-1-propanol;1-octanol;Methyl tetradecanoate,Good pairing with 6 shared flavor compounds including Phenethyl acetate
+bantu-beer,armagnac-brandy,0.574,5,Phenethyl acetate;2-Acetylpyridine;2-Methyl-1-propanol;1-octanol;Isobutyl Acetate,Good pairing with 5 shared flavor compounds including Phenethyl acetate
+bantu-beer,blackberry-brandy,0.574,5,Phenethyl acetate;2-Acetylpyridine;2-Methyl-1-propanol;1-octanol;Isobutyl Acetate,Good pairing with 5 shared flavor compounds including Phenethyl acetate
+bantu-beer,cherry-brandy,0.57,5,Phenethyl acetate;2-Acetylpyridine;2-Methyl-1-propanol;1-octanol;Isobutyl Acetate,Good pairing with 5 shared flavor compounds including Phenethyl acetate
+bantu-beer,cognac-brandy,0.398,8,Phenethyl acetate;2-Acetylpyridine;Propionaldehyde;2-Methylbutyl Acetate;Pentanal,Subtle pairing with 8 shared flavor compounds including Phenethyl acetate
+bantu-beer,papaya-brandy,0.574,5,Phenethyl acetate;2-Acetylpyridine;2-Methyl-1-propanol;1-octanol;Isobutyl Acetate,Good pairing with 5 shared flavor compounds including Phenethyl acetate
+bantu-beer,pear-brandy,0.523,5,Phenethyl acetate;2-Acetylpyridine;2-Methyl-1-propanol;1-octanol;Isobutyl Acetate,Good pairing with 5 shared flavor compounds including Phenethyl acetate
+bantu-beer,plum-brandy,0.62,8,Phenethyl acetate;2-Acetylpyridine;Propionaldehyde;Pentanal;2-Methyl-1-propanol,Strong pairing with 8 shared flavor compounds including Phenethyl acetate
+bantu-beer,raspberry-brandy,0.57,5,Phenethyl acetate;2-Acetylpyridine;2-Methyl-1-propanol;1-octanol;Isobutyl Acetate,Good pairing with 5 shared flavor compounds including Phenethyl acetate
+bantu-beer,weinbrand-brandy,0.565,5,Phenethyl acetate;2-Acetylpyridine;2-Methyl-1-propanol;1-octanol;Isobutyl Acetate,Good pairing with 5 shared flavor compounds including Phenethyl acetate
+bantu-beer,rum,0.334,5,2-Methylbutyl Acetate;Propionaldehyde;2-Methyl-1-propanol;1-octanol;Isobutyl Acetate,Subtle pairing with 5 shared flavor compounds including 2-Methylbutyl Acetate
+bantu-beer,whisky,0.42,5,Phenethyl acetate;Propionaldehyde;2-Methyl-1-propanol;1-octanol;Isobutyl Acetate,Good pairing with 5 shared flavor compounds including Phenethyl acetate
+bantu-beer,bourbon-whisky,0.41,5,Phenethyl acetate;Propionaldehyde;2-Methyl-1-propanol;1-octanol;Isobutyl Acetate,Good pairing with 5 shared flavor compounds including Phenethyl acetate
+bantu-beer,canadian-whisky,0.424,5,Phenethyl acetate;Propionaldehyde;2-Methyl-1-propanol;1-octanol;Isobutyl Acetate,Good pairing with 5 shared flavor compounds including Phenethyl acetate
+bantu-beer,finnish-whisky,0.413,5,Phenethyl acetate;Propionaldehyde;2-Methyl-1-propanol;1-octanol;Isobutyl Acetate,Good pairing with 5 shared flavor compounds including Phenethyl acetate
+bantu-beer,japanese-whisky,0.415,5,Phenethyl acetate;Propionaldehyde;2-Methyl-1-propanol;1-octanol;Isobutyl Acetate,Good pairing with 5 shared flavor compounds including Phenethyl acetate
+bantu-beer,malt-whisky,0.419,6,Phenethyl acetate;Propionaldehyde;2-Methylbutyl Acetate;2-Methyl-1-propanol;1-octanol,Good pairing with 6 shared flavor compounds including Phenethyl acetate
+bantu-beer,scotch-whisky,0.466,7,Phenethyl acetate;Propionaldehyde;2-Methylbutyl Acetate;Pentanal;2-Methyl-1-propanol,Good pairing with 7 shared flavor compounds including Phenethyl acetate
+bantu-beer,wine,0.421,7,Phenethyl acetate;dimethyl sulfide;Propionaldehyde;2-Methylbutyl Acetate;2-Methyl-1-propanol,Good pairing with 7 shared flavor compounds including Phenethyl acetate
+bantu-beer,bilberry-wine,0.455,7,Phenethyl acetate;dimethyl sulfide;Propionaldehyde;2-Methylbutyl Acetate;2-Methyl-1-propanol,Good pairing with 7 shared flavor compounds including Phenethyl acetate
+bantu-beer,botrytized-wine,0.45,7,Phenethyl acetate;dimethyl sulfide;Propionaldehyde;2-Methylbutyl Acetate;2-Methyl-1-propanol,Good pairing with 7 shared flavor compounds including Phenethyl acetate
+bantu-beer,champagne,0.458,7,Phenethyl acetate;dimethyl sulfide;Propionaldehyde;2-Methylbutyl Acetate;2-Methyl-1-propanol,Good pairing with 7 shared flavor compounds including Phenethyl acetate
+bantu-beer,cider,0.502,6,Phenethyl acetate;2-Methylbutyl Acetate;Pentanal;2-Methyl-1-propanol;1-octanol,Good pairing with 6 shared flavor compounds including Phenethyl acetate
+bantu-beer,plum-wine,0.456,7,Phenethyl acetate;dimethyl sulfide;Propionaldehyde;2-Methylbutyl Acetate;2-Methyl-1-propanol,Good pairing with 7 shared flavor compounds including Phenethyl acetate
+bantu-beer,port-wine,0.437,7,Phenethyl acetate;dimethyl sulfide;Propionaldehyde;2-Methylbutyl Acetate;2-Methyl-1-propanol,Good pairing with 7 shared flavor compounds including Phenethyl acetate
+bantu-beer,red-wine,0.408,7,Phenethyl acetate;dimethyl sulfide;Propionaldehyde;2-Methylbutyl Acetate;2-Methyl-1-propanol,Good pairing with 7 shared flavor compounds including Phenethyl acetate
+bantu-beer,rose-wine,0.449,7,Phenethyl acetate;dimethyl sulfide;Propionaldehyde;2-Methylbutyl Acetate;2-Methyl-1-propanol,Good pairing with 7 shared flavor compounds including Phenethyl acetate
+bantu-beer,sake,0.321,2,dimethyl sulfide;Isobutyl Acetate,Subtle pairing; both contain dimethyl sulfide and Isobutyl Acetate
+bantu-beer,sherry,0.392,7,Phenethyl acetate;dimethyl sulfide;Propionaldehyde;2-Methylbutyl Acetate;2-Methyl-1-propanol,Subtle pairing with 7 shared flavor compounds including Phenethyl acetate
+bantu-beer,sparkling-wine,0.437,7,Phenethyl acetate;dimethyl sulfide;Propionaldehyde;2-Methylbutyl Acetate;2-Methyl-1-propanol,Good pairing with 7 shared flavor compounds including Phenethyl acetate
+bantu-beer,strawberry-wine,0.451,7,Phenethyl acetate;dimethyl sulfide;Propionaldehyde;2-Methylbutyl Acetate;2-Methyl-1-propanol,Good pairing with 7 shared flavor compounds including Phenethyl acetate
+bantu-beer,white-wine,0.383,8,Phenethyl acetate;dimethyl sulfide;Propionaldehyde;2-Methylbutyl Acetate;Pentanal,Subtle pairing with 8 shared flavor compounds including Phenethyl acetate
+bantu-beer,mate,0.395,3,dimethyl sulfide;Propionaldehyde;Pentanal,"Subtle pairing; both contain dimethyl sulfide, Propionaldehyde and Pentanal"
+brandy,anise-brandy,1.0,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+brandy,apple-brandy,1.0,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+brandy,armagnac-brandy,1.0,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+brandy,blackberry-brandy,1.0,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+brandy,cherry-brandy,1.0,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+brandy,cognac-brandy,0.893,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+brandy,papaya-brandy,1.0,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+brandy,pear-brandy,1.0,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+brandy,plum-brandy,1.0,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+brandy,raspberry-brandy,1.0,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+brandy,weinbrand-brandy,1.0,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+brandy,gin,0.616,6,Heptanoic Acid;nerol;2-Methyl-1-propanol;Methyl Acetate;1-Hexanol,Strong pairing with 6 shared flavor compounds including Heptanoic Acid
+brandy,rum,0.765,34,Thiazole;Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol,Strong pairing with 34 shared flavor compounds including Thiazole
+brandy,whisky,0.855,28,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 28 shared flavor compounds including Ethyl dodecanoate
+brandy,bourbon-whisky,0.841,28,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 28 shared flavor compounds including Ethyl dodecanoate
+brandy,canadian-whisky,0.862,28,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 28 shared flavor compounds including Ethyl dodecanoate
+brandy,finnish-whisky,0.871,30,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 30 shared flavor compounds including Ethyl dodecanoate
+brandy,japanese-whisky,0.848,28,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 28 shared flavor compounds including Ethyl dodecanoate
+brandy,malt-whisky,0.814,29,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 29 shared flavor compounds including Ethyl dodecanoate
+brandy,scotch-whisky,0.834,29,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 29 shared flavor compounds including Ethyl dodecanoate
+brandy,wine,0.819,33,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 33 shared flavor compounds including Ethyl dodecanoate
+brandy,bilberry-wine,0.856,32,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 32 shared flavor compounds including Ethyl dodecanoate
+brandy,botrytized-wine,0.85,32,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 32 shared flavor compounds including Ethyl dodecanoate
+brandy,champagne,0.86,32,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 32 shared flavor compounds including Ethyl dodecanoate
+brandy,cider,0.765,19,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Strong pairing with 19 shared flavor compounds including Ethyl dodecanoate
+brandy,plum-wine,0.869,33,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 33 shared flavor compounds including Ethyl dodecanoate
+brandy,port-wine,0.854,34,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 34 shared flavor compounds including Ethyl dodecanoate
+brandy,red-wine,0.798,33,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Strong pairing with 33 shared flavor compounds including Ethyl dodecanoate
+brandy,rose-wine,0.859,33,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 33 shared flavor compounds including Ethyl dodecanoate
+brandy,sake,0.497,5,Heptanoic Acid;Isovaleric Acid;Ethyl Undecanoate;octanoic acid;Isobutyl Acetate,Good pairing with 5 shared flavor compounds including Heptanoic Acid
+brandy,sherry,0.792,35,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Strong pairing with 35 shared flavor compounds including Ethyl dodecanoate
+brandy,sparkling-wine,0.843,33,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 33 shared flavor compounds including Ethyl dodecanoate
+brandy,strawberry-wine,0.852,32,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 32 shared flavor compounds including Ethyl dodecanoate
+brandy,white-wine,0.724,34,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Strong pairing with 34 shared flavor compounds including Ethyl dodecanoate
+brandy,coffee,0.563,24,Thiazole;2-Furaldehyde;Methyl 2-furoate;octanoic acid;1-Hexanol,Good pairing with 24 shared flavor compounds including Thiazole
+brandy,mate,0.313,3,nerol;2-Heptanone;2-Phenylethanol,"Subtle pairing; both contain nerol, 2-Heptanone and 2-Phenylethanol"
+brandy,black-tea,0.499,8,2-Methylhexanoic Acid;2-Acetylpyridine;Pyridine;cis-3-Hexenyl acetate;Dimethyl trisulfide,Good pairing with 8 shared flavor compounds including 2-Methylhexanoic Acid
+anise-brandy,apple-brandy,1.0,51,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 51 shared flavor compounds including Thiazole
+anise-brandy,armagnac-brandy,1.0,51,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 51 shared flavor compounds including Thiazole
+anise-brandy,blackberry-brandy,1.0,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+anise-brandy,cherry-brandy,1.0,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+anise-brandy,cognac-brandy,0.899,51,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 51 shared flavor compounds including Thiazole
+anise-brandy,papaya-brandy,1.0,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+anise-brandy,pear-brandy,1.0,51,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 51 shared flavor compounds including Thiazole
+anise-brandy,plum-brandy,1.0,51,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 51 shared flavor compounds including Thiazole
+anise-brandy,raspberry-brandy,1.0,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+anise-brandy,weinbrand-brandy,1.0,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+anise-brandy,gin,0.661,7,1-propanol;Heptanoic Acid;nerol;2-Methyl-1-propanol;Methyl Acetate,Strong pairing with 7 shared flavor compounds including 1-propanol
+anise-brandy,rum,0.774,35,Thiazole;Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol,Strong pairing with 35 shared flavor compounds including Thiazole
+anise-brandy,whisky,0.852,28,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 28 shared flavor compounds including Ethyl dodecanoate
+anise-brandy,bourbon-whisky,0.852,29,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 29 shared flavor compounds including Ethyl dodecanoate
+anise-brandy,canadian-whisky,0.859,28,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 28 shared flavor compounds including Ethyl dodecanoate
+anise-brandy,finnish-whisky,0.869,30,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 30 shared flavor compounds including Ethyl dodecanoate
+anise-brandy,japanese-whisky,0.845,28,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 28 shared flavor compounds including Ethyl dodecanoate
+anise-brandy,malt-whisky,0.824,30,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 30 shared flavor compounds including Ethyl dodecanoate
+anise-brandy,scotch-whisky,0.845,30,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 30 shared flavor compounds including Ethyl dodecanoate
+anise-brandy,wine,0.829,34,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 34 shared flavor compounds including Ethyl dodecanoate
+anise-brandy,bilberry-wine,0.865,33,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 33 shared flavor compounds including Ethyl dodecanoate
+anise-brandy,botrytized-wine,0.859,33,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 33 shared flavor compounds including Ethyl dodecanoate
+anise-brandy,champagne,0.869,33,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 33 shared flavor compounds including Ethyl dodecanoate
+anise-brandy,cider,0.781,20,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Strong pairing with 20 shared flavor compounds including Ethyl dodecanoate
+anise-brandy,plum-wine,0.878,34,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 34 shared flavor compounds including Ethyl dodecanoate
+anise-brandy,port-wine,0.863,35,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 35 shared flavor compounds including Ethyl dodecanoate
+anise-brandy,red-wine,0.808,34,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 34 shared flavor compounds including Ethyl dodecanoate
+anise-brandy,rose-wine,0.868,34,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 34 shared flavor compounds including Ethyl dodecanoate
+anise-brandy,sake,0.542,6,1-propanol;Heptanoic Acid;Isovaleric Acid;Ethyl Undecanoate;octanoic acid,Good pairing with 6 shared flavor compounds including 1-propanol
+anise-brandy,sherry,0.801,36,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 36 shared flavor compounds including Ethyl dodecanoate
+anise-brandy,sparkling-wine,0.853,34,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 34 shared flavor compounds including Ethyl dodecanoate
+anise-brandy,strawberry-wine,0.861,33,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 33 shared flavor compounds including Ethyl dodecanoate
+anise-brandy,white-wine,0.733,35,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Strong pairing with 35 shared flavor compounds including Ethyl dodecanoate
+anise-brandy,coffee,0.562,24,Thiazole;2-Furaldehyde;Methyl 2-furoate;octanoic acid;1-Hexanol,Good pairing with 24 shared flavor compounds including Thiazole
+anise-brandy,mate,0.312,3,nerol;2-Heptanone;2-Phenylethanol,"Subtle pairing; both contain nerol, 2-Heptanone and 2-Phenylethanol"
+anise-brandy,black-tea,0.497,8,2-Methylhexanoic Acid;2-Acetylpyridine;Pyridine;cis-3-Hexenyl acetate;Dimethyl trisulfide,Good pairing with 8 shared flavor compounds including 2-Methylhexanoic Acid
+apple-brandy,armagnac-brandy,1.0,51,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 51 shared flavor compounds including Thiazole
+apple-brandy,blackberry-brandy,1.0,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+apple-brandy,cherry-brandy,1.0,52,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 52 shared flavor compounds including Thiazole
+apple-brandy,cognac-brandy,0.964,67,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;Isopentyl hexanoate,Excellent pairing with 67 shared flavor compounds including Thiazole
+apple-brandy,papaya-brandy,1.0,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+apple-brandy,pear-brandy,1.0,56,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;Isopentyl hexanoate,Excellent pairing with 56 shared flavor compounds including Thiazole
+apple-brandy,plum-brandy,1.0,56,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;Isopentyl hexanoate,Excellent pairing with 56 shared flavor compounds including Thiazole
+apple-brandy,raspberry-brandy,1.0,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+apple-brandy,weinbrand-brandy,1.0,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+apple-brandy,gin,0.57,7,1-propanol;Heptanoic Acid;nerol;2-Methyl-1-propanol;Methyl Acetate,Good pairing with 7 shared flavor compounds including 1-propanol
+apple-brandy,rum,0.857,48,Thiazole;Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid,Excellent pairing with 48 shared flavor compounds including Thiazole
+apple-brandy,whisky,0.895,36,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid;1-octanol,Excellent pairing with 36 shared flavor compounds including Ethyl dodecanoate
+apple-brandy,bourbon-whisky,0.893,37,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid;1-octanol,Excellent pairing with 37 shared flavor compounds including Ethyl dodecanoate
+apple-brandy,canadian-whisky,0.901,36,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid;1-octanol,Excellent pairing with 36 shared flavor compounds including Ethyl dodecanoate
+apple-brandy,finnish-whisky,0.906,38,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid;1-octanol,Excellent pairing with 38 shared flavor compounds including Ethyl dodecanoate
+apple-brandy,japanese-whisky,0.889,36,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid;1-octanol,Excellent pairing with 36 shared flavor compounds including Ethyl dodecanoate
+apple-brandy,malt-whisky,0.904,42,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid;1-octanol,Excellent pairing with 42 shared flavor compounds including Ethyl dodecanoate
+apple-brandy,scotch-whisky,0.886,38,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid;1-octanol,Excellent pairing with 38 shared flavor compounds including Ethyl dodecanoate
+apple-brandy,wine,0.876,43,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid;1-octanol,Excellent pairing with 43 shared flavor compounds including Ethyl dodecanoate
+apple-brandy,bilberry-wine,0.918,43,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid;1-octanol,Excellent pairing with 43 shared flavor compounds including Ethyl dodecanoate
+apple-brandy,botrytized-wine,0.912,43,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid;1-octanol,Excellent pairing with 43 shared flavor compounds including Ethyl dodecanoate
+apple-brandy,champagne,0.913,42,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid;1-octanol,Excellent pairing with 42 shared flavor compounds including Ethyl dodecanoate
+apple-brandy,cider,0.929,35,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;Isoamyl propionate;1-octanol,Excellent pairing with 35 shared flavor compounds including Ethyl dodecanoate
+apple-brandy,plum-wine,0.919,43,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid;1-octanol,Excellent pairing with 43 shared flavor compounds including Ethyl dodecanoate
+apple-brandy,port-wine,0.929,47,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid;Isobutyl butyrate,Excellent pairing with 47 shared flavor compounds including Ethyl dodecanoate
+apple-brandy,red-wine,0.897,48,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid;Isoamyl propionate,Excellent pairing with 48 shared flavor compounds including Ethyl dodecanoate
+apple-brandy,rose-wine,0.911,43,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid;1-octanol,Excellent pairing with 43 shared flavor compounds including Ethyl dodecanoate
+apple-brandy,sake,0.481,6,1-propanol;Heptanoic Acid;Isovaleric Acid;Ethyl Undecanoate;octanoic acid,Good pairing with 6 shared flavor compounds including 1-propanol
+apple-brandy,sherry,0.88,49,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid;1-octanol,Excellent pairing with 49 shared flavor compounds including Ethyl dodecanoate
+apple-brandy,sparkling-wine,0.905,44,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid;1-octanol,Excellent pairing with 44 shared flavor compounds including Ethyl dodecanoate
+apple-brandy,strawberry-wine,0.922,44,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid;1-octanol,Excellent pairing with 44 shared flavor compounds including Ethyl dodecanoate
+apple-brandy,white-wine,0.833,50,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid;Isoamyl propionate,Excellent pairing with 50 shared flavor compounds including Ethyl dodecanoate
+apple-brandy,coffee,0.576,27,Thiazole;2-Furaldehyde;Methyl 2-furoate;octanoic acid;1-Hexanol,Good pairing with 27 shared flavor compounds including Thiazole
+apple-brandy,mate,0.413,5,2-Heptanone;nerol;beta-Cyclocitral;6-Methyl-5-Hepten-2-One;2-Phenylethanol,Good pairing with 5 shared flavor compounds including 2-Heptanone
+apple-brandy,black-tea,0.514,10,"2-Methylhexanoic Acid;2-Acetylpyridine;2,4-Dimethylbenzaldehyde;Pyridine;Styrene",Good pairing with 10 shared flavor compounds including 2-Methylhexanoic Acid
+armagnac-brandy,blackberry-brandy,1.0,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+armagnac-brandy,cherry-brandy,1.0,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+armagnac-brandy,cognac-brandy,0.899,51,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 51 shared flavor compounds including Thiazole
+armagnac-brandy,papaya-brandy,1.0,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+armagnac-brandy,pear-brandy,1.0,51,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 51 shared flavor compounds including Thiazole
+armagnac-brandy,plum-brandy,1.0,51,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 51 shared flavor compounds including Thiazole
+armagnac-brandy,raspberry-brandy,1.0,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+armagnac-brandy,weinbrand-brandy,1.0,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+armagnac-brandy,gin,0.661,7,1-propanol;Heptanoic Acid;nerol;2-Methyl-1-propanol;Methyl Acetate,Strong pairing with 7 shared flavor compounds including 1-propanol
+armagnac-brandy,rum,0.774,35,Thiazole;Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol,Strong pairing with 35 shared flavor compounds including Thiazole
+armagnac-brandy,whisky,0.852,28,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 28 shared flavor compounds including Ethyl dodecanoate
+armagnac-brandy,bourbon-whisky,0.852,29,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 29 shared flavor compounds including Ethyl dodecanoate
+armagnac-brandy,canadian-whisky,0.859,28,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 28 shared flavor compounds including Ethyl dodecanoate
+armagnac-brandy,finnish-whisky,0.869,30,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 30 shared flavor compounds including Ethyl dodecanoate
+armagnac-brandy,japanese-whisky,0.845,28,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 28 shared flavor compounds including Ethyl dodecanoate
+armagnac-brandy,malt-whisky,0.824,30,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 30 shared flavor compounds including Ethyl dodecanoate
+armagnac-brandy,scotch-whisky,0.845,30,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 30 shared flavor compounds including Ethyl dodecanoate
+armagnac-brandy,wine,0.829,34,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 34 shared flavor compounds including Ethyl dodecanoate
+armagnac-brandy,bilberry-wine,0.865,33,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 33 shared flavor compounds including Ethyl dodecanoate
+armagnac-brandy,botrytized-wine,0.859,33,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 33 shared flavor compounds including Ethyl dodecanoate
+armagnac-brandy,champagne,0.869,33,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 33 shared flavor compounds including Ethyl dodecanoate
+armagnac-brandy,cider,0.781,20,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Strong pairing with 20 shared flavor compounds including Ethyl dodecanoate
+armagnac-brandy,plum-wine,0.878,34,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 34 shared flavor compounds including Ethyl dodecanoate
+armagnac-brandy,port-wine,0.863,35,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 35 shared flavor compounds including Ethyl dodecanoate
+armagnac-brandy,red-wine,0.808,34,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 34 shared flavor compounds including Ethyl dodecanoate
+armagnac-brandy,rose-wine,0.868,34,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 34 shared flavor compounds including Ethyl dodecanoate
+armagnac-brandy,sake,0.542,6,1-propanol;Heptanoic Acid;Isovaleric Acid;Ethyl Undecanoate;octanoic acid,Good pairing with 6 shared flavor compounds including 1-propanol
+armagnac-brandy,sherry,0.801,36,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 36 shared flavor compounds including Ethyl dodecanoate
+armagnac-brandy,sparkling-wine,0.853,34,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 34 shared flavor compounds including Ethyl dodecanoate
+armagnac-brandy,strawberry-wine,0.861,33,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 33 shared flavor compounds including Ethyl dodecanoate
+armagnac-brandy,white-wine,0.733,35,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Strong pairing with 35 shared flavor compounds including Ethyl dodecanoate
+armagnac-brandy,coffee,0.562,24,Thiazole;2-Furaldehyde;Methyl 2-furoate;octanoic acid;1-Hexanol,Good pairing with 24 shared flavor compounds including Thiazole
+armagnac-brandy,mate,0.312,3,nerol;2-Heptanone;2-Phenylethanol,"Subtle pairing; both contain nerol, 2-Heptanone and 2-Phenylethanol"
+armagnac-brandy,black-tea,0.497,8,2-Methylhexanoic Acid;2-Acetylpyridine;Pyridine;cis-3-Hexenyl acetate;Dimethyl trisulfide,Good pairing with 8 shared flavor compounds including 2-Methylhexanoic Acid
+blackberry-brandy,cherry-brandy,1.0,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+blackberry-brandy,cognac-brandy,0.892,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+blackberry-brandy,papaya-brandy,1.0,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+blackberry-brandy,pear-brandy,1.0,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+blackberry-brandy,plum-brandy,1.0,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+blackberry-brandy,raspberry-brandy,1.0,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+blackberry-brandy,weinbrand-brandy,1.0,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+blackberry-brandy,gin,0.611,6,Heptanoic Acid;nerol;2-Methyl-1-propanol;Methyl Acetate;1-Hexanol,Strong pairing with 6 shared flavor compounds including Heptanoic Acid
+blackberry-brandy,rum,0.774,35,Thiazole;Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol,Strong pairing with 35 shared flavor compounds including Thiazole
+blackberry-brandy,whisky,0.852,28,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 28 shared flavor compounds including Ethyl dodecanoate
+blackberry-brandy,bourbon-whisky,0.839,28,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 28 shared flavor compounds including Ethyl dodecanoate
+blackberry-brandy,canadian-whisky,0.859,28,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 28 shared flavor compounds including Ethyl dodecanoate
+blackberry-brandy,finnish-whisky,0.869,30,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 30 shared flavor compounds including Ethyl dodecanoate
+blackberry-brandy,japanese-whisky,0.858,29,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 29 shared flavor compounds including Ethyl dodecanoate
+blackberry-brandy,malt-whisky,0.812,29,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 29 shared flavor compounds including Ethyl dodecanoate
+blackberry-brandy,scotch-whisky,0.845,30,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 30 shared flavor compounds including Ethyl dodecanoate
+blackberry-brandy,wine,0.818,33,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 33 shared flavor compounds including Ethyl dodecanoate
+blackberry-brandy,bilberry-wine,0.854,32,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 32 shared flavor compounds including Ethyl dodecanoate
+blackberry-brandy,botrytized-wine,0.848,32,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 32 shared flavor compounds including Ethyl dodecanoate
+blackberry-brandy,champagne,0.858,32,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 32 shared flavor compounds including Ethyl dodecanoate
+blackberry-brandy,cider,0.762,19,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Strong pairing with 19 shared flavor compounds including Ethyl dodecanoate
+blackberry-brandy,plum-wine,0.867,33,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 33 shared flavor compounds including Ethyl dodecanoate
+blackberry-brandy,port-wine,0.853,34,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 34 shared flavor compounds including Ethyl dodecanoate
+blackberry-brandy,red-wine,0.797,33,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Strong pairing with 33 shared flavor compounds including Ethyl dodecanoate
+blackberry-brandy,rose-wine,0.868,34,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 34 shared flavor compounds including Ethyl dodecanoate
+blackberry-brandy,sake,0.494,5,Heptanoic Acid;Isovaleric Acid;Ethyl Undecanoate;octanoic acid;Isobutyl Acetate,Good pairing with 5 shared flavor compounds including Heptanoic Acid
+blackberry-brandy,sherry,0.791,35,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Strong pairing with 35 shared flavor compounds including Ethyl dodecanoate
+blackberry-brandy,sparkling-wine,0.842,33,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 33 shared flavor compounds including Ethyl dodecanoate
+blackberry-brandy,strawberry-wine,0.85,32,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 32 shared flavor compounds including Ethyl dodecanoate
+blackberry-brandy,white-wine,0.722,34,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Strong pairing with 34 shared flavor compounds including Ethyl dodecanoate
+blackberry-brandy,coffee,0.562,24,Thiazole;2-Furaldehyde;Methyl 2-furoate;octanoic acid;1-Hexanol,Good pairing with 24 shared flavor compounds including Thiazole
+blackberry-brandy,mate,0.312,3,nerol;2-Heptanone;2-Phenylethanol,"Subtle pairing; both contain nerol, 2-Heptanone and 2-Phenylethanol"
+blackberry-brandy,black-tea,0.497,8,2-Methylhexanoic Acid;2-Acetylpyridine;Pyridine;cis-3-Hexenyl acetate;Dimethyl trisulfide,Good pairing with 8 shared flavor compounds including 2-Methylhexanoic Acid
+cherry-brandy,cognac-brandy,0.897,51,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 51 shared flavor compounds including Thiazole
+cherry-brandy,papaya-brandy,1.0,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+cherry-brandy,pear-brandy,1.0,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+cherry-brandy,plum-brandy,1.0,51,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 51 shared flavor compounds including Thiazole
+cherry-brandy,raspberry-brandy,1.0,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+cherry-brandy,weinbrand-brandy,1.0,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+cherry-brandy,gin,0.607,6,Heptanoic Acid;nerol;2-Methyl-1-propanol;Methyl Acetate;1-Hexanol,Strong pairing with 6 shared flavor compounds including Heptanoic Acid
+cherry-brandy,rum,0.773,35,Thiazole;Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol,Strong pairing with 35 shared flavor compounds including Thiazole
+cherry-brandy,whisky,0.875,30,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 30 shared flavor compounds including Ethyl dodecanoate
+cherry-brandy,bourbon-whisky,0.862,30,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 30 shared flavor compounds including Ethyl dodecanoate
+cherry-brandy,canadian-whisky,0.882,30,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 30 shared flavor compounds including Ethyl dodecanoate
+cherry-brandy,finnish-whisky,0.89,32,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 32 shared flavor compounds including Ethyl dodecanoate
+cherry-brandy,japanese-whisky,0.869,30,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 30 shared flavor compounds including Ethyl dodecanoate
+cherry-brandy,malt-whisky,0.834,31,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 31 shared flavor compounds including Ethyl dodecanoate
+cherry-brandy,scotch-whisky,0.855,31,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 31 shared flavor compounds including Ethyl dodecanoate
+cherry-brandy,wine,0.816,33,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 33 shared flavor compounds including Ethyl dodecanoate
+cherry-brandy,bilberry-wine,0.852,32,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 32 shared flavor compounds including Ethyl dodecanoate
+cherry-brandy,botrytized-wine,0.846,32,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 32 shared flavor compounds including Ethyl dodecanoate
+cherry-brandy,champagne,0.856,32,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 32 shared flavor compounds including Ethyl dodecanoate
+cherry-brandy,cider,0.796,21,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Strong pairing with 21 shared flavor compounds including Ethyl dodecanoate
+cherry-brandy,plum-wine,0.865,33,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 33 shared flavor compounds including Ethyl dodecanoate
+cherry-brandy,port-wine,0.861,35,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 35 shared flavor compounds including Ethyl dodecanoate
+cherry-brandy,red-wine,0.817,35,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 35 shared flavor compounds including Ethyl dodecanoate
+cherry-brandy,rose-wine,0.855,33,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 33 shared flavor compounds including Ethyl dodecanoate
+cherry-brandy,sake,0.492,5,Heptanoic Acid;Isovaleric Acid;Ethyl Undecanoate;octanoic acid;Isobutyl Acetate,Good pairing with 5 shared flavor compounds including Heptanoic Acid
+cherry-brandy,sherry,0.8,36,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Strong pairing with 36 shared flavor compounds including Ethyl dodecanoate
+cherry-brandy,sparkling-wine,0.851,34,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 34 shared flavor compounds including Ethyl dodecanoate
+cherry-brandy,strawberry-wine,0.859,33,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 33 shared flavor compounds including Ethyl dodecanoate
+cherry-brandy,white-wine,0.741,36,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Strong pairing with 36 shared flavor compounds including Ethyl dodecanoate
+cherry-brandy,coffee,0.561,24,Thiazole;2-Furaldehyde;Methyl 2-furoate;octanoic acid;1-Hexanol,Good pairing with 24 shared flavor compounds including Thiazole
+cherry-brandy,mate,0.31,3,nerol;2-Heptanone;2-Phenylethanol,"Subtle pairing; both contain nerol, 2-Heptanone and 2-Phenylethanol"
+cherry-brandy,black-tea,0.526,9,"2-Methylhexanoic Acid;2-Acetylpyridine;2,4-Dimethylbenzaldehyde;Pyridine;cis-3-Hexenyl acetate",Good pairing with 9 shared flavor compounds including 2-Methylhexanoic Acid
+cognac-brandy,papaya-brandy,0.892,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+cognac-brandy,pear-brandy,0.921,57,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;Isopentyl hexanoate,Excellent pairing with 57 shared flavor compounds including Thiazole
+cognac-brandy,plum-brandy,0.931,61,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;4-Methyl-2-pentanone;Ethyl dodecanoate,Excellent pairing with 61 shared flavor compounds including Thiazole
+cognac-brandy,raspberry-brandy,0.897,51,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 51 shared flavor compounds including Thiazole
+cognac-brandy,weinbrand-brandy,0.896,51,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 51 shared flavor compounds including Thiazole
+cognac-brandy,gin,0.417,9,1-propanol;Heptanoic Acid;nerol;3-Methyl-1-butanol;Nonanal,Good pairing with 9 shared flavor compounds including 1-propanol
+cognac-brandy,rum,1.0,112,3-Methylbutanal;2-Methylbutanoic acid;oleic acid;Propyl Hexanoate;Damascenone,Excellent pairing with 112 shared flavor compounds including 3-Methylbutanal
+cognac-brandy,whisky,0.95,72,1-Decanol;2-Methylbutanoic acid;oleic acid;Ethyl dodecanoate;Isopentyl hexanoate,Excellent pairing with 72 shared flavor compounds including 1-Decanol
+cognac-brandy,bourbon-whisky,0.966,77,2-Methylbutanoic acid;oleic acid;Propyl Hexanoate;Damascenone;Whiskey lactone,Excellent pairing with 77 shared flavor compounds including 2-Methylbutanoic acid
+cognac-brandy,canadian-whisky,0.953,72,1-Decanol;2-Methylbutanoic acid;oleic acid;Ethyl dodecanoate;Isopentyl hexanoate,Excellent pairing with 72 shared flavor compounds including 1-Decanol
+cognac-brandy,finnish-whisky,0.955,74,1-Decanol;2-Methylbutanoic acid;oleic acid;Ethyl dodecanoate;Isopentyl hexanoate,Excellent pairing with 74 shared flavor compounds including 1-Decanol
+cognac-brandy,japanese-whisky,0.946,72,1-Decanol;2-Methylbutanoic acid;oleic acid;Ethyl dodecanoate;Isopentyl hexanoate,Excellent pairing with 72 shared flavor compounds including 1-Decanol
+cognac-brandy,malt-whisky,0.991,88,2-Methylbutanoic acid;oleic acid;Propyl Hexanoate;Damascenone;formic acid,Excellent pairing with 88 shared flavor compounds including 2-Methylbutanoic acid
+cognac-brandy,scotch-whisky,0.982,83,2-Methylbutanoic acid;oleic acid;Propyl Hexanoate;Damascenone;Whiskey lactone,Excellent pairing with 83 shared flavor compounds including 2-Methylbutanoic acid
+cognac-brandy,wine,0.974,89,2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;Damascenone;Whiskey lactone,Excellent pairing with 89 shared flavor compounds including 2-Ethylhexan-1-ol
+cognac-brandy,bilberry-wine,1.0,90,2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;Damascenone;Whiskey lactone,Excellent pairing with 90 shared flavor compounds including 2-Ethylhexan-1-ol
+cognac-brandy,botrytized-wine,0.995,89,2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;Damascenone;Whiskey lactone,Excellent pairing with 89 shared flavor compounds including 2-Ethylhexan-1-ol
+cognac-brandy,champagne,0.996,88,2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;Damascenone;Whiskey lactone,Excellent pairing with 88 shared flavor compounds including 2-Ethylhexan-1-ol
+cognac-brandy,cider,0.916,61,Isoamyl butyrate;Butyl Lactate;2-Methylbutanoic acid;oleic acid;Ethyl dodecanoate,Excellent pairing with 61 shared flavor compounds including Isoamyl butyrate
+cognac-brandy,plum-wine,0.999,89,2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;Damascenone;Whiskey lactone,Excellent pairing with 89 shared flavor compounds including 2-Ethylhexan-1-ol
+cognac-brandy,port-wine,1.0,96,2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;Damascenone;Whiskey lactone,Excellent pairing with 96 shared flavor compounds including 2-Ethylhexan-1-ol
+cognac-brandy,red-wine,1.0,103,2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;Propyl Hexanoate;Damascenone,Excellent pairing with 103 shared flavor compounds including 2-Ethylhexan-1-ol
+cognac-brandy,rose-wine,1.0,91,2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;Damascenone;Whiskey lactone,Excellent pairing with 91 shared flavor compounds including 2-Ethylhexan-1-ol
+cognac-brandy,sake,0.61,21,oleic acid;lauric acid;Nonanoic Acid;lactic acid;Isobutyric Acid,Strong pairing with 21 shared flavor compounds including oleic acid
+cognac-brandy,sherry,0.987,100,2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;oleic acid;Damascenone,Excellent pairing with 100 shared flavor compounds including 2-Ethylhexan-1-ol
+cognac-brandy,sparkling-wine,1.0,95,2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;Damascenone;Whiskey lactone,Excellent pairing with 95 shared flavor compounds including 2-Ethylhexan-1-ol
+cognac-brandy,strawberry-wine,1.0,91,2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;Damascenone;Whiskey lactone,Excellent pairing with 91 shared flavor compounds including 2-Ethylhexan-1-ol
+cognac-brandy,white-wine,1.0,120,2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;Propyl Hexanoate;Damascenone,Excellent pairing with 120 shared flavor compounds including 2-Ethylhexan-1-ol
+cognac-brandy,coffee,0.783,69,5-Methylfurfural;1-Octen-3-Ol;Thiazole;4-Methyl-2-pentanone;Octan-2-one,Strong pairing with 69 shared flavor compounds including 5-Methylfurfural
+cognac-brandy,mate,0.683,28,5-Methylfurfural;1-Octen-3-Ol;Nerolidol;Octan-2-one;2-Methylbutanoic acid,Strong pairing with 28 shared flavor compounds including 5-Methylfurfural
+cognac-brandy,black-tea,0.497,17,"1125-21-9;Delta-Nonalactone;2,3-Pentanedione;palmitic acid;2-Methylhexanoic Acid",Good pairing with 17 shared flavor compounds including 1125-21-9
+cognac-brandy,green-tea,0.361,7,1125-21-9;Nerolidol;phenylacetaldehyde;gamma-Nonanolactone;Ethyl Palmitate,Subtle pairing with 7 shared flavor compounds including 1125-21-9
+papaya-brandy,pear-brandy,1.0,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+papaya-brandy,plum-brandy,1.0,51,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 51 shared flavor compounds including Thiazole
+papaya-brandy,raspberry-brandy,1.0,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+papaya-brandy,weinbrand-brandy,1.0,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+papaya-brandy,gin,0.611,6,Heptanoic Acid;nerol;2-Methyl-1-propanol;Methyl Acetate;1-Hexanol,Strong pairing with 6 shared flavor compounds including Heptanoic Acid
+papaya-brandy,rum,0.764,34,Thiazole;Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol,Strong pairing with 34 shared flavor compounds including Thiazole
+papaya-brandy,whisky,0.852,28,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 28 shared flavor compounds including Ethyl dodecanoate
+papaya-brandy,bourbon-whisky,0.839,28,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 28 shared flavor compounds including Ethyl dodecanoate
+papaya-brandy,canadian-whisky,0.859,28,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 28 shared flavor compounds including Ethyl dodecanoate
+papaya-brandy,finnish-whisky,0.869,30,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 30 shared flavor compounds including Ethyl dodecanoate
+papaya-brandy,japanese-whisky,0.845,28,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 28 shared flavor compounds including Ethyl dodecanoate
+papaya-brandy,malt-whisky,0.812,29,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 29 shared flavor compounds including Ethyl dodecanoate
+papaya-brandy,scotch-whisky,0.832,29,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 29 shared flavor compounds including Ethyl dodecanoate
+papaya-brandy,wine,0.818,33,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 33 shared flavor compounds including Ethyl dodecanoate
+papaya-brandy,bilberry-wine,0.854,32,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 32 shared flavor compounds including Ethyl dodecanoate
+papaya-brandy,botrytized-wine,0.848,32,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 32 shared flavor compounds including Ethyl dodecanoate
+papaya-brandy,champagne,0.858,32,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 32 shared flavor compounds including Ethyl dodecanoate
+papaya-brandy,cider,0.762,19,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Strong pairing with 19 shared flavor compounds including Ethyl dodecanoate
+papaya-brandy,plum-wine,0.867,33,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 33 shared flavor compounds including Ethyl dodecanoate
+papaya-brandy,port-wine,0.853,34,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 34 shared flavor compounds including Ethyl dodecanoate
+papaya-brandy,red-wine,0.797,33,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Strong pairing with 33 shared flavor compounds including Ethyl dodecanoate
+papaya-brandy,rose-wine,0.857,33,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 33 shared flavor compounds including Ethyl dodecanoate
+papaya-brandy,sake,0.494,5,Heptanoic Acid;Isovaleric Acid;Ethyl Undecanoate;octanoic acid;Isobutyl Acetate,Good pairing with 5 shared flavor compounds including Heptanoic Acid
+papaya-brandy,sherry,0.791,35,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Strong pairing with 35 shared flavor compounds including Ethyl dodecanoate
+papaya-brandy,sparkling-wine,0.842,33,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 33 shared flavor compounds including Ethyl dodecanoate
+papaya-brandy,strawberry-wine,0.85,32,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 32 shared flavor compounds including Ethyl dodecanoate
+papaya-brandy,white-wine,0.722,34,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Strong pairing with 34 shared flavor compounds including Ethyl dodecanoate
+papaya-brandy,coffee,0.562,24,Thiazole;2-Furaldehyde;Methyl 2-furoate;octanoic acid;1-Hexanol,Good pairing with 24 shared flavor compounds including Thiazole
+papaya-brandy,mate,0.312,3,nerol;2-Heptanone;2-Phenylethanol,"Subtle pairing; both contain nerol, 2-Heptanone and 2-Phenylethanol"
+papaya-brandy,black-tea,0.497,8,2-Methylhexanoic Acid;2-Acetylpyridine;Pyridine;cis-3-Hexenyl acetate;Dimethyl trisulfide,Good pairing with 8 shared flavor compounds including 2-Methylhexanoic Acid
+pear-brandy,plum-brandy,1.0,54,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;Isopentyl hexanoate,Excellent pairing with 54 shared flavor compounds including Thiazole
+pear-brandy,raspberry-brandy,1.0,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+pear-brandy,weinbrand-brandy,1.0,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+pear-brandy,gin,0.647,8,1-propanol;Heptanoic Acid;nerol;3-Methyl-1-butanol;2-Methyl-1-propanol,Strong pairing with 8 shared flavor compounds including 1-propanol
+pear-brandy,rum,0.822,42,2-Methoxy-4-Methylphenol;Thiazole;Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde,Excellent pairing with 42 shared flavor compounds including 2-Methoxy-4-Methylphenol
+pear-brandy,whisky,0.895,34,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid;1-octanol,Excellent pairing with 34 shared flavor compounds including Ethyl dodecanoate
+pear-brandy,bourbon-whisky,0.903,36,2-Methoxy-4-Methylphenol;Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid,Excellent pairing with 36 shared flavor compounds including 2-Methoxy-4-Methylphenol
+pear-brandy,canadian-whisky,0.901,34,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid;1-octanol,Excellent pairing with 34 shared flavor compounds including Ethyl dodecanoate
+pear-brandy,finnish-whisky,0.907,36,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid;1-octanol,Excellent pairing with 36 shared flavor compounds including Ethyl dodecanoate
+pear-brandy,japanese-whisky,0.888,34,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid;1-octanol,Excellent pairing with 34 shared flavor compounds including Ethyl dodecanoate
+pear-brandy,malt-whisky,0.866,36,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid;1-octanol,Excellent pairing with 36 shared flavor compounds including Ethyl dodecanoate
+pear-brandy,scotch-whisky,0.895,37,2-Methoxy-4-Methylphenol;Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid,Excellent pairing with 37 shared flavor compounds including 2-Methoxy-4-Methylphenol
+pear-brandy,wine,0.866,40,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid;1-octanol,Excellent pairing with 40 shared flavor compounds including Ethyl dodecanoate
+pear-brandy,bilberry-wine,0.901,39,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid;1-octanol,Excellent pairing with 39 shared flavor compounds including Ethyl dodecanoate
+pear-brandy,botrytized-wine,0.895,39,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid;1-octanol,Excellent pairing with 39 shared flavor compounds including Ethyl dodecanoate
+pear-brandy,champagne,0.904,39,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid;1-octanol,Excellent pairing with 39 shared flavor compounds including Ethyl dodecanoate
+pear-brandy,cider,0.815,24,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 24 shared flavor compounds including Ethyl dodecanoate
+pear-brandy,plum-wine,0.912,40,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid;1-octanol,Excellent pairing with 40 shared flavor compounds including Ethyl dodecanoate
+pear-brandy,port-wine,0.897,41,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid;1-octanol,Excellent pairing with 41 shared flavor compounds including Ethyl dodecanoate
+pear-brandy,red-wine,0.855,41,2-Methoxy-4-Methylphenol;Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid,Excellent pairing with 41 shared flavor compounds including 2-Methoxy-4-Methylphenol
+pear-brandy,rose-wine,0.902,40,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid;1-octanol,Excellent pairing with 40 shared flavor compounds including Ethyl dodecanoate
+pear-brandy,sake,0.546,7,1-propanol;Heptanoic Acid;Isovaleric Acid;3-Methyl-1-butanol;Ethyl Undecanoate,Good pairing with 7 shared flavor compounds including 1-propanol
+pear-brandy,sherry,0.847,43,2-Methoxy-4-Methylphenol;Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid,Excellent pairing with 43 shared flavor compounds including 2-Methoxy-4-Methylphenol
+pear-brandy,sparkling-wine,0.888,40,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid;1-octanol,Excellent pairing with 40 shared flavor compounds including Ethyl dodecanoate
+pear-brandy,strawberry-wine,0.897,39,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid;1-octanol,Excellent pairing with 39 shared flavor compounds including Ethyl dodecanoate
+pear-brandy,white-wine,0.782,42,2-Methoxy-4-Methylphenol;Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid,Strong pairing with 42 shared flavor compounds including 2-Methoxy-4-Methylphenol
+pear-brandy,coffee,0.574,26,2-Methoxy-4-Methylphenol;Thiazole;2-Furaldehyde;Methyl 2-furoate;octanoic acid,Good pairing with 26 shared flavor compounds including 2-Methoxy-4-Methylphenol
+pear-brandy,mate,0.388,4,2-Methoxy-4-Methylphenol;nerol;2-Heptanone;2-Phenylethanol,Subtle pairing with 4 shared flavor compounds including 2-Methoxy-4-Methylphenol
+pear-brandy,black-tea,0.475,8,2-Methylhexanoic Acid;2-Acetylpyridine;Pyridine;cis-3-Hexenyl acetate;Dimethyl trisulfide,Good pairing with 8 shared flavor compounds including 2-Methylhexanoic Acid
+plum-brandy,raspberry-brandy,1.0,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+plum-brandy,weinbrand-brandy,1.0,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+plum-brandy,gin,0.567,7,1-propanol;Heptanoic Acid;nerol;2-Methyl-1-propanol;Methyl Acetate,Good pairing with 7 shared flavor compounds including 1-propanol
+plum-brandy,rum,0.848,47,Thiazole;Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;isopropanol,Excellent pairing with 47 shared flavor compounds including Thiazole
+plum-brandy,whisky,0.883,35,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid;1-octanol,Excellent pairing with 35 shared flavor compounds including Ethyl dodecanoate
+plum-brandy,bourbon-whisky,0.881,36,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid;1-octanol,Excellent pairing with 36 shared flavor compounds including Ethyl dodecanoate
+plum-brandy,canadian-whisky,0.889,35,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid;1-octanol,Excellent pairing with 35 shared flavor compounds including Ethyl dodecanoate
+plum-brandy,finnish-whisky,0.895,37,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid;1-octanol,Excellent pairing with 37 shared flavor compounds including Ethyl dodecanoate
+plum-brandy,japanese-whisky,0.877,35,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid;1-octanol,Excellent pairing with 35 shared flavor compounds including Ethyl dodecanoate
+plum-brandy,malt-whisky,0.856,37,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;octanoic acid;1-octanol,Excellent pairing with 37 shared flavor compounds including Ethyl dodecanoate
+plum-brandy,scotch-whisky,0.911,41,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;isopropanol;Pentanal,Excellent pairing with 41 shared flavor compounds including Ethyl dodecanoate
+plum-brandy,wine,0.857,41,"Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;isopropanol;2-Butenoic acid, hexyl ester",Excellent pairing with 41 shared flavor compounds including Ethyl dodecanoate
+plum-brandy,bilberry-wine,0.89,40,"Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;isopropanol;2-Butenoic acid, hexyl ester",Excellent pairing with 40 shared flavor compounds including Ethyl dodecanoate
+plum-brandy,botrytized-wine,0.885,40,"Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;isopropanol;2-Butenoic acid, hexyl ester",Excellent pairing with 40 shared flavor compounds including Ethyl dodecanoate
+plum-brandy,champagne,0.893,40,"Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;isopropanol;2-Butenoic acid, hexyl ester",Excellent pairing with 40 shared flavor compounds including Ethyl dodecanoate
+plum-brandy,cider,0.804,25,Ethyl dodecanoate;2-Furaldehyde;Pentanal;octanoic acid;1-octanol,Excellent pairing with 25 shared flavor compounds including Ethyl dodecanoate
+plum-brandy,plum-wine,0.901,41,"Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;isopropanol;2-Butenoic acid, hexyl ester",Excellent pairing with 41 shared flavor compounds including Ethyl dodecanoate
+plum-brandy,port-wine,0.895,43,"Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;isopropanol;2-Butenoic acid, hexyl ester",Excellent pairing with 43 shared flavor compounds including Ethyl dodecanoate
+plum-brandy,red-wine,0.88,46,"Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;isopropanol;2-Butenoic acid, hexyl ester",Excellent pairing with 46 shared flavor compounds including Ethyl dodecanoate
+plum-brandy,rose-wine,0.892,41,"Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;isopropanol;2-Butenoic acid, hexyl ester",Excellent pairing with 41 shared flavor compounds including Ethyl dodecanoate
+plum-brandy,sake,0.479,6,1-propanol;Heptanoic Acid;Isovaleric Acid;Ethyl Undecanoate;octanoic acid,Good pairing with 6 shared flavor compounds including 1-propanol
+plum-brandy,sherry,0.847,45,"Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;isopropanol;2-Butenoic acid, hexyl ester",Excellent pairing with 45 shared flavor compounds including Ethyl dodecanoate
+plum-brandy,sparkling-wine,0.887,42,"Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;isopropanol;2-Butenoic acid, hexyl ester",Excellent pairing with 42 shared flavor compounds including Ethyl dodecanoate
+plum-brandy,strawberry-wine,0.895,41,"Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;isopropanol;2-Butenoic acid, hexyl ester",Excellent pairing with 41 shared flavor compounds including Ethyl dodecanoate
+plum-brandy,white-wine,0.809,47,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;isopropanol;Pentanal,Excellent pairing with 47 shared flavor compounds including Ethyl dodecanoate
+plum-brandy,coffee,0.638,33,Thiazole;4-Methyl-2-pentanone;2-Furaldehyde;isopropanol;Methyl 2-furoate,Strong pairing with 33 shared flavor compounds including Thiazole
+plum-brandy,mate,0.449,6,2-Heptanone;nerol;Propionaldehyde;Pentanal;methyl salicylate,Good pairing with 6 shared flavor compounds including 2-Heptanone
+plum-brandy,black-tea,0.486,9,2-Methylhexanoic Acid;2-Acetylpyridine;Pyridine;Styrene;cis-3-Hexenyl acetate,Good pairing with 9 shared flavor compounds including 2-Methylhexanoic Acid
+raspberry-brandy,weinbrand-brandy,1.0,50,Thiazole;4-isopropylbenzaldehyde;2-Methylhexanoic Acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Thiazole
+raspberry-brandy,gin,0.607,6,Heptanoic Acid;nerol;2-Methyl-1-propanol;Methyl Acetate;1-Hexanol,Strong pairing with 6 shared flavor compounds including Heptanoic Acid
+raspberry-brandy,rum,0.773,35,Thiazole;Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol,Strong pairing with 35 shared flavor compounds including Thiazole
+raspberry-brandy,whisky,0.863,29,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 29 shared flavor compounds including Ethyl dodecanoate
+raspberry-brandy,bourbon-whisky,0.849,29,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 29 shared flavor compounds including Ethyl dodecanoate
+raspberry-brandy,canadian-whisky,0.87,29,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 29 shared flavor compounds including Ethyl dodecanoate
+raspberry-brandy,finnish-whisky,0.878,31,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 31 shared flavor compounds including Ethyl dodecanoate
+raspberry-brandy,japanese-whisky,0.856,29,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 29 shared flavor compounds including Ethyl dodecanoate
+raspberry-brandy,malt-whisky,0.822,30,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 30 shared flavor compounds including Ethyl dodecanoate
+raspberry-brandy,scotch-whisky,0.842,30,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 30 shared flavor compounds including Ethyl dodecanoate
+raspberry-brandy,wine,0.816,33,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 33 shared flavor compounds including Ethyl dodecanoate
+raspberry-brandy,bilberry-wine,0.852,32,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 32 shared flavor compounds including Ethyl dodecanoate
+raspberry-brandy,botrytized-wine,0.846,32,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 32 shared flavor compounds including Ethyl dodecanoate
+raspberry-brandy,champagne,0.856,32,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 32 shared flavor compounds including Ethyl dodecanoate
+raspberry-brandy,cider,0.76,19,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Strong pairing with 19 shared flavor compounds including Ethyl dodecanoate
+raspberry-brandy,plum-wine,0.865,33,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 33 shared flavor compounds including Ethyl dodecanoate
+raspberry-brandy,port-wine,0.851,34,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 34 shared flavor compounds including Ethyl dodecanoate
+raspberry-brandy,red-wine,0.795,33,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Strong pairing with 33 shared flavor compounds including Ethyl dodecanoate
+raspberry-brandy,rose-wine,0.855,33,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 33 shared flavor compounds including Ethyl dodecanoate
+raspberry-brandy,sake,0.492,5,Heptanoic Acid;Isovaleric Acid;Ethyl Undecanoate;octanoic acid;Isobutyl Acetate,Good pairing with 5 shared flavor compounds including Heptanoic Acid
+raspberry-brandy,sherry,0.789,35,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Strong pairing with 35 shared flavor compounds including Ethyl dodecanoate
+raspberry-brandy,sparkling-wine,0.84,33,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 33 shared flavor compounds including Ethyl dodecanoate
+raspberry-brandy,strawberry-wine,0.848,32,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 32 shared flavor compounds including Ethyl dodecanoate
+raspberry-brandy,white-wine,0.731,35,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Strong pairing with 35 shared flavor compounds including Ethyl dodecanoate
+raspberry-brandy,coffee,0.561,24,Thiazole;2-Furaldehyde;Methyl 2-furoate;octanoic acid;1-Hexanol,Good pairing with 24 shared flavor compounds including Thiazole
+raspberry-brandy,mate,0.408,4,nerol;Alpha-Ionone;2-Heptanone;2-Phenylethanol,Good pairing with 4 shared flavor compounds including nerol
+raspberry-brandy,black-tea,0.496,8,2-Methylhexanoic Acid;2-Acetylpyridine;Pyridine;cis-3-Hexenyl acetate;Dimethyl trisulfide,Good pairing with 8 shared flavor compounds including 2-Methylhexanoic Acid
+weinbrand-brandy,gin,0.602,6,Heptanoic Acid;nerol;2-Methyl-1-propanol;Methyl Acetate;1-Hexanol,Strong pairing with 6 shared flavor compounds including Heptanoic Acid
+weinbrand-brandy,rum,0.761,34,Thiazole;Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol,Strong pairing with 34 shared flavor compounds including Thiazole
+weinbrand-brandy,whisky,0.848,28,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 28 shared flavor compounds including Ethyl dodecanoate
+weinbrand-brandy,bourbon-whisky,0.834,28,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 28 shared flavor compounds including Ethyl dodecanoate
+weinbrand-brandy,canadian-whisky,0.855,28,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 28 shared flavor compounds including Ethyl dodecanoate
+weinbrand-brandy,finnish-whisky,0.864,30,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 30 shared flavor compounds including Ethyl dodecanoate
+weinbrand-brandy,japanese-whisky,0.841,28,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 28 shared flavor compounds including Ethyl dodecanoate
+weinbrand-brandy,malt-whisky,0.808,29,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 29 shared flavor compounds including Ethyl dodecanoate
+weinbrand-brandy,scotch-whisky,0.828,29,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 29 shared flavor compounds including Ethyl dodecanoate
+weinbrand-brandy,wine,0.814,33,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 33 shared flavor compounds including Ethyl dodecanoate
+weinbrand-brandy,bilberry-wine,0.85,32,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 32 shared flavor compounds including Ethyl dodecanoate
+weinbrand-brandy,botrytized-wine,0.844,32,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 32 shared flavor compounds including Ethyl dodecanoate
+weinbrand-brandy,champagne,0.854,32,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 32 shared flavor compounds including Ethyl dodecanoate
+weinbrand-brandy,cider,0.757,19,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Strong pairing with 19 shared flavor compounds including Ethyl dodecanoate
+weinbrand-brandy,plum-wine,0.863,33,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 33 shared flavor compounds including Ethyl dodecanoate
+weinbrand-brandy,port-wine,0.849,34,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 34 shared flavor compounds including Ethyl dodecanoate
+weinbrand-brandy,red-wine,0.793,33,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Strong pairing with 33 shared flavor compounds including Ethyl dodecanoate
+weinbrand-brandy,rose-wine,0.853,33,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 33 shared flavor compounds including Ethyl dodecanoate
+weinbrand-brandy,sake,0.489,5,Heptanoic Acid;Isovaleric Acid;Ethyl Undecanoate;octanoic acid;Isobutyl Acetate,Good pairing with 5 shared flavor compounds including Heptanoic Acid
+weinbrand-brandy,sherry,0.788,35,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Strong pairing with 35 shared flavor compounds including Ethyl dodecanoate
+weinbrand-brandy,sparkling-wine,0.838,33,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 33 shared flavor compounds including Ethyl dodecanoate
+weinbrand-brandy,strawberry-wine,0.846,32,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Excellent pairing with 32 shared flavor compounds including Ethyl dodecanoate
+weinbrand-brandy,white-wine,0.72,34,Ethyl dodecanoate;2-Furaldehyde;octanoic acid;1-octanol;1-Hexanol,Strong pairing with 34 shared flavor compounds including Ethyl dodecanoate
+weinbrand-brandy,coffee,0.561,24,Thiazole;2-Furaldehyde;Methyl 2-furoate;octanoic acid;1-Hexanol,Good pairing with 24 shared flavor compounds including Thiazole
+weinbrand-brandy,mate,0.309,3,nerol;2-Heptanone;2-Phenylethanol,"Subtle pairing; both contain nerol, 2-Heptanone and 2-Phenylethanol"
+weinbrand-brandy,black-tea,0.494,8,2-Methylhexanoic Acid;2-Acetylpyridine;Pyridine;cis-3-Hexenyl acetate;Dimethyl trisulfide,Good pairing with 8 shared flavor compounds including 2-Methylhexanoic Acid
+gin,rum,0.527,14,Thiamine Hydrochloride;1-propanol;Myrcene;Heptanoic Acid;Beta-Pinene,Good pairing with 14 shared flavor compounds including Thiamine Hydrochloride
+gin,whisky,0.581,10,Thiamine Hydrochloride;Heptanoic Acid;CID 644104;3-Methyl-1-butanol;Nonanal,Good pairing with 10 shared flavor compounds including Thiamine Hydrochloride
+gin,bourbon-whisky,0.567,10,1-propanol;Heptanoic Acid;Beta-Pinene;Alpha-Pinene;3-Methyl-1-butanol,Good pairing with 10 shared flavor compounds including 1-propanol
+gin,canadian-whisky,0.491,7,Heptanoic Acid;3-Methyl-1-butanol;Nonanal;2-Methyl-1-propanol;Methyl Acetate,Good pairing with 7 shared flavor compounds including Heptanoic Acid
+gin,finnish-whisky,0.478,7,Heptanoic Acid;3-Methyl-1-butanol;Nonanal;2-Methyl-1-propanol;Methyl Acetate,Good pairing with 7 shared flavor compounds including Heptanoic Acid
+gin,japanese-whisky,0.48,7,Heptanoic Acid;3-Methyl-1-butanol;Nonanal;2-Methyl-1-propanol;Methyl Acetate,Good pairing with 7 shared flavor compounds including Heptanoic Acid
+gin,malt-whisky,0.474,8,1-propanol;Heptanoic Acid;3-Methyl-1-butanol;Nonanal;2-Methyl-1-propanol,Good pairing with 8 shared flavor compounds including 1-propanol
+gin,scotch-whisky,0.49,8,1-propanol;Heptanoic Acid;3-Methyl-1-butanol;Nonanal;2-Methyl-1-propanol,Good pairing with 8 shared flavor compounds including 1-propanol
+gin,wine,0.565,13,Thiamine Hydrochloride;1-propanol;Heptanoic Acid;nerol;CID 644104,Good pairing with 13 shared flavor compounds including Thiamine Hydrochloride
+gin,bilberry-wine,0.535,10,1-propanol;Heptanoic Acid;nerol;3-Methyl-1-butanol;Nonanal,Good pairing with 10 shared flavor compounds including 1-propanol
+gin,botrytized-wine,0.53,10,1-propanol;Heptanoic Acid;nerol;3-Methyl-1-butanol;Nonanal,Good pairing with 10 shared flavor compounds including 1-propanol
+gin,champagne,0.539,10,1-propanol;Heptanoic Acid;nerol;3-Methyl-1-butanol;Nonanal,Good pairing with 10 shared flavor compounds including 1-propanol
+gin,cider,0.493,6,1-propanol;3-Methyl-1-butanol;2-Methyl-1-propanol;Methyl Acetate;1-Hexanol,Good pairing with 6 shared flavor compounds including 1-propanol
+gin,plum-wine,0.537,10,1-propanol;Heptanoic Acid;nerol;3-Methyl-1-butanol;Nonanal,Good pairing with 10 shared flavor compounds including 1-propanol
+gin,port-wine,0.564,12,Thiamine Hydrochloride;1-propanol;Heptanoic Acid;nerol;CID 644104,Good pairing with 12 shared flavor compounds including Thiamine Hydrochloride
+gin,red-wine,0.478,10,1-propanol;Heptanoic Acid;nerol;3-Methyl-1-butanol;Nonanal,Good pairing with 10 shared flavor compounds including 1-propanol
+gin,rose-wine,0.528,10,1-propanol;Heptanoic Acid;nerol;3-Methyl-1-butanol;Nonanal,Good pairing with 10 shared flavor compounds including 1-propanol
+gin,sake,0.638,5,1-propanol;Heptanoic Acid;CID 644104;3-Methyl-1-butanol;thiamine,Strong pairing with 5 shared flavor compounds including 1-propanol
+gin,sherry,0.501,12,Thiamine Hydrochloride;1-propanol;Heptanoic Acid;nerol;CID 644104,Good pairing with 12 shared flavor compounds including Thiamine Hydrochloride
+gin,sparkling-wine,0.514,10,1-propanol;Heptanoic Acid;nerol;3-Methyl-1-butanol;Nonanal,Good pairing with 10 shared flavor compounds including 1-propanol
+gin,strawberry-wine,0.531,10,1-propanol;Heptanoic Acid;nerol;3-Methyl-1-butanol;Nonanal,Good pairing with 10 shared flavor compounds including 1-propanol
+gin,white-wine,0.439,11,1-propanol;Myrcene;Heptanoic Acid;nerol;3-Methyl-1-butanol,Good pairing with 11 shared flavor compounds including 1-propanol
+gin,coffee,0.372,9,Thiamine Hydrochloride;Myrcene;Heptanoic Acid;CID 644104;thiamine,Subtle pairing with 9 shared flavor compounds including Thiamine Hydrochloride
+gin,mate,0.383,3,nerol;2-Phenylethanol;Nonanal,"Subtle pairing; both contain nerol, 2-Phenylethanol and Nonanal"
+rum,whisky,0.999,81,2-Methylbutanoic acid;oleic acid;Propyl Hexanoate;Damascenone;formic acid,Excellent pairing with 81 shared flavor compounds including 2-Methylbutanoic acid
+rum,bourbon-whisky,1.0,87,2-Methylbutanoic acid;Beta-Pinene;oleic acid;Propyl Hexanoate;Damascenone,Excellent pairing with 87 shared flavor compounds including 2-Methylbutanoic acid
+rum,canadian-whisky,0.99,78,2-Methylbutanoic acid;oleic acid;Propyl Hexanoate;Damascenone;formic acid,Excellent pairing with 78 shared flavor compounds including 2-Methylbutanoic acid
+rum,finnish-whisky,0.991,80,2-Methylbutanoic acid;oleic acid;Propyl Hexanoate;Damascenone;formic acid,Excellent pairing with 80 shared flavor compounds including 2-Methylbutanoic acid
+rum,japanese-whisky,0.996,81,2-Methylbutanoic acid;oleic acid;Propyl Hexanoate;Damascenone;formic acid,Excellent pairing with 81 shared flavor compounds including 2-Methylbutanoic acid
+rum,malt-whisky,1.0,91,2-Methylbutanoic acid;oleic acid;Propyl Hexanoate;Damascenone;formic acid,Excellent pairing with 91 shared flavor compounds including 2-Methylbutanoic acid
+rum,scotch-whisky,1.0,89,2-Methylbutanoic acid;oleic acid;Propyl Hexanoate;Damascenone;Whiskey lactone,Excellent pairing with 89 shared flavor compounds including 2-Methylbutanoic acid
+rum,wine,0.959,83,3-Methylbutanal;Damascenone;Whiskey lactone;Ethyl pentanoate;Geranyl Acetate,Excellent pairing with 83 shared flavor compounds including 3-Methylbutanal
+rum,bilberry-wine,0.967,79,3-Methylbutanal;Damascenone;Whiskey lactone;Ethyl pentanoate;Geranyl Acetate,Excellent pairing with 79 shared flavor compounds including 3-Methylbutanal
+rum,botrytized-wine,0.973,81,3-Methylbutanal;Damascenone;Whiskey lactone;Ethyl pentanoate;Geranyl Acetate,Excellent pairing with 81 shared flavor compounds including 3-Methylbutanal
+rum,champagne,0.969,79,3-Methylbutanal;Damascenone;Whiskey lactone;Ethyl pentanoate;Geranyl Acetate,Excellent pairing with 79 shared flavor compounds including 3-Methylbutanal
+rum,cider,0.927,61,Isoamyl butyrate;2-Methylbutanoic acid;oleic acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 61 shared flavor compounds including Isoamyl butyrate
+rum,plum-wine,0.973,80,3-Methylbutanal;Damascenone;Whiskey lactone;Ethyl pentanoate;Geranyl Acetate,Excellent pairing with 80 shared flavor compounds including 3-Methylbutanal
+rum,port-wine,0.991,88,3-Methylbutanal;Damascenone;Whiskey lactone;Isopentyl formate;Ethyl pentanoate,Excellent pairing with 88 shared flavor compounds including 3-Methylbutanal
+rum,red-wine,0.982,92,3-Methylbutanal;Propyl Hexanoate;Damascenone;Whiskey lactone;2-Acetylfuran,Excellent pairing with 92 shared flavor compounds including 3-Methylbutanal
+rum,rose-wine,0.972,81,3-Methylbutanal;Damascenone;Whiskey lactone;Ethyl pentanoate;Geranyl Acetate,Excellent pairing with 81 shared flavor compounds including 3-Methylbutanal
+rum,sake,0.637,22,oleic acid;Isobutyric Acid;Nonanoic Acid;lauric acid;octanoic acid,Strong pairing with 22 shared flavor compounds including oleic acid
+rum,sherry,0.988,98,3-Methylbutanal;oleic acid;delta-Octanolactone;Damascenone;Whiskey lactone,Excellent pairing with 98 shared flavor compounds including 3-Methylbutanal
+rum,sparkling-wine,0.98,85,3-Methylbutanal;Damascenone;Whiskey lactone;Ethyl pentanoate;Geranyl Acetate,Excellent pairing with 85 shared flavor compounds including 3-Methylbutanal
+rum,strawberry-wine,0.97,80,3-Methylbutanal;Damascenone;Whiskey lactone;Ethyl pentanoate;Geranyl Acetate,Excellent pairing with 80 shared flavor compounds including 3-Methylbutanal
+rum,white-wine,0.977,105,3-Methylbutanal;delta-Octanolactone;Propyl Hexanoate;Damascenone;Whiskey lactone,Excellent pairing with 105 shared flavor compounds including 3-Methylbutanal
+rum,coffee,0.871,86,"3-Hexanone;2-Methylbutanoic acid;3-Methylbutanal;3,4-Dimethoxystyrene;Damascenone",Excellent pairing with 86 shared flavor compounds including 3-Hexanone
+rum,mate,0.707,29,Dodecanal;2-Methoxy-4-Methylphenol;1-Octen-3-Ol;1-Nonanol;2-Methylpyrazine,Strong pairing with 29 shared flavor compounds including Dodecanal
+rum,black-tea,0.505,17,"Delta-Nonalactone;2,3-Pentanedione;4-Methylpentanoic Acid;palmitic acid;2-Acetyl-5-Methylfuran",Good pairing with 17 shared flavor compounds including Delta-Nonalactone
+rum,green-tea,0.322,5,"gamma-Nonanolactone;2,3,5-Trimethylpyrazine;2-Acetylfuran;2,3,5,6-Tetramethylpyrazine;1-octanol",Subtle pairing with 5 shared flavor compounds including gamma-Nonanolactone
+whisky,bourbon-whisky,1.0,105,Butyl laurate;2-Methylbutanoic acid;oleic acid;Propyl Hexanoate;farnesol,Excellent pairing with 105 shared flavor compounds including Butyl laurate
+whisky,canadian-whisky,1.0,105,Butyl laurate;2-Methylbutanoic acid;oleic acid;Propyl Hexanoate;farnesol,Excellent pairing with 105 shared flavor compounds including Butyl laurate
+whisky,finnish-whisky,1.0,105,Butyl laurate;2-Methylbutanoic acid;oleic acid;Propyl Hexanoate;farnesol,Excellent pairing with 105 shared flavor compounds including Butyl laurate
+whisky,japanese-whisky,1.0,105,Butyl laurate;2-Methylbutanoic acid;oleic acid;Propyl Hexanoate;farnesol,Excellent pairing with 105 shared flavor compounds including Butyl laurate
+whisky,malt-whisky,1.0,105,Butyl laurate;2-Methylbutanoic acid;oleic acid;Propyl Hexanoate;farnesol,Excellent pairing with 105 shared flavor compounds including Butyl laurate
+whisky,scotch-whisky,1.0,105,Butyl laurate;2-Methylbutanoic acid;oleic acid;Propyl Hexanoate;farnesol,Excellent pairing with 105 shared flavor compounds including Butyl laurate
+whisky,wine,0.962,63,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 63 shared flavor compounds including Ethyl dodecanoate
+whisky,bilberry-wine,0.974,59,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 59 shared flavor compounds including Ethyl dodecanoate
+whisky,botrytized-wine,0.97,59,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 59 shared flavor compounds including Ethyl dodecanoate
+whisky,champagne,0.977,59,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 59 shared flavor compounds including Ethyl dodecanoate
+whisky,cider,0.917,41,2-Methylbutanoic acid;oleic acid;Ethyl dodecanoate;2-Furaldehyde;Isobutyric Acid,Excellent pairing with 41 shared flavor compounds including 2-Methylbutanoic acid
+whisky,plum-wine,0.981,60,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 60 shared flavor compounds including Ethyl dodecanoate
+whisky,port-wine,0.99,65,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 65 shared flavor compounds including Ethyl dodecanoate
+whisky,red-wine,0.958,65,1-Decanol;Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid,Excellent pairing with 65 shared flavor compounds including 1-Decanol
+whisky,rose-wine,0.98,61,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 61 shared flavor compounds including Ethyl dodecanoate
+whisky,sake,0.768,20,oleic acid;lauric acid;Nonanoic Acid;lactic acid;Isobutyric Acid,Strong pairing with 20 shared flavor compounds including oleic acid
+whisky,sherry,0.981,74,"2,6-Dimethylpyridine;oleic acid;Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde","Excellent pairing with 74 shared flavor compounds including 2,6-Dimethylpyridine"
+whisky,sparkling-wine,0.985,64,1-Decanol;Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid,Excellent pairing with 64 shared flavor compounds including 1-Decanol
+whisky,strawberry-wine,0.977,60,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 60 shared flavor compounds including Ethyl dodecanoate
+whisky,white-wine,0.912,69,1-Decanol;Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid,Excellent pairing with 69 shared flavor compounds including 1-Decanol
+whisky,coffee,0.79,56,"2,6-Dimethylpyridine;3-Ethylpyridine;2-Methylpyrazine;2-Methylbutanoic acid;2-Furaldehyde","Strong pairing with 56 shared flavor compounds including 2,6-Dimethylpyridine"
+whisky,mate,0.588,13,gamma-Nonanolactone;1-Dodecanol;2-Methylpyrazine;2-Methylbutanoic acid;Propionaldehyde,Good pairing with 13 shared flavor compounds including gamma-Nonanolactone
+whisky,black-tea,0.444,9,"2,3-Pentanedione;palmitic acid;Damascenone;2,3,5-Trimethylpyrazine;2,3,5,6-Tetramethylpyrazine","Good pairing with 9 shared flavor compounds including 2,3-Pentanedione"
+whisky,green-tea,0.389,5,"gamma-Nonanolactone;2,3,5-Trimethylpyrazine;Ethyl Palmitate;2,3,5,6-Tetramethylpyrazine;1-octanol",Subtle pairing with 5 shared flavor compounds including gamma-Nonanolactone
+bourbon-whisky,canadian-whisky,1.0,105,Butyl laurate;2-Methylbutanoic acid;oleic acid;Propyl Hexanoate;farnesol,Excellent pairing with 105 shared flavor compounds including Butyl laurate
+bourbon-whisky,finnish-whisky,1.0,105,Butyl laurate;2-Methylbutanoic acid;oleic acid;Propyl Hexanoate;farnesol,Excellent pairing with 105 shared flavor compounds including Butyl laurate
+bourbon-whisky,japanese-whisky,1.0,105,Butyl laurate;2-Methylbutanoic acid;oleic acid;Propyl Hexanoate;farnesol,Excellent pairing with 105 shared flavor compounds including Butyl laurate
+bourbon-whisky,malt-whisky,1.0,106,Butyl laurate;2-Methylbutanoic acid;oleic acid;Propyl Hexanoate;farnesol,Excellent pairing with 106 shared flavor compounds including Butyl laurate
+bourbon-whisky,scotch-whisky,1.0,108,Butyl laurate;2-Methylbutanoic acid;oleic acid;Propyl Hexanoate;farnesol,Excellent pairing with 108 shared flavor compounds including Butyl laurate
+bourbon-whisky,wine,0.955,63,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 63 shared flavor compounds including Ethyl dodecanoate
+bourbon-whisky,bilberry-wine,0.982,62,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 62 shared flavor compounds including Ethyl dodecanoate
+bourbon-whisky,botrytized-wine,0.978,62,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 62 shared flavor compounds including Ethyl dodecanoate
+bourbon-whisky,champagne,0.985,62,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 62 shared flavor compounds including Ethyl dodecanoate
+bourbon-whisky,cider,0.923,43,2-Methylbutanoic acid;oleic acid;Ethyl dodecanoate;2-Furaldehyde;Isobutyric Acid,Excellent pairing with 43 shared flavor compounds including 2-Methylbutanoic acid
+bourbon-whisky,plum-wine,0.989,63,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 63 shared flavor compounds including Ethyl dodecanoate
+bourbon-whisky,port-wine,0.987,66,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 66 shared flavor compounds including Ethyl dodecanoate
+bourbon-whisky,red-wine,0.971,69,2-Methoxy-4-Methylphenol;1-Decanol;Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde,Excellent pairing with 69 shared flavor compounds including 2-Methoxy-4-Methylphenol
+bourbon-whisky,rose-wine,0.987,64,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 64 shared flavor compounds including Ethyl dodecanoate
+bourbon-whisky,sake,0.735,19,oleic acid;lauric acid;Nonanoic Acid;lactic acid;Isobutyric Acid,Strong pairing with 19 shared flavor compounds including oleic acid
+bourbon-whisky,sherry,0.984,76,"2-Methoxy-4-Methylphenol;2,6-Dimethylpyridine;oleic acid;Ethyl dodecanoate;Isopentyl hexanoate",Excellent pairing with 76 shared flavor compounds including 2-Methoxy-4-Methylphenol
+bourbon-whisky,sparkling-wine,0.992,67,1-Decanol;Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid,Excellent pairing with 67 shared flavor compounds including 1-Decanol
+bourbon-whisky,strawberry-wine,0.985,63,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 63 shared flavor compounds including Ethyl dodecanoate
+bourbon-whisky,white-wine,0.935,75,Delta-Nonalactone;2-Methoxy-4-Methylphenol;1-Decanol;Ethyl dodecanoate;Isopentyl hexanoate,Excellent pairing with 75 shared flavor compounds including Delta-Nonalactone
+bourbon-whisky,coffee,0.778,55,"2-Methoxy-4-Methylphenol;2,6-Dimethylpyridine;3-Ethylpyridine;2-Methylpyrazine;2-Methylbutanoic acid",Strong pairing with 55 shared flavor compounds including 2-Methoxy-4-Methylphenol
+bourbon-whisky,mate,0.599,14,2-Methoxy-4-Methylphenol;gamma-Nonanolactone;1-Dodecanol;2-Methylpyrazine;2-Methylbutanoic acid,Good pairing with 14 shared flavor compounds including 2-Methoxy-4-Methylphenol
+bourbon-whisky,black-tea,0.46,10,"Delta-Nonalactone;2,3-Pentanedione;palmitic acid;Damascenone;2,3,5-Trimethylpyrazine",Good pairing with 10 shared flavor compounds including Delta-Nonalactone
+bourbon-whisky,green-tea,0.382,5,"gamma-Nonanolactone;2,3,5-Trimethylpyrazine;Ethyl Palmitate;2,3,5,6-Tetramethylpyrazine;1-octanol",Subtle pairing with 5 shared flavor compounds including gamma-Nonanolactone
+canadian-whisky,finnish-whisky,1.0,105,Butyl laurate;2-Methylbutanoic acid;oleic acid;Propyl Hexanoate;farnesol,Excellent pairing with 105 shared flavor compounds including Butyl laurate
+canadian-whisky,japanese-whisky,1.0,105,Butyl laurate;2-Methylbutanoic acid;oleic acid;Propyl Hexanoate;farnesol,Excellent pairing with 105 shared flavor compounds including Butyl laurate
+canadian-whisky,malt-whisky,1.0,105,Butyl laurate;2-Methylbutanoic acid;oleic acid;Propyl Hexanoate;farnesol,Excellent pairing with 105 shared flavor compounds including Butyl laurate
+canadian-whisky,scotch-whisky,1.0,105,Butyl laurate;2-Methylbutanoic acid;oleic acid;Propyl Hexanoate;farnesol,Excellent pairing with 105 shared flavor compounds including Butyl laurate
+canadian-whisky,wine,0.95,60,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 60 shared flavor compounds including Ethyl dodecanoate
+canadian-whisky,bilberry-wine,0.978,59,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 59 shared flavor compounds including Ethyl dodecanoate
+canadian-whisky,botrytized-wine,0.974,59,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 59 shared flavor compounds including Ethyl dodecanoate
+canadian-whisky,champagne,0.981,59,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 59 shared flavor compounds including Ethyl dodecanoate
+canadian-whisky,cider,0.922,41,2-Methylbutanoic acid;oleic acid;Ethyl dodecanoate;2-Furaldehyde;Isobutyric Acid,Excellent pairing with 41 shared flavor compounds including 2-Methylbutanoic acid
+canadian-whisky,plum-wine,0.985,60,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 60 shared flavor compounds including Ethyl dodecanoate
+canadian-whisky,port-wine,0.984,63,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 63 shared flavor compounds including Ethyl dodecanoate
+canadian-whisky,red-wine,0.962,65,1-Decanol;Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid,Excellent pairing with 65 shared flavor compounds including 1-Decanol
+canadian-whisky,rose-wine,0.984,61,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 61 shared flavor compounds including Ethyl dodecanoate
+canadian-whisky,sake,0.738,18,Acetal;Isoamyl Acetate;Heptanoic Acid;Isovaleric Acid;Ethyl Undecanoate,Strong pairing with 18 shared flavor compounds including Acetal
+canadian-whisky,sherry,0.976,72,"2,6-Dimethylpyridine;oleic acid;Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde","Excellent pairing with 72 shared flavor compounds including 2,6-Dimethylpyridine"
+canadian-whisky,sparkling-wine,0.989,64,1-Decanol;Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid,Excellent pairing with 64 shared flavor compounds including 1-Decanol
+canadian-whisky,strawberry-wine,0.981,60,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 60 shared flavor compounds including Ethyl dodecanoate
+canadian-whisky,white-wine,0.915,69,1-Decanol;Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid,Excellent pairing with 69 shared flavor compounds including 1-Decanol
+canadian-whisky,coffee,0.773,53,"2,6-Dimethylpyridine;3-Ethylpyridine;2-Methylpyrazine;2-Methylbutanoic acid;2-Furaldehyde","Strong pairing with 53 shared flavor compounds including 2,6-Dimethylpyridine"
+canadian-whisky,mate,0.593,13,gamma-Nonanolactone;1-Dodecanol;2-Methylpyrazine;2-Methylbutanoic acid;Propionaldehyde,Good pairing with 13 shared flavor compounds including gamma-Nonanolactone
+canadian-whisky,black-tea,0.447,9,"2,3-Pentanedione;palmitic acid;Damascenone;2,3,5-Trimethylpyrazine;2,3,5,6-Tetramethylpyrazine","Good pairing with 9 shared flavor compounds including 2,3-Pentanedione"
+canadian-whisky,green-tea,0.393,5,"gamma-Nonanolactone;2,3,5-Trimethylpyrazine;Ethyl Palmitate;2,3,5,6-Tetramethylpyrazine;1-octanol",Subtle pairing with 5 shared flavor compounds including gamma-Nonanolactone
+finnish-whisky,japanese-whisky,1.0,107,Butyl laurate;2-Methylbutanoic acid;oleic acid;Propyl Hexanoate;farnesol,Excellent pairing with 107 shared flavor compounds including Butyl laurate
+finnish-whisky,malt-whisky,1.0,105,Butyl laurate;2-Methylbutanoic acid;oleic acid;Propyl Hexanoate;farnesol,Excellent pairing with 105 shared flavor compounds including Butyl laurate
+finnish-whisky,scotch-whisky,1.0,107,Butyl laurate;2-Methylbutanoic acid;oleic acid;Propyl Hexanoate;farnesol,Excellent pairing with 107 shared flavor compounds including Butyl laurate
+finnish-whisky,wine,0.94,60,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 60 shared flavor compounds including Ethyl dodecanoate
+finnish-whisky,bilberry-wine,0.968,59,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 59 shared flavor compounds including Ethyl dodecanoate
+finnish-whisky,botrytized-wine,0.964,59,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 59 shared flavor compounds including Ethyl dodecanoate
+finnish-whisky,champagne,0.971,59,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 59 shared flavor compounds including Ethyl dodecanoate
+finnish-whisky,cider,0.91,41,2-Methylbutanoic acid;oleic acid;Ethyl dodecanoate;2-Furaldehyde;Isobutyric Acid,Excellent pairing with 41 shared flavor compounds including 2-Methylbutanoic acid
+finnish-whisky,plum-wine,0.975,60,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 60 shared flavor compounds including Ethyl dodecanoate
+finnish-whisky,port-wine,0.974,63,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 63 shared flavor compounds including Ethyl dodecanoate
+finnish-whisky,red-wine,0.963,67,1-Decanol;Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid,Excellent pairing with 67 shared flavor compounds including 1-Decanol
+finnish-whisky,rose-wine,0.974,61,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 61 shared flavor compounds including Ethyl dodecanoate
+finnish-whisky,sake,0.72,18,Acetal;Isoamyl Acetate;Heptanoic Acid;Isovaleric Acid;Ethyl Undecanoate,Strong pairing with 18 shared flavor compounds including Acetal
+finnish-whisky,sherry,0.972,73,"2,6-Dimethylpyridine;oleic acid;Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde","Excellent pairing with 73 shared flavor compounds including 2,6-Dimethylpyridine"
+finnish-whisky,sparkling-wine,0.979,64,1-Decanol;Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid,Excellent pairing with 64 shared flavor compounds including 1-Decanol
+finnish-whisky,strawberry-wine,0.971,60,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 60 shared flavor compounds including Ethyl dodecanoate
+finnish-whisky,white-wine,0.918,71,1-Decanol;Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid,Excellent pairing with 71 shared flavor compounds including 1-Decanol
+finnish-whisky,coffee,0.792,57,"2,6-Dimethylpyridine;3-Ethylpyridine;2-Methylpyrazine;2-Methylbutanoic acid;2-Furaldehyde","Strong pairing with 57 shared flavor compounds including 2,6-Dimethylpyridine"
+finnish-whisky,mate,0.603,14,indole;gamma-Nonanolactone;1-Dodecanol;2-Methylpyrazine;2-Methylbutanoic acid,Strong pairing with 14 shared flavor compounds including indole
+finnish-whisky,black-tea,0.485,11,"2,3-Pentanedione;palmitic acid;Quinoline;Damascenone;2,3,5-Trimethylpyrazine","Good pairing with 11 shared flavor compounds including 2,3-Pentanedione"
+finnish-whisky,green-tea,0.385,5,"gamma-Nonanolactone;2,3,5-Trimethylpyrazine;Ethyl Palmitate;2,3,5,6-Tetramethylpyrazine;1-octanol",Subtle pairing with 5 shared flavor compounds including gamma-Nonanolactone
+japanese-whisky,malt-whisky,1.0,106,Butyl laurate;2-Methylbutanoic acid;oleic acid;Propyl Hexanoate;farnesol,Excellent pairing with 106 shared flavor compounds including Butyl laurate
+japanese-whisky,scotch-whisky,1.0,107,Butyl laurate;2-Methylbutanoic acid;oleic acid;Propyl Hexanoate;farnesol,Excellent pairing with 107 shared flavor compounds including Butyl laurate
+japanese-whisky,wine,0.942,60,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 60 shared flavor compounds including Ethyl dodecanoate
+japanese-whisky,bilberry-wine,0.97,59,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 59 shared flavor compounds including Ethyl dodecanoate
+japanese-whisky,botrytized-wine,0.966,59,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 59 shared flavor compounds including Ethyl dodecanoate
+japanese-whisky,champagne,0.973,59,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 59 shared flavor compounds including Ethyl dodecanoate
+japanese-whisky,cider,0.911,41,2-Methylbutanoic acid;oleic acid;Ethyl dodecanoate;2-Furaldehyde;Isobutyric Acid,Excellent pairing with 41 shared flavor compounds including 2-Methylbutanoic acid
+japanese-whisky,plum-wine,0.977,60,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 60 shared flavor compounds including Ethyl dodecanoate
+japanese-whisky,port-wine,0.976,63,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 63 shared flavor compounds including Ethyl dodecanoate
+japanese-whisky,red-wine,0.954,65,1-Decanol;Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid,Excellent pairing with 65 shared flavor compounds including 1-Decanol
+japanese-whisky,rose-wine,0.981,62,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 62 shared flavor compounds including Ethyl dodecanoate
+japanese-whisky,sake,0.723,18,Acetal;Isoamyl Acetate;Heptanoic Acid;Isovaleric Acid;Ethyl Undecanoate,Strong pairing with 18 shared flavor compounds including Acetal
+japanese-whisky,sherry,0.973,73,"2,6-Dimethylpyridine;oleic acid;Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde","Excellent pairing with 73 shared flavor compounds including 2,6-Dimethylpyridine"
+japanese-whisky,sparkling-wine,0.981,64,1-Decanol;Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid,Excellent pairing with 64 shared flavor compounds including 1-Decanol
+japanese-whisky,strawberry-wine,0.973,60,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 60 shared flavor compounds including Ethyl dodecanoate
+japanese-whisky,white-wine,0.908,69,1-Decanol;Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid,Excellent pairing with 69 shared flavor compounds including 1-Decanol
+japanese-whisky,coffee,0.787,56,"2,6-Dimethylpyridine;3-Ethylpyridine;2-Methylpyrazine;2-Methylbutanoic acid;2-Furaldehyde","Strong pairing with 56 shared flavor compounds including 2,6-Dimethylpyridine"
+japanese-whisky,mate,0.582,13,gamma-Nonanolactone;1-Dodecanol;2-Methylpyrazine;2-Methylbutanoic acid;Propionaldehyde,Good pairing with 13 shared flavor compounds including gamma-Nonanolactone
+japanese-whisky,black-tea,0.464,10,"2,3-Pentanedione;palmitic acid;Quinoline;Damascenone;2,3,5-Trimethylpyrazine","Good pairing with 10 shared flavor compounds including 2,3-Pentanedione"
+japanese-whisky,green-tea,0.386,5,"gamma-Nonanolactone;2,3,5-Trimethylpyrazine;Ethyl Palmitate;2,3,5,6-Tetramethylpyrazine;1-octanol",Subtle pairing with 5 shared flavor compounds including gamma-Nonanolactone
+malt-whisky,scotch-whisky,1.0,108,"2,5-Dimethylphenol;Butyl laurate;2-Methylbutanoic acid;oleic acid;Propyl Hexanoate","Excellent pairing with 108 shared flavor compounds including 2,5-Dimethylphenol"
+malt-whisky,wine,0.967,70,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 70 shared flavor compounds including Ethyl dodecanoate
+malt-whisky,bilberry-wine,1.0,71,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 71 shared flavor compounds including Ethyl dodecanoate
+malt-whisky,botrytized-wine,0.994,70,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 70 shared flavor compounds including Ethyl dodecanoate
+malt-whisky,champagne,0.995,69,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 69 shared flavor compounds including Ethyl dodecanoate
+malt-whisky,cider,0.951,51,2-Methylbutanoic acid;oleic acid;Ethyl dodecanoate;2-Furaldehyde;Isobutyric Acid,Excellent pairing with 51 shared flavor compounds including 2-Methylbutanoic acid
+malt-whisky,plum-wine,0.999,70,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 70 shared flavor compounds including Ethyl dodecanoate
+malt-whisky,port-wine,1.0,75,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 75 shared flavor compounds including Ethyl dodecanoate
+malt-whisky,red-wine,0.986,77,Propyl Hexanoate;Damascenone;Ethyl pentanoate;Heptanoic Acid;Hexanoic Acid,Excellent pairing with 77 shared flavor compounds including Propyl Hexanoate
+malt-whisky,rose-wine,0.997,71,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 71 shared flavor compounds including Ethyl dodecanoate
+malt-whisky,sake,0.71,20,oleic acid;lauric acid;Nonanoic Acid;lactic acid;Isobutyric Acid,Strong pairing with 20 shared flavor compounds including oleic acid
+malt-whisky,sherry,1.0,85,oleic acid;Damascenone;trimethylamine;Ethyl pentanoate;Heptanoic Acid,Excellent pairing with 85 shared flavor compounds including oleic acid
+malt-whisky,sparkling-wine,1.0,77,Amyl octanoate;Damascenone;Ethyl pentanoate;Heptanoic Acid;Hexanoic Acid,Excellent pairing with 77 shared flavor compounds including Amyl octanoate
+malt-whisky,strawberry-wine,1.0,72,Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;Isobutyric Acid;lauric acid,Excellent pairing with 72 shared flavor compounds including Ethyl dodecanoate
+malt-whisky,white-wine,0.959,85,Propyl Hexanoate;Amyl octanoate;Damascenone;formic acid;Ethyl pentanoate,Excellent pairing with 85 shared flavor compounds including Propyl Hexanoate
+malt-whisky,coffee,0.815,64,"2,6-Dimethylpyridine;2,5-Dimethylphenol;3-Ethylpyridine;2-Methylpyrazine;2-Methylbutanoic acid","Excellent pairing with 64 shared flavor compounds including 2,6-Dimethylpyridine"
+malt-whisky,mate,0.607,16,2-Heptanone;gamma-Nonanolactone;1-Dodecanol;2-Methylpyrazine;2-Methylbutanoic acid,Strong pairing with 16 shared flavor compounds including 2-Heptanone
+malt-whisky,black-tea,0.441,10,"2,3-Pentanedione;palmitic acid;2-Acetyl-5-Methylfuran;Damascenone;2,3,5-Trimethylpyrazine","Good pairing with 10 shared flavor compounds including 2,3-Pentanedione"
+malt-whisky,green-tea,0.364,5,"gamma-Nonanolactone;2,3,5-Trimethylpyrazine;Ethyl Palmitate;2,3,5,6-Tetramethylpyrazine;1-octanol",Subtle pairing with 5 shared flavor compounds including gamma-Nonanolactone
+scotch-whisky,wine,0.959,66,Isoamyl butyrate;Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;isopropanol,Excellent pairing with 66 shared flavor compounds including Isoamyl butyrate
+scotch-whisky,bilberry-wine,0.986,65,Isoamyl butyrate;Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;isopropanol,Excellent pairing with 65 shared flavor compounds including Isoamyl butyrate
+scotch-whisky,botrytized-wine,0.982,65,Isoamyl butyrate;Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;isopropanol,Excellent pairing with 65 shared flavor compounds including Isoamyl butyrate
+scotch-whisky,champagne,0.989,65,Isoamyl butyrate;Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;isopropanol,Excellent pairing with 65 shared flavor compounds including Isoamyl butyrate
+scotch-whisky,cider,0.931,46,Isoamyl butyrate;2-Methylbutanoic acid;oleic acid;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 46 shared flavor compounds including Isoamyl butyrate
+scotch-whisky,plum-wine,0.992,66,Isoamyl butyrate;Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;isopropanol,Excellent pairing with 66 shared flavor compounds including Isoamyl butyrate
+scotch-whisky,port-wine,0.99,69,Isoamyl butyrate;Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;isopropanol,Excellent pairing with 69 shared flavor compounds including Isoamyl butyrate
+scotch-whisky,red-wine,0.992,76,2-Methoxy-4-Methylphenol;Isoamyl butyrate;1-Decanol;Ethyl dodecanoate;Isopentyl hexanoate,Excellent pairing with 76 shared flavor compounds including 2-Methoxy-4-Methylphenol
+scotch-whisky,rose-wine,0.996,68,Isoamyl butyrate;Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;isopropanol,Excellent pairing with 68 shared flavor compounds including Isoamyl butyrate
+scotch-whisky,sake,0.732,20,oleic acid;lauric acid;Nonanoic Acid;lactic acid;Isobutyric Acid,Strong pairing with 20 shared flavor compounds including oleic acid
+scotch-whisky,sherry,0.995,81,oleic acid;2'-Hydroxyacetophenone;Damascenone;Whiskey lactone;Pyridine,Excellent pairing with 81 shared flavor compounds including oleic acid
+scotch-whisky,sparkling-wine,0.995,70,Isoamyl butyrate;1-Decanol;Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde,Excellent pairing with 70 shared flavor compounds including Isoamyl butyrate
+scotch-whisky,strawberry-wine,0.988,66,Isoamyl butyrate;Ethyl dodecanoate;Isopentyl hexanoate;2-Furaldehyde;isopropanol,Excellent pairing with 66 shared flavor compounds including Isoamyl butyrate
+scotch-whisky,white-wine,0.948,80,Propyl Hexanoate;Damascenone;Whiskey lactone;formic acid;Dimethyl disulfide,Excellent pairing with 80 shared flavor compounds including Propyl Hexanoate
+scotch-whisky,coffee,0.813,62,"2-Methoxy-4-Methylphenol;2,6-Dimethylpyridine;2,5-Dimethylphenol;3-Ethylpyridine;2-Methylpyrazine",Excellent pairing with 62 shared flavor compounds including 2-Methoxy-4-Methylphenol
+scotch-whisky,mate,0.624,16,2-Methoxy-4-Methylphenol;gamma-Nonanolactone;1-Dodecanol;2-Methylpyrazine;2-Methylbutanoic acid,Strong pairing with 16 shared flavor compounds including 2-Methoxy-4-Methylphenol
+scotch-whisky,black-tea,0.493,12,"2,3-Pentanedione;palmitic acid;Quinoline;Damascenone;2,3,5-Trimethylpyrazine","Good pairing with 12 shared flavor compounds including 2,3-Pentanedione"
+scotch-whisky,green-tea,0.373,5,"gamma-Nonanolactone;2,3,5-Trimethylpyrazine;Ethyl Palmitate;2,3,5,6-Tetramethylpyrazine;1-octanol",Subtle pairing with 5 shared flavor compounds including gamma-Nonanolactone
+wine,bilberry-wine,1.0,128,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 128 shared flavor compounds including 2-Ethylhexan-1-ol
+wine,botrytized-wine,1.0,128,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 128 shared flavor compounds including 2-Ethylhexan-1-ol
+wine,champagne,1.0,128,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 128 shared flavor compounds including 2-Ethylhexan-1-ol
+wine,cider,0.903,49,Isoamyl butyrate;glycerol;3-Methyl-2-Butanol;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 49 shared flavor compounds including Isoamyl butyrate
+wine,plum-wine,1.0,128,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 128 shared flavor compounds including 2-Ethylhexan-1-ol
+wine,port-wine,1.0,130,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 130 shared flavor compounds including 2-Ethylhexan-1-ol
+wine,red-wine,1.0,129,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 129 shared flavor compounds including 2-Ethylhexan-1-ol
+wine,rose-wine,1.0,128,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 128 shared flavor compounds including 2-Ethylhexan-1-ol
+wine,sake,0.731,24,lauric acid;Nonanoic Acid;lactic acid;Isobutyric Acid;octanoic acid,Strong pairing with 24 shared flavor compounds including lauric acid
+wine,sherry,1.0,140,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 140 shared flavor compounds including 2-Ethylhexan-1-ol
+wine,sparkling-wine,1.0,128,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 128 shared flavor compounds including 2-Ethylhexan-1-ol
+wine,strawberry-wine,1.0,128,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 128 shared flavor compounds including 2-Ethylhexan-1-ol
+wine,white-wine,1.0,129,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 129 shared flavor compounds including 2-Ethylhexan-1-ol
+wine,coffee,0.823,69,1-Octen-3-Ol;Octan-2-one;3-Methylbutanal;Gallocatechin;2-Furaldehyde,Excellent pairing with 69 shared flavor compounds including 1-Octen-3-Ol
+wine,mate,0.554,15,2-Heptanone;1-Octen-3-Ol;1-Nonanol;phenylacetaldehyde;gamma-Nonanolactone,Good pairing with 15 shared flavor compounds including 2-Heptanone
+wine,black-tea,0.44,11,"2,3-Pentanedione;4-Methylpentanoic Acid;palmitic acid;Damascenone;Hexyl Hexanoate","Good pairing with 11 shared flavor compounds including 2,3-Pentanedione"
+wine,green-tea,0.373,6,"phenylacetaldehyde;gamma-Nonanolactone;Ethyl Palmitate;2,3,5,6-Tetramethylpyrazine;cis-3-Hexenyl acetate",Subtle pairing with 6 shared flavor compounds including phenylacetaldehyde
+bilberry-wine,botrytized-wine,1.0,128,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 128 shared flavor compounds including 2-Ethylhexan-1-ol
+bilberry-wine,champagne,1.0,128,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 128 shared flavor compounds including 2-Ethylhexan-1-ol
+bilberry-wine,cider,0.956,51,Isoamyl butyrate;glycerol;3-Methyl-2-Butanol;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 51 shared flavor compounds including Isoamyl butyrate
+bilberry-wine,plum-wine,1.0,128,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 128 shared flavor compounds including 2-Ethylhexan-1-ol
+bilberry-wine,port-wine,1.0,130,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 130 shared flavor compounds including 2-Ethylhexan-1-ol
+bilberry-wine,red-wine,1.0,129,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 129 shared flavor compounds including 2-Ethylhexan-1-ol
+bilberry-wine,rose-wine,1.0,128,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 128 shared flavor compounds including 2-Ethylhexan-1-ol
+bilberry-wine,sake,0.751,22,lauric acid;Nonanoic Acid;lactic acid;Isobutyric Acid;octanoic acid,Strong pairing with 22 shared flavor compounds including lauric acid
+bilberry-wine,sherry,1.0,130,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 130 shared flavor compounds including 2-Ethylhexan-1-ol
+bilberry-wine,sparkling-wine,1.0,129,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 129 shared flavor compounds including 2-Ethylhexan-1-ol
+bilberry-wine,strawberry-wine,1.0,130,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 130 shared flavor compounds including 2-Ethylhexan-1-ol
+bilberry-wine,white-wine,1.0,130,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 130 shared flavor compounds including 2-Ethylhexan-1-ol
+bilberry-wine,coffee,0.742,52,1-Octen-3-Ol;Octan-2-one;3-Methylbutanal;2-Furaldehyde;isopropanol,Strong pairing with 52 shared flavor compounds including 1-Octen-3-Ol
+bilberry-wine,mate,0.592,15,2-Heptanone;1-Octen-3-Ol;1-Nonanol;phenylacetaldehyde;gamma-Nonanolactone,Good pairing with 15 shared flavor compounds including 2-Heptanone
+bilberry-wine,black-tea,0.464,11,"2,3-Pentanedione;4-Methylpentanoic Acid;palmitic acid;Damascenone;Hexyl Hexanoate","Good pairing with 11 shared flavor compounds including 2,3-Pentanedione"
+bilberry-wine,green-tea,0.396,6,"phenylacetaldehyde;gamma-Nonanolactone;Ethyl Palmitate;2,3,5,6-Tetramethylpyrazine;cis-3-Hexenyl acetate",Subtle pairing with 6 shared flavor compounds including phenylacetaldehyde
+botrytized-wine,champagne,1.0,128,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 128 shared flavor compounds including 2-Ethylhexan-1-ol
+botrytized-wine,cider,0.951,51,Isoamyl butyrate;glycerol;3-Methyl-2-Butanol;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 51 shared flavor compounds including Isoamyl butyrate
+botrytized-wine,plum-wine,1.0,128,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 128 shared flavor compounds including 2-Ethylhexan-1-ol
+botrytized-wine,port-wine,1.0,129,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 129 shared flavor compounds including 2-Ethylhexan-1-ol
+botrytized-wine,red-wine,1.0,129,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 129 shared flavor compounds including 2-Ethylhexan-1-ol
+botrytized-wine,rose-wine,1.0,128,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 128 shared flavor compounds including 2-Ethylhexan-1-ol
+botrytized-wine,sake,0.776,24,lauric acid;Nonanoic Acid;lactic acid;Isobutyric Acid;octanoic acid,Strong pairing with 24 shared flavor compounds including lauric acid
+botrytized-wine,sherry,1.0,130,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 130 shared flavor compounds including 2-Ethylhexan-1-ol
+botrytized-wine,sparkling-wine,1.0,128,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 128 shared flavor compounds including 2-Ethylhexan-1-ol
+botrytized-wine,strawberry-wine,1.0,128,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 128 shared flavor compounds including 2-Ethylhexan-1-ol
+botrytized-wine,white-wine,1.0,132,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 132 shared flavor compounds including 2-Ethylhexan-1-ol
+botrytized-wine,coffee,0.747,53,1-Octen-3-Ol;Octan-2-one;3-Methylbutanal;2-Furaldehyde;isopropanol,Strong pairing with 53 shared flavor compounds including 1-Octen-3-Ol
+botrytized-wine,mate,0.587,15,2-Heptanone;1-Octen-3-Ol;1-Nonanol;phenylacetaldehyde;gamma-Nonanolactone,Good pairing with 15 shared flavor compounds including 2-Heptanone
+botrytized-wine,black-tea,0.461,11,"2,3-Pentanedione;4-Methylpentanoic Acid;palmitic acid;Damascenone;Hexyl Hexanoate","Good pairing with 11 shared flavor compounds including 2,3-Pentanedione"
+botrytized-wine,green-tea,0.393,6,"phenylacetaldehyde;gamma-Nonanolactone;Ethyl Palmitate;2,3,5,6-Tetramethylpyrazine;cis-3-Hexenyl acetate",Subtle pairing with 6 shared flavor compounds including phenylacetaldehyde
+champagne,cider,0.945,49,Isoamyl butyrate;glycerol;3-Methyl-2-Butanol;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 49 shared flavor compounds including Isoamyl butyrate
+champagne,plum-wine,1.0,128,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 128 shared flavor compounds including 2-Ethylhexan-1-ol
+champagne,port-wine,1.0,128,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 128 shared flavor compounds including 2-Ethylhexan-1-ol
+champagne,red-wine,1.0,128,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 128 shared flavor compounds including 2-Ethylhexan-1-ol
+champagne,rose-wine,1.0,128,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 128 shared flavor compounds including 2-Ethylhexan-1-ol
+champagne,sake,0.755,22,lauric acid;Nonanoic Acid;lactic acid;Isobutyric Acid;octanoic acid,Strong pairing with 22 shared flavor compounds including lauric acid
+champagne,sherry,1.0,128,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 128 shared flavor compounds including 2-Ethylhexan-1-ol
+champagne,sparkling-wine,1.0,128,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 128 shared flavor compounds including 2-Ethylhexan-1-ol
+champagne,strawberry-wine,1.0,128,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 128 shared flavor compounds including 2-Ethylhexan-1-ol
+champagne,white-wine,1.0,128,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 128 shared flavor compounds including 2-Ethylhexan-1-ol
+champagne,coffee,0.744,52,1-Octen-3-Ol;Octan-2-one;3-Methylbutanal;2-Furaldehyde;isopropanol,Strong pairing with 52 shared flavor compounds including 1-Octen-3-Ol
+champagne,mate,0.595,15,2-Heptanone;1-Octen-3-Ol;1-Nonanol;phenylacetaldehyde;gamma-Nonanolactone,Good pairing with 15 shared flavor compounds including 2-Heptanone
+champagne,black-tea,0.466,11,"2,3-Pentanedione;4-Methylpentanoic Acid;palmitic acid;Damascenone;Hexyl Hexanoate","Good pairing with 11 shared flavor compounds including 2,3-Pentanedione"
+champagne,green-tea,0.398,6,"phenylacetaldehyde;gamma-Nonanolactone;Ethyl Palmitate;2,3,5,6-Tetramethylpyrazine;cis-3-Hexenyl acetate",Subtle pairing with 6 shared flavor compounds including phenylacetaldehyde
+cider,plum-wine,0.944,49,Isoamyl butyrate;glycerol;3-Methyl-2-Butanol;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 49 shared flavor compounds including Isoamyl butyrate
+cider,port-wine,0.969,56,Isoamyl butyrate;glycerol;3-Methyl-2-Butanol;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 56 shared flavor compounds including Isoamyl butyrate
+cider,red-wine,0.94,57,Isoamyl butyrate;glycerol;3-Methyl-2-Butanol;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 57 shared flavor compounds including Isoamyl butyrate
+cider,rose-wine,0.943,50,Isoamyl butyrate;glycerol;3-Methyl-2-Butanol;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 50 shared flavor compounds including Isoamyl butyrate
+cider,sake,0.672,13,1-propanol;Isoamyl Acetate;Isovaleric Acid;Propyl acetate;oleic acid,Strong pairing with 13 shared flavor compounds including 1-propanol
+cider,sherry,0.923,58,Isoamyl butyrate;oleic acid;3-Methyl-2-Butanol;Ethyl dodecanoate;glycerol,Excellent pairing with 58 shared flavor compounds including Isoamyl butyrate
+cider,sparkling-wine,0.951,53,Isoamyl butyrate;glycerol;3-Methyl-2-Butanol;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 53 shared flavor compounds including Isoamyl butyrate
+cider,strawberry-wine,0.959,52,Isoamyl butyrate;glycerol;3-Methyl-2-Butanol;Ethyl dodecanoate;2-Furaldehyde,Excellent pairing with 52 shared flavor compounds including Isoamyl butyrate
+cider,white-wine,0.919,66,Isoamyl butyrate;Butyl Lactate;glycerol;3-Methyl-2-Butanol;Ethyl dodecanoate,Excellent pairing with 66 shared flavor compounds including Isoamyl butyrate
+cider,coffee,0.566,27,2-Methylbutanoic acid;2-Furaldehyde;Isobutyric Acid;lauric acid;lactic acid,Good pairing with 27 shared flavor compounds including 2-Methylbutanoic acid
+cider,mate,0.462,7,Octanal;2-Methylbutanoic acid;lauric acid;Pentanal;6-Methyl-5-Hepten-2-One,Good pairing with 7 shared flavor compounds including Octanal
+cider,black-tea,0.417,7,4-Ethylbenzaldehyde;Damascenone;Hexyl Hexanoate;Styrene;Methyl octanoate,Good pairing with 7 shared flavor compounds including 4-Ethylbenzaldehyde
+plum-wine,port-wine,1.0,129,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 129 shared flavor compounds including 2-Ethylhexan-1-ol
+plum-wine,red-wine,1.0,128,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 128 shared flavor compounds including 2-Ethylhexan-1-ol
+plum-wine,rose-wine,1.0,128,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 128 shared flavor compounds including 2-Ethylhexan-1-ol
+plum-wine,sake,0.753,22,lauric acid;Nonanoic Acid;lactic acid;Isobutyric Acid;octanoic acid,Strong pairing with 22 shared flavor compounds including lauric acid
+plum-wine,sherry,1.0,128,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 128 shared flavor compounds including 2-Ethylhexan-1-ol
+plum-wine,sparkling-wine,1.0,129,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 129 shared flavor compounds including 2-Ethylhexan-1-ol
+plum-wine,strawberry-wine,1.0,128,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 128 shared flavor compounds including 2-Ethylhexan-1-ol
+plum-wine,white-wine,1.0,128,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 128 shared flavor compounds including 2-Ethylhexan-1-ol
+plum-wine,coffee,0.743,52,1-Octen-3-Ol;Octan-2-one;3-Methylbutanal;2-Furaldehyde;isopropanol,Strong pairing with 52 shared flavor compounds including 1-Octen-3-Ol
+plum-wine,mate,0.593,15,2-Heptanone;1-Octen-3-Ol;1-Nonanol;phenylacetaldehyde;gamma-Nonanolactone,Good pairing with 15 shared flavor compounds including 2-Heptanone
+plum-wine,black-tea,0.465,11,"2,3-Pentanedione;4-Methylpentanoic Acid;palmitic acid;Damascenone;Hexyl Hexanoate","Good pairing with 11 shared flavor compounds including 2,3-Pentanedione"
+plum-wine,green-tea,0.397,6,"phenylacetaldehyde;gamma-Nonanolactone;Ethyl Palmitate;2,3,5,6-Tetramethylpyrazine;cis-3-Hexenyl acetate",Subtle pairing with 6 shared flavor compounds including phenylacetaldehyde
+port-wine,red-wine,1.0,131,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 131 shared flavor compounds including 2-Ethylhexan-1-ol
+port-wine,rose-wine,1.0,129,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 129 shared flavor compounds including 2-Ethylhexan-1-ol
+port-wine,sake,0.757,24,lauric acid;Nonanoic Acid;lactic acid;Isobutyric Acid;octanoic acid,Strong pairing with 24 shared flavor compounds including lauric acid
+port-wine,sherry,1.0,135,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 135 shared flavor compounds including 2-Ethylhexan-1-ol
+port-wine,sparkling-wine,1.0,131,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 131 shared flavor compounds including 2-Ethylhexan-1-ol
+port-wine,strawberry-wine,1.0,131,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 131 shared flavor compounds including 2-Ethylhexan-1-ol
+port-wine,white-wine,1.0,133,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 133 shared flavor compounds including 2-Ethylhexan-1-ol
+port-wine,coffee,0.758,56,1-Octen-3-Ol;Octan-2-one;3-Methylbutanal;2-Furaldehyde;isopropanol,Strong pairing with 56 shared flavor compounds including 1-Octen-3-Ol
+port-wine,mate,0.592,16,2-Heptanone;1-Octen-3-Ol;1-Nonanol;phenylacetaldehyde;gamma-Nonanolactone,Good pairing with 16 shared flavor compounds including 2-Heptanone
+port-wine,black-tea,0.472,12,"2,3-Pentanedione;4-Methylpentanoic Acid;palmitic acid;Damascenone;Hexyl Hexanoate","Good pairing with 12 shared flavor compounds including 2,3-Pentanedione"
+port-wine,green-tea,0.384,6,"phenylacetaldehyde;gamma-Nonanolactone;Ethyl Palmitate;2,3,5,6-Tetramethylpyrazine;cis-3-Hexenyl acetate",Subtle pairing with 6 shared flavor compounds including phenylacetaldehyde
+red-wine,rose-wine,1.0,130,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 130 shared flavor compounds including 2-Ethylhexan-1-ol
+red-wine,sake,0.68,22,lauric acid;Nonanoic Acid;lactic acid;Isobutyric Acid;octanoic acid,Strong pairing with 22 shared flavor compounds including lauric acid
+red-wine,sherry,1.0,139,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;4-Allyl-2,6-dimethoxyphenol;3-Methyl-2-Butanol",Excellent pairing with 139 shared flavor compounds including 2-Ethylhexan-1-ol
+red-wine,sparkling-wine,1.0,131,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 131 shared flavor compounds including 2-Ethylhexan-1-ol
+red-wine,strawberry-wine,1.0,130,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 130 shared flavor compounds including 2-Ethylhexan-1-ol
+red-wine,white-wine,1.0,159,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 159 shared flavor compounds including 2-Ethylhexan-1-ol
+red-wine,coffee,0.791,65,2-Methoxy-4-Methylphenol;1-Octen-3-Ol;Octan-2-one;3-Methylbutanal;2-Furaldehyde,Strong pairing with 65 shared flavor compounds including 2-Methoxy-4-Methylphenol
+red-wine,mate,0.607,19,2-Methoxy-4-Methylphenol;1-Octen-3-Ol;1-Nonanol;Octan-2-one;lauric acid,Strong pairing with 19 shared flavor compounds including 2-Methoxy-4-Methylphenol
+red-wine,black-tea,0.517,16,"2,3-Pentanedione;4-Methylpentanoic Acid;palmitic acid;1-Penten-3-Ol;Damascenone","Good pairing with 16 shared flavor compounds including 2,3-Pentanedione"
+red-wine,green-tea,0.435,9,phenylacetaldehyde;1-Penten-3-Ol;gamma-Nonanolactone;2-Acetylfuran;Ethyl Palmitate,Good pairing with 9 shared flavor compounds including phenylacetaldehyde
+rose-wine,sake,0.742,22,lauric acid;Nonanoic Acid;lactic acid;Isobutyric Acid;octanoic acid,Strong pairing with 22 shared flavor compounds including lauric acid
+rose-wine,sherry,1.0,129,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 129 shared flavor compounds including 2-Ethylhexan-1-ol
+rose-wine,sparkling-wine,1.0,128,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 128 shared flavor compounds including 2-Ethylhexan-1-ol
+rose-wine,strawberry-wine,1.0,128,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 128 shared flavor compounds including 2-Ethylhexan-1-ol
+rose-wine,white-wine,1.0,131,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 131 shared flavor compounds including 2-Ethylhexan-1-ol
+rose-wine,coffee,0.766,56,1-Octen-3-Ol;Octan-2-one;3-Methylbutanal;2-Furaldehyde;isopropanol,Strong pairing with 56 shared flavor compounds including 1-Octen-3-Ol
+rose-wine,mate,0.585,15,2-Heptanone;1-Octen-3-Ol;1-Nonanol;phenylacetaldehyde;gamma-Nonanolactone,Good pairing with 15 shared flavor compounds including 2-Heptanone
+rose-wine,black-tea,0.5,13,"2,3-Pentanedione;4-Methylpentanoic Acid;palmitic acid;Damascenone;Hexyl Hexanoate","Good pairing with 13 shared flavor compounds including 2,3-Pentanedione"
+rose-wine,green-tea,0.392,6,"phenylacetaldehyde;gamma-Nonanolactone;Ethyl Palmitate;2,3,5,6-Tetramethylpyrazine;cis-3-Hexenyl acetate",Subtle pairing with 6 shared flavor compounds including phenylacetaldehyde
+sake,sherry,0.709,26,oleic acid;lauric acid;Nonanoic Acid;lactic acid;Isobutyric Acid,Strong pairing with 26 shared flavor compounds including oleic acid
+sake,sparkling-wine,0.726,22,lauric acid;Nonanoic Acid;lactic acid;Isobutyric Acid;octanoic acid,Strong pairing with 22 shared flavor compounds including lauric acid
+sake,strawberry-wine,0.746,22,lauric acid;Nonanoic Acid;lactic acid;Isobutyric Acid;octanoic acid,Strong pairing with 22 shared flavor compounds including lauric acid
+sake,white-wine,0.625,24,lauric acid;Nonanoic Acid;lactic acid;Isobutyric Acid;octanoic acid,Strong pairing with 24 shared flavor compounds including lauric acid
+sake,coffee,0.485,17,thiamine;methanethiol;28664-35-9;Heptanoic Acid;Isovaleric Acid,Good pairing with 17 shared flavor compounds including thiamine
+sake,mate,0.494,5,dimethyl sulfide;lauric acid;Nonanoic Acid;propionic acid;Undecanoic Acid,Good pairing with 5 shared flavor compounds including dimethyl sulfide
+sherry,sparkling-wine,1.0,131,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 131 shared flavor compounds including 2-Ethylhexan-1-ol
+sherry,strawberry-wine,1.0,131,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 131 shared flavor compounds including 2-Ethylhexan-1-ol
+sherry,white-wine,1.0,142,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 142 shared flavor compounds including 2-Ethylhexan-1-ol
+sherry,coffee,0.867,83,"3-Methylbutanal;ethyl acetoacetate;2-Furylacetone;2-Butenoic acid, hexyl ester;2'-Hydroxyacetophenone",Excellent pairing with 83 shared flavor compounds including 3-Methylbutanal
+sherry,mate,0.552,17,2-Methoxy-4-Methylphenol;2-Heptanone;1-Octen-3-Ol;1-Nonanol;phenylacetaldehyde,Good pairing with 17 shared flavor compounds including 2-Methoxy-4-Methylphenol
+sherry,black-tea,0.468,14,"2,3-Pentanedione;4-Methylpentanoic Acid;palmitic acid;Damascenone;2,3,5-Trimethylpyrazine","Good pairing with 14 shared flavor compounds including 2,3-Pentanedione"
+sherry,green-tea,0.397,8,"phenylacetaldehyde;gamma-Nonanolactone;2,3,5-Trimethylpyrazine;Ethyl Palmitate;Pyrazine",Subtle pairing with 8 shared flavor compounds including phenylacetaldehyde
+sparkling-wine,strawberry-wine,1.0,130,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 130 shared flavor compounds including 2-Ethylhexan-1-ol
+sparkling-wine,white-wine,1.0,134,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 134 shared flavor compounds including 2-Ethylhexan-1-ol
+sparkling-wine,coffee,0.739,53,1-Octen-3-Ol;Octan-2-one;3-Methylbutanal;2-Furaldehyde;isopropanol,Strong pairing with 53 shared flavor compounds including 1-Octen-3-Ol
+sparkling-wine,mate,0.592,16,2-Undecanone;2-Heptanone;1-Octen-3-Ol;1-Nonanol;phenylacetaldehyde,Good pairing with 16 shared flavor compounds including 2-Undecanone
+sparkling-wine,black-tea,0.452,11,"2,3-Pentanedione;4-Methylpentanoic Acid;palmitic acid;Damascenone;Hexyl Hexanoate","Good pairing with 11 shared flavor compounds including 2,3-Pentanedione"
+sparkling-wine,green-tea,0.411,7,"phenylacetaldehyde;gamma-Nonanolactone;Ethyl Palmitate;2,3,5,6-Tetramethylpyrazine;cis-3-Hexenyl acetate",Good pairing with 7 shared flavor compounds including phenylacetaldehyde
+strawberry-wine,white-wine,1.0,131,"2-Ethylhexan-1-ol;Ethyl Sorbate;3-Methylbutanal;3-Methyl-2-Butanol;2-Butenoic acid, hexyl ester",Excellent pairing with 131 shared flavor compounds including 2-Ethylhexan-1-ol
+strawberry-wine,coffee,0.741,52,1-Octen-3-Ol;Octan-2-one;3-Methylbutanal;2-Furaldehyde;isopropanol,Strong pairing with 52 shared flavor compounds including 1-Octen-3-Ol
+strawberry-wine,mate,0.588,15,2-Heptanone;1-Octen-3-Ol;1-Nonanol;phenylacetaldehyde;gamma-Nonanolactone,Good pairing with 15 shared flavor compounds including 2-Heptanone
+strawberry-wine,black-tea,0.462,11,"2,3-Pentanedione;4-Methylpentanoic Acid;palmitic acid;Damascenone;Hexyl Hexanoate","Good pairing with 11 shared flavor compounds including 2,3-Pentanedione"
+strawberry-wine,green-tea,0.394,6,"phenylacetaldehyde;gamma-Nonanolactone;Ethyl Palmitate;2,3,5,6-Tetramethylpyrazine;cis-3-Hexenyl acetate",Subtle pairing with 6 shared flavor compounds including phenylacetaldehyde
+white-wine,coffee,0.798,75,"2-Methoxy-4-Methylphenol;1-Octen-3-Ol;3,4-Dimethylphenol;Octan-2-one;3-Methylbutanal",Strong pairing with 75 shared flavor compounds including 2-Methoxy-4-Methylphenol
+white-wine,mate,0.619,25,2-Methoxy-4-Methylphenol;1-Octen-3-Ol;1-Nonanol;Nerolidol;Octan-2-one,Strong pairing with 25 shared flavor compounds including 2-Methoxy-4-Methylphenol
+white-wine,black-tea,0.572,24,Delta-Nonalactone;Theaspirane;Thymol;Linaloyl oxide;Isophorone,Good pairing with 24 shared flavor compounds including Delta-Nonalactone
+white-wine,green-tea,0.388,9,Nerolidol;phenylacetaldehyde;gamma-Nonanolactone;1-octanol;Ethyl Palmitate,Subtle pairing with 9 shared flavor compounds including Nerolidol
+white-wine,roibos-tea,0.318,5,Methyl Nonanoate;Methyl Heptanoate;1-Methylnaphthalene;delta-Octanolactone;Methyl octanoate,Subtle pairing with 5 shared flavor compounds including Methyl Nonanoate
+coffee,mate,0.597,27,Violet leaf aldehyde;2-Methoxy-4-Methylphenol;1-Octen-3-Ol;5-Methylfurfural;2-Methylpyrazine,Good pairing with 27 shared flavor compounds including Violet leaf aldehyde
+coffee,black-tea,0.511,22,Propiophenone;2-Butanone;4-Vinylphenol;2-Phenylethyl formate;gamma-Valerolactone,Good pairing with 22 shared flavor compounds including Propiophenone
+coffee,green-tea,0.363,9,"phenylacetaldehyde;2-Propionylpyrrole;Propiophenone;2,3,5-Trimethylpyrazine;2-Acetylfuran",Subtle pairing with 9 shared flavor compounds including phenylacetaldehyde
+coffee,roibos-tea,0.301,5,Methyl Propionate;4-Heptanone;Methyl Phenylacetate;1-Methylnaphthalene;3-Heptanol,Subtle pairing with 5 shared flavor compounds including Methyl Propionate
+mate,black-tea,0.433,6,"2,3-Pentanedione;1-Penten-3-Ol;trans,trans-2,4-Heptadienal;3,3-Dimethylacrylic acid;Safranal","Good pairing with 6 shared flavor compounds including 2,3-Pentanedione"
+mate,green-tea,0.494,5,Nerolidol;phenylacetaldehyde;1-Penten-3-Ol;gamma-Nonanolactone;Safranal,Good pairing with 5 shared flavor compounds including Nerolidol
+black-tea,green-tea,0.623,11,"1125-21-9;1-Penten-3-Ol;Propiophenone;Bis(2-methyl-3-furyl)disulfide;2,3,5-Trimethylpyrazine",Strong pairing with 11 shared flavor compounds including 1125-21-9

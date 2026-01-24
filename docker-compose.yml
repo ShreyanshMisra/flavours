@@ -1,0 +1,57 @@
+version: '3.8'
+
+# Production-ready configuration
+# For development with Neo4j browser access, use:
+#   docker-compose -f docker-compose.yml -f docker-compose.dev.yml up
+#
+# Or copy docker-compose.dev.yml to docker-compose.override.yml:
+#   cp docker-compose.dev.yml docker-compose.override.yml
+#   docker-compose up
+
+services:
+  neo4j:
+    image: neo4j:5
+    container_name: flavor-neo4j
+    # Ports NOT exposed by default (production-safe)
+    # Use docker-compose.dev.yml for development with browser access
+    environment:
+      - NEO4J_AUTH=neo4j/${NEO4J_PASSWORD:?NEO4J_PASSWORD is required}
+      - NEO4J_PLUGINS=["apoc"]
+      - NEO4J_dbms_security_procedures_unrestricted=apoc.*
+    volumes:
+      - neo4j_data:/data
+      - neo4j_logs:/logs
+      - ./data/neo4j:/import
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:7474"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - flavor-network
+
+  api:
+    build: ./api
+    container_name: flavor-api
+    ports:
+      - "8000:8000"
+    depends_on:
+      neo4j:
+        condition: service_healthy
+    environment:
+      - NEO4J_URI=bolt://neo4j:7687
+      - NEO4J_USER=neo4j
+      - NEO4J_PASSWORD=${NEO4J_PASSWORD:?NEO4J_PASSWORD is required}
+      - CORS_ORIGINS=${CORS_ORIGINS:-http://localhost:3000,http://localhost:5173}
+      - API_KEY=${API_KEY:-}
+      - API_KEY_REQUIRED=${API_KEY_REQUIRED:-false}
+    networks:
+      - flavor-network
+
+networks:
+  flavor-network:
+    driver: bridge
+
+volumes:
+  neo4j_data:
+  neo4j_logs:
