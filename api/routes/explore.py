@@ -7,13 +7,13 @@ from typing import Optional
 from slowapi import Limiter
 from slowapi.util import get_remote_address
 
-from ..services.neo4j_service import (
+from services.neo4j_service import (
     Neo4jService,
     get_db,
     ExploreQueries as Q,
     IngredientQueries
 )
-from ..models.schemas import (
+from models.schemas import (
     Category,
     TasteProfile,
     GraphData,

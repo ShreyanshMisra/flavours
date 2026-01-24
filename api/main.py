@@ -19,9 +19,9 @@ from slowapi.util import get_remote_address
 from slowapi.errors import RateLimitExceeded
 from dotenv import load_dotenv
 
-from .routes import ingredients, compounds, explore
-from .services.neo4j_service import get_neo4j_service, close_neo4j_service
-from .models.schemas import HealthResponse
+from routes import ingredients, compounds, explore
+from services.neo4j_service import get_neo4j_service, close_neo4j_service
+from models.schemas import HealthResponse
 
 # Load environment variables
 load_dotenv()
