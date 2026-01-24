@@ -12,11 +12,9 @@ A knowledge graph application that models ingredients, their flavor compounds, a
 
 ## Tech Stack
 
-- **Database**: Neo4j 5 (graph database)
-- **Backend**: FastAPI (Python)
-- **Frontend**: React 18 + Vite + D3.js
-- **ETL**: Python (requests, pandas)
-- **Deployment**: Docker Compose (local), Vercel (frontend)
+- **Database**: Neo4j Aura (graph database)
+- **Backend**: FastAPI (Python) on Render
+- **Frontend**: React 18 + Vite + D3.js on Vercel
 
 ## Graph Schema
 
