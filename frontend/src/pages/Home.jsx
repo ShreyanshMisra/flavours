@@ -84,15 +84,19 @@ export function Home() {
       .force('center', d3.forceCenter(width / 2, height / 2))
       .force('collision', d3.forceCollide().radius(35));
 
-    // Links
+    // Get CSS variable value for primary color (theme-aware)
+    const primaryColor = getComputedStyle(document.documentElement)
+      .getPropertyValue('--color-primary').trim() || '#4a90d9';
+
+    // Links - increased thickness variation for visibility
     const link = g.append('g')
       .attr('class', 'links')
       .selectAll('line')
       .data(links)
       .join('line')
       .attr('stroke', 'var(--color-border)')
-      .attr('stroke-opacity', d => 0.3 + (d.score || 0.5) * 0.4)
-      .attr('stroke-width', d => 1 + (d.score || 0.5) * 2);
+      .attr('stroke-opacity', d => 0.3 + (d.score || 0.5) * 0.5)
+      .attr('stroke-width', d => 1 + (d.score || 0.5) * 4);
 
     // Nodes
     const node = g.append('g')
@@ -120,7 +124,7 @@ export function Home() {
 
     node.append('circle')
       .attr('r', d => d.id === nodes[0]?.id ? 22 : 16)
-      .attr('fill', d => getCategoryColor(d.category))
+      .attr('fill', d => d.id === nodes[0]?.id ? primaryColor : getCategoryColor(d.category))
       .attr('stroke', 'var(--color-bg-elevated)')
       .attr('stroke-width', 2)
       .on('click', (event, d) => {

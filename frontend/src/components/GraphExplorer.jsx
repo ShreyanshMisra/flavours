@@ -50,15 +50,19 @@ export function GraphExplorer({ data, onNodeClick, width = 800, height = 600 }) 
 
     simulationRef.current = simulation;
 
-    // Draw links
+    // Get border color for links (theme-aware)
+    const borderColor = getComputedStyle(document.documentElement)
+      .getPropertyValue('--color-text-muted').trim() || '#999';
+
+    // Draw links - increased thickness variation for visibility
     const link = g.append('g')
       .attr('class', 'links')
       .selectAll('line')
       .data(links)
       .join('line')
-      .attr('stroke', '#999')
+      .attr('stroke', borderColor)
       .attr('stroke-opacity', d => 0.3 + (d.score || 0.5) * 0.5)
-      .attr('stroke-width', d => 1 + (d.score || 0.5) * 3);
+      .attr('stroke-width', d => 1 + (d.score || 0.5) * 5);
 
     // Draw nodes
     const node = g.append('g')
@@ -69,10 +73,16 @@ export function GraphExplorer({ data, onNodeClick, width = 800, height = 600 }) 
       .attr('class', 'node')
       .call(drag(simulation));
 
+    // Get CSS variable value for text color (theme-aware)
+    const textColor = getComputedStyle(document.documentElement)
+      .getPropertyValue('--color-text-secondary').trim() || '#555';
+    const primaryColor = getComputedStyle(document.documentElement)
+      .getPropertyValue('--color-primary').trim() || '#4a90d9';
+
     // Node circles
     node.append('circle')
       .attr('r', d => d.id === data.nodes[0]?.id ? 25 : 18)
-      .attr('fill', d => getCategoryColor(d.category))
+      .attr('fill', d => d.id === data.nodes[0]?.id ? primaryColor : getCategoryColor(d.category))
       .attr('stroke', '#fff')
       .attr('stroke-width', 2)
       .on('click', (event, d) => {
@@ -94,7 +104,7 @@ export function GraphExplorer({ data, onNodeClick, width = 800, height = 600 }) 
       .attr('text-anchor', 'middle')
       .attr('font-size', d => d.id === data.nodes[0]?.id ? '13px' : '11px')
       .attr('font-weight', d => d.id === data.nodes[0]?.id ? '600' : '400')
-      .attr('fill', '#333');
+      .attr('fill', textColor);
 
     // Update positions on tick
     simulation.on('tick', () => {

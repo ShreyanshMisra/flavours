@@ -37,7 +37,7 @@ function NavBar() {
 
       <div className="nav-right">
         <a
-          href="https://github.com/shreyansh26/flavour-pairing-kg"
+          href="https://github.com/ShreyanshMisra/flavours"
           target="_blank"
           rel="noopener noreferrer"
           className="github-link"
