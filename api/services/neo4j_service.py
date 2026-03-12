@@ -17,6 +17,7 @@ load_dotenv()
 NEO4J_URI = os.getenv("NEO4J_URI", "bolt://localhost:7687")
 NEO4J_USER = os.getenv("NEO4J_USER", "neo4j")
 NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD")
+NEO4J_DATABASE = os.getenv("NEO4J_DATABASE", None)
 if not NEO4J_PASSWORD:
     raise ValueError("NEO4J_PASSWORD environment variable is required")
 
@@ -62,7 +63,7 @@ class Neo4jService:
     @contextmanager
     def get_session(self) -> Generator[Session, None, None]:
         """Get a database session with automatic cleanup."""
-        session = self._driver.session()
+        session = self._driver.session(database=NEO4J_DATABASE)
         try:
             yield session
         finally:
@@ -151,7 +152,7 @@ class IngredientQueries:
     """
 
     GET_PAIRINGS = """
-        MATCH (i:Ingredient {id: $id})-[p:PAIRS_WITH]->(other:Ingredient)
+        MATCH (i:Ingredient {id: $id})-[p:PAIRS_WITH]-(other:Ingredient)
         WHERE p.score >= $min_score
         RETURN other.id as id, other.name as name, other.category as category,
                p.score as score, p.shared_compounds as shared_compounds,
@@ -248,5 +249,5 @@ class ExploreQueries:
         MATCH (c:FlavorCompound) WITH ingredients, count(c) as compounds
         MATCH ()-[r:CONTAINS]->() WITH ingredients, compounds, count(r) as contains
         MATCH ()-[p:PAIRS_WITH]->() WITH ingredients, compounds, contains, count(p) as pairings
-        RETURN ingredients, compounds, contains, pairings / 2 as pairings
+        RETURN ingredients, compounds, contains, pairings
     """

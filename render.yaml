@@ -12,9 +12,11 @@ services:
     startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
     envVars:
       - key: NEO4J_URI
-        value: neo4j+s://89d335c7.databases.neo4j.io
+        value: neo4j+s://661b1da2.databases.neo4j.io
       - key: NEO4J_USER
-        value: neo4j
+        value: 661b1da2
+      - key: NEO4J_DATABASE
+        value: 661b1da2
       - key: NEO4J_PASSWORD
         sync: false  # Will prompt for value during setup
       - key: CORS_ORIGINS

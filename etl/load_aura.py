@@ -27,6 +27,7 @@ logger = logging.getLogger(__name__)
 NEO4J_URI = os.getenv("NEO4J_URI", "bolt://localhost:7687")
 NEO4J_USER = os.getenv("NEO4J_USER", "neo4j")
 NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD")
+NEO4J_DATABASE = os.getenv("NEO4J_DATABASE", None)
 if not NEO4J_PASSWORD:
     raise ValueError("NEO4J_PASSWORD environment variable is required")
 
@@ -49,7 +50,7 @@ class Neo4jAuraLoader:
 
     def execute_query(self, query: str, parameters: dict = None) -> list:
         """Execute a Cypher query and return results."""
-        with self.driver.session() as session:
+        with self.driver.session(database=NEO4J_DATABASE) as session:
             result = session.run(query, parameters or {})
             return [record.data() for record in result]
 
@@ -358,8 +359,8 @@ def load_all(clear_first: bool = True):
         loader.load_has_profile_relationships()
         loader.load_pairs_with_relationships()
 
-        # Create reverse pairings for bidirectional queries
-        loader.create_reverse_pairings()
+        # Note: reverse pairings skipped - API uses undirected queries
+        # instead, to stay within Aura free tier relationship limits
 
         # Verify
         counts = loader.verify_load()
