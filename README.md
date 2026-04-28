@@ -2,6 +2,8 @@
 
 A knowledge graph application that models ingredients, their flavor compounds, and pairing relationships based on shared chemistry. Discover why certain ingredients pair well together through molecular gastronomy science.
 
+<img width="1440" height="809" alt="Screenshot 2026-04-28 at 11 06 27 AM" src="https://github.com/user-attachments/assets/a5eda96a-e1c2-4963-8068-0ec1b985bf8f" />
+
 ## Features
 
 - **Search Ingredients**: Find ingredients and explore their flavor profiles
