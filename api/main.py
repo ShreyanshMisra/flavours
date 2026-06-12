@@ -124,7 +124,7 @@ app = FastAPI(
 
     ## Rate Limiting
 
-    API is rate limited to 30 requests per minute per IP address.
+    API is rate limited to 120 requests per minute per IP address.
 
     ## Data Source
 
@@ -158,7 +158,7 @@ app.include_router(explore.router)
 
 
 @app.get("/", tags=["root"])
-@limiter.limit("30/minute")
+@limiter.limit("120/minute")
 def root(request: Request):
     """API root endpoint."""
     return {

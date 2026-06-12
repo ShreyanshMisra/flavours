@@ -2,6 +2,8 @@
 Ingredient API Routes
 """
 
+import re
+
 from fastapi import APIRouter, Depends, HTTPException, Query, Request
 from typing import Optional
 from slowapi import Limiter
@@ -26,9 +28,18 @@ router = APIRouter(prefix="/ingredients", tags=["ingredients"])
 # Rate limiter (shared with main app)
 limiter = Limiter(key_func=get_remote_address)
 
+# Lucene fulltext query special characters that must be escaped so user
+# input like "rosemary (fresh)" doesn't crash the fulltext index parser
+_LUCENE_SPECIAL = re.compile(r'(&&|\|\||[+\-!(){}\[\]^"~*?:\\/])')
+
+
+def escape_lucene(text: str) -> str:
+    """Escape Lucene special characters in a fulltext search term."""
+    return _LUCENE_SPECIAL.sub(r'\\\1', text)
+
 
 @router.get("", response_model=list[IngredientBase])
-@limiter.limit("30/minute")
+@limiter.limit("120/minute")
 def list_ingredients(
     request: Request,
     search: Optional[str] = Query(None, description="Search term for ingredient name"),
@@ -45,11 +56,12 @@ def list_ingredients(
     - **skip**: Pagination offset
     - **limit**: Maximum results (max 200)
     """
+    search = search.strip() if search else None
     if search:
         # Use fulltext search
         results = db.execute_query(
             Q.SEARCH_INGREDIENTS,
-            {"search": search, "limit": limit}
+            {"search": escape_lucene(search), "limit": limit}
         )
     else:
         # Regular list with optional category filter
@@ -62,7 +74,7 @@ def list_ingredients(
 
 
 @router.get("/{ingredient_id}", response_model=IngredientDetail)
-@limiter.limit("30/minute")
+@limiter.limit("120/minute")
 def get_ingredient(
     request: Request,
     ingredient_id: str,
@@ -80,7 +92,7 @@ def get_ingredient(
 
 
 @router.get("/{ingredient_id}/compounds", response_model=list[CompoundInIngredient])
-@limiter.limit("30/minute")
+@limiter.limit("120/minute")
 def get_ingredient_compounds(
     request: Request,
     ingredient_id: str,
@@ -105,7 +117,7 @@ def get_ingredient_compounds(
 
 
 @router.get("/{ingredient_id}/pairings", response_model=list[Pairing])
-@limiter.limit("30/minute")
+@limiter.limit("120/minute")
 def get_ingredient_pairings(
     request: Request,
     ingredient_id: str,
@@ -135,7 +147,7 @@ def get_ingredient_pairings(
 
 
 @router.get("/{id1}/compare/{id2}", response_model=ComparisonResult)
-@limiter.limit("30/minute")
+@limiter.limit("120/minute")
 def compare_ingredients(
     request: Request,
     id1: str,

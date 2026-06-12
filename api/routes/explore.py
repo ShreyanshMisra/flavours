@@ -31,7 +31,7 @@ limiter = Limiter(key_func=get_remote_address)
 
 
 @router.get("/categories", response_model=list[Category])
-@limiter.limit("30/minute")
+@limiter.limit("120/minute")
 def list_categories(
     request: Request,
     db: Neo4jService = Depends(get_db)
@@ -46,7 +46,7 @@ def list_categories(
 
 
 @router.get("/taste-profiles", response_model=list[TasteProfile])
-@limiter.limit("30/minute")
+@limiter.limit("120/minute")
 def list_taste_profiles(
     request: Request,
     db: Neo4jService = Depends(get_db)
@@ -59,7 +59,7 @@ def list_taste_profiles(
 
 
 @router.get("/surprise", response_model=list[SurprisePairing])
-@limiter.limit("30/minute")
+@limiter.limit("120/minute")
 def get_surprise_pairings(
     request: Request,
     min_score: float = Query(0.6, ge=0, le=1, description="Minimum pairing score"),
@@ -101,7 +101,7 @@ def get_surprise_pairings(
 
 
 @router.get("/graph", response_model=GraphData)
-@limiter.limit("30/minute")
+@limiter.limit("120/minute")
 def get_graph_data(
     request: Request,
     center: str = Query(..., description="Center ingredient ID"),
@@ -113,7 +113,8 @@ def get_graph_data(
     Get graph data for visualization centered on an ingredient.
 
     Returns nodes and links for a force-directed graph visualization.
-    The center ingredient and its top pairings are included.
+    Includes the center ingredient, its top pairings (sorted by score),
+    and the pairings between those neighbors.
     """
     # Verify center ingredient exists
     center_ing = db.execute_single(
@@ -123,11 +124,10 @@ def get_graph_data(
     if not center_ing:
         raise HTTPException(status_code=404, detail="Ingredient not found")
 
-    # Get neighbors (pairings)
-    result = db.execute_single(
-        Q.EXPLORE_GRAPH,
-        {"center": center, "min_score": min_score, "limit": limit}
-    )
+    params = {"center": center, "min_score": min_score, "limit": limit}
+
+    # Top neighbors by pairing score
+    neighbors = db.execute_query(Q.EXPLORE_GRAPH, params)
 
     # Build nodes list
     nodes = [
@@ -141,31 +141,36 @@ def get_graph_data(
 
     links = []
 
-    if result and result.get("neighbors"):
-        for neighbor_data in result["neighbors"]:
-            if neighbor_data.get("node"):
-                neighbor = neighbor_data["node"]
-                score = neighbor_data.get("score", 0)
+    for neighbor in neighbors:
+        nodes.append(GraphNode(
+            id=neighbor["id"],
+            name=neighbor["name"],
+            category=neighbor.get("category"),
+            type="ingredient"
+        ))
 
-                nodes.append(GraphNode(
-                    id=neighbor["id"],
-                    name=neighbor["name"],
-                    category=neighbor.get("category"),
-                    type="ingredient"
-                ))
+        links.append(GraphLink(
+            source=center,
+            target=neighbor["id"],
+            score=neighbor.get("score", 0),
+            type="pairs_with"
+        ))
 
-                links.append(GraphLink(
-                    source=center,
-                    target=neighbor["id"],
-                    score=score,
-                    type="pairs_with"
-                ))
+    # Pairings among the neighbors, so the graph is a network, not a star
+    if neighbors:
+        for link in db.execute_query(Q.EXPLORE_NEIGHBOR_LINKS, params):
+            links.append(GraphLink(
+                source=link["source"],
+                target=link["target"],
+                score=link.get("score", 0),
+                type="pairs_with"
+            ))
 
     return GraphData(nodes=nodes, links=links)
 
 
 @router.get("/stats", response_model=DatabaseStats)
-@limiter.limit("30/minute")
+@limiter.limit("120/minute")
 def get_database_stats(
     request: Request,
     db: Neo4jService = Depends(get_db)
@@ -194,7 +199,7 @@ def get_database_stats(
 
 
 @router.get("/random", response_model=IngredientBase)
-@limiter.limit("30/minute")
+@limiter.limit("120/minute")
 def get_random_ingredient(
     request: Request,
     category: Optional[str] = Query(None, description="Optional category filter"),

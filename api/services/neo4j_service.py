@@ -234,14 +234,26 @@ class ExploreQueries:
     """
 
     EXPLORE_GRAPH = """
-        MATCH (center:Ingredient {id: $center})
-        OPTIONAL MATCH (center)-[p:PAIRS_WITH]-(neighbor:Ingredient)
+        MATCH (center:Ingredient {id: $center})-[p:PAIRS_WITH]-(neighbor:Ingredient)
         WHERE p.score >= $min_score
-        WITH center, collect(DISTINCT {
-            node: neighbor,
-            score: p.score
-        })[0..$limit] as neighbors
-        RETURN center, neighbors
+        WITH neighbor, p.score as score
+        ORDER BY score DESC
+        LIMIT $limit
+        RETURN neighbor.id as id, neighbor.name as name,
+               neighbor.category as category, score
+    """
+
+    EXPLORE_NEIGHBOR_LINKS = """
+        MATCH (center:Ingredient {id: $center})-[p:PAIRS_WITH]-(neighbor:Ingredient)
+        WHERE p.score >= $min_score
+        WITH neighbor, p.score as score
+        ORDER BY score DESC
+        LIMIT $limit
+        WITH collect(neighbor) as neighbors
+        UNWIND neighbors as a
+        MATCH (a)-[p2:PAIRS_WITH]-(b:Ingredient)
+        WHERE b IN neighbors AND a.id < b.id AND p2.score >= $min_score
+        RETURN a.id as source, b.id as target, p2.score as score
     """
 
     GET_STATS = """

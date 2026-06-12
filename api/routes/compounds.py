@@ -24,7 +24,7 @@ limiter = Limiter(key_func=get_remote_address)
 
 
 @router.get("", response_model=list[CompoundBase])
-@limiter.limit("30/minute")
+@limiter.limit("120/minute")
 def list_compounds(
     request: Request,
     skip: int = Query(0, ge=0, description="Number of items to skip"),
@@ -46,7 +46,7 @@ def list_compounds(
 
 
 @router.get("/{compound_id}", response_model=CompoundDetail)
-@limiter.limit("30/minute")
+@limiter.limit("120/minute")
 def get_compound(
     request: Request,
     compound_id: str,
@@ -64,7 +64,7 @@ def get_compound(
 
 
 @router.get("/{compound_id}/ingredients", response_model=list[IngredientInCompound])
-@limiter.limit("30/minute")
+@limiter.limit("120/minute")
 def get_compound_ingredients(
     request: Request,
     compound_id: str,
