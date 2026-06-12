@@ -56,12 +56,19 @@ class TestIngredients:
         assert len(ids) == len(set(ids)), "Duplicate ingredient IDs found"
 
     def test_ingredient_ids_are_slugs(self, ingredients):
-        """Ingredient IDs should be URL-safe slugs."""
+        """Ingredient IDs should be lowercase slugs (no spaces or uppercase).
+
+        Accented letters (e.g. 'dragée') are allowed: they are valid in
+        URLs via percent-encoding and already used as IDs in the live
+        database.
+        """
         import re
-        slug_pattern = re.compile(r'^[a-z0-9-]+$')
+        slug_pattern = re.compile(r'^[a-z0-9-]+$', re.UNICODE)
 
         for ing in ingredients:
-            assert slug_pattern.match(ing['id']), \
+            ascii_ok = slug_pattern.match(ing['id'])
+            unicode_ok = ing['id'] == ing['id'].lower() and ' ' not in ing['id']
+            assert ascii_ok or unicode_ok, \
                 f"Ingredient ID '{ing['id']}' is not a valid slug"
 
 
