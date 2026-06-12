@@ -49,7 +49,7 @@ export function Home() {
         const rect = containerRef.current.getBoundingClientRect();
         setDimensions({
           width: rect.width,
-          height: Math.max(400, window.innerHeight - 280)
+          height: Math.max(400, rect.height)
         });
       }
     };
