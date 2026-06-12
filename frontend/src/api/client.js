@@ -33,6 +33,44 @@ async function apiRequest(endpoint, options = {}) {
 }
 
 /**
+ * Backend readiness
+ *
+ * The backend runs on Render's free tier and sleeps after inactivity, so
+ * the first request can take 30-60s. waitForBackend() polls /health until
+ * it responds, and is shared so the warmup overlay and pages waiting on
+ * data reuse the same poll.
+ */
+let backendReadyPromise = null;
+
+export function waitForBackend({ pollInterval = 2500, timeoutMs = 120000 } = {}) {
+  if (!backendReadyPromise) {
+    backendReadyPromise = (async () => {
+      const start = Date.now();
+      for (;;) {
+        try {
+          await api.getHealth();
+          return true;
+        } catch {
+          if (Date.now() - start >= timeoutMs) {
+            throw new Error('Backend did not wake up in time');
+          }
+        }
+        await new Promise((resolve) => setTimeout(resolve, pollInterval));
+      }
+    })();
+    // Allow another attempt after a failed wait
+    backendReadyPromise.catch(() => {
+      backendReadyPromise = null;
+    });
+  }
+  return backendReadyPromise;
+}
+
+export function resetBackendWait() {
+  backendReadyPromise = null;
+}
+
+/**
  * API methods
  */
 export const api = {

@@ -9,9 +9,10 @@ import * as d3 from 'd3';
 import { getCategoryColor } from './IngredientCard';
 import './GraphExplorer.css';
 
-export function GraphExplorer({ data, onNodeClick, width = 800, height = 600 }) {
+export function GraphExplorer({ data, onNodeClick, width = 800, height = 600, className = '' }) {
   const svgRef = useRef(null);
   const simulationRef = useRef(null);
+  const zoomRef = useRef(null);
 
   const createGraph = useCallback(() => {
     if (!data?.nodes?.length || !svgRef.current) return;
@@ -31,6 +32,7 @@ export function GraphExplorer({ data, onNodeClick, width = 800, height = 600 }) 
         g.attr('transform', event.transform);
       });
 
+    zoomRef.current = zoom;
     svg.call(zoom);
 
     // Create a copy of nodes and links for simulation
@@ -158,7 +160,7 @@ export function GraphExplorer({ data, onNodeClick, width = 800, height = 600 }) 
   }
 
   return (
-    <div className="graph-explorer">
+    <div className={`graph-explorer ${className}`.trim()}>
       <svg
         ref={svgRef}
         width={width}
@@ -168,12 +170,11 @@ export function GraphExplorer({ data, onNodeClick, width = 800, height = 600 }) 
       <div className="graph-controls">
         <button
           onClick={() => {
-            const svg = d3.select(svgRef.current);
-            const zoom = d3.zoom();
-            svg.transition().duration(500).call(
-              zoom.transform,
-              d3.zoomIdentity.translate(width / 2, height / 2).scale(1).translate(-width / 2, -height / 2)
-            );
+            if (!zoomRef.current) return;
+            d3.select(svgRef.current)
+              .transition()
+              .duration(500)
+              .call(zoomRef.current.transform, d3.zoomIdentity);
           }}
         >
           Reset View

@@ -6,6 +6,13 @@
   overflow: hidden;
 }
 
+/* For embedding inside a container that already has its own frame */
+.graph-explorer.frameless {
+  background: transparent;
+  border: none;
+  border-radius: 0;
+}
+
 .graph-explorer svg {
   display: block;
   cursor: grab;
