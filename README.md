@@ -18,6 +18,81 @@ A knowledge graph application that models ingredients, their flavor compounds, a
 - **Backend**: FastAPI (Python) on Render
 - **Frontend**: React 18, Vite, D3.js deployed with Vercel
 
+## Architecture
+
+```
+ FlavorDB (cosylab)
+        │
+        ▼
+ ┌─────────────────────────────────────────┐
+ │ ETL pipeline (etl/)                     │
+ │ fetch.py → clean.py → transform.py      │
+ │ (scrape)   (normalize)  (pairing scores │
+ │                          + Neo4j CSVs)  │
+ └──────────────────┬──────────────────────┘
+                    │ load_aura.py / load.py
+                    ▼
+            ┌──────────────┐      ┌─────────────────┐      ┌──────────────────┐
+            │  Neo4j Aura  │◄─────│  FastAPI (api/) │◄─────│ React + D3       │
+            │  (graph DB)  │ bolt │  on Render      │ HTTP │ (frontend/)      │
+            └──────────────┘      └─────────────────┘      │ on Vercel        │
+                                                           └──────────────────┘
+```
+
+## Running Locally
+
+### Prerequisites
+
+- Python 3.11+ and Node.js 18+
+- A Neo4j database: either a free [Neo4j Aura](https://neo4j.com/cloud/aura/) instance, or a local one via `docker-compose up neo4j`
+
+### 1. Backend (FastAPI)
+
+```bash
+python3 -m venv venv && source venv/bin/activate
+pip install -r requirements.txt
+
+# Create .env in the repo root with your database credentials:
+#   NEO4J_URI=neo4j+s://<your-instance>.databases.neo4j.io
+#   NEO4J_USER=<user>
+#   NEO4J_PASSWORD=<password>
+#   NEO4J_DATABASE=<database>   # omit for local Neo4j
+
+cd api
+uvicorn main:app --reload --port 8000
+```
+
+API docs are served at http://localhost:8000/docs.
+
+### 2. Frontend (React + Vite)
+
+```bash
+cd frontend
+npm install
+npm run dev            # http://localhost:3000, expects the API on :8000
+```
+
+Set `VITE_API_URL` in `frontend/.env.local` if the API runs elsewhere.
+
+### 3. (Optional) Rebuild the dataset
+
+The Neo4j-ready CSVs are already committed under `data/neo4j/`. To regenerate
+them from scratch:
+
+```bash
+python etl/fetch.py        # scrape FlavorDB into data/raw/
+python etl/clean.py        # normalize into data/processed/
+python etl/transform.py    # compute pairing scores, write data/neo4j/*.csv
+python etl/load_aura.py    # load into Neo4j Aura (or load.py for local Neo4j)
+```
+
+### Tests
+
+```bash
+pytest                     # API tests run against a mocked database;
+                           # data tests need data/processed/ from the ETL step
+```
+
 ## Graph Schema
 
 ```

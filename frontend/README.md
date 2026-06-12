@@ -1,65 +1,58 @@
 # Flavor Pairing Frontend
 
-React frontend for the Flavor Pairing Knowledge Graph.
+React + Vite + D3.js frontend for the Flavor Pairing Knowledge Graph.
 
 ## Setup
 
-The frontend source files are pre-created in `src/`. You need to initialize the Vite project:
-
 ```bash
-# From the frontend directory
-cd frontend
-
-# Initialize Vite (select React when prompted)
-npm create vite@latest . -- --template react
-
-# When prompted about existing files, choose to ignore/skip
-# Or manually merge the package.json
-
-# Install dependencies
-npm install axios react-router-dom d3
-
-# Start development server
-npm run dev
+npm install
+npm run dev        # http://localhost:3000
 ```
+
+The dev server expects the API at `http://localhost:8000`. To point at a
+different backend, create `.env.local`:
+
+```
+VITE_API_URL=https://your-api-host
+```
+
+## Scripts
+
+- `npm run dev` — development server with hot reload
+- `npm run build` — production build into `dist/`
+- `npm run preview` — serve the production build locally
 
 ## Project Structure
 
 ```
-frontend/
-├── src/
-│   ├── api/
-│   │   └── client.js       # API client
-│   ├── components/
-│   │   ├── SearchBar.jsx   # Autocomplete search
-│   │   ├── IngredientCard.jsx
-│   │   ├── PairingList.jsx
-│   │   ├── GraphExplorer.jsx  # D3.js visualization
-│   │   └── CompoundBadge.jsx
-│   ├── hooks/
-│   │   └── useApi.js       # Data fetching hooks
-│   ├── pages/
-│   │   ├── Home.jsx        # Landing page
-│   │   ├── Ingredient.jsx  # Ingredient detail
-│   │   ├── Compare.jsx     # Side-by-side comparison
-│   │   └── Explore.jsx     # Graph exploration
-│   ├── App.jsx
-│   ├── App.css
-│   ├── main.jsx
-│   └── index.css
+src/
+├── api/
+│   └── client.js          # fetch-based API client + backend warmup helper
+├── components/
+│   ├── SearchBar.jsx      # Autocomplete search
+│   ├── IngredientCard.jsx
+│   ├── PairingList.jsx
+│   ├── GraphExplorer.jsx  # D3.js force-directed graph
+│   ├── CompoundBadge.jsx
+│   └── WarmupOverlay.jsx  # Overlay while the free-tier backend wakes up
+├── context/
+│   └── ThemeContext.jsx   # Light/dark theme
+├── hooks/
+│   └── useApi.js          # Data-fetching hooks
+├── pages/
+│   ├── Home.jsx           # Landing page with graph + stats
+│   ├── Ingredient.jsx     # Ingredient detail
+│   ├── Compare.jsx        # Side-by-side comparison
+│   ├── Explore.jsx        # Full-screen graph exploration
+│   └── About.jsx
+├── App.jsx
+└── main.jsx
 ```
 
-## Environment Variables
+## Pages
 
-Create a `.env.local` file:
-
-```
-VITE_API_URL=http://localhost:8000
-```
-
-## Available Pages
-
-- `/` - Home page with search, stats, and featured pairings
-- `/ingredient/:id` - Ingredient detail with pairings and compounds
-- `/compare` - Compare two ingredients side-by-side
-- `/explore` - Interactive graph visualization
+- `/` — home page with knowledge graph visualization and stats
+- `/ingredient/:id` — ingredient detail with pairings and compounds
+- `/compare` — compare two ingredients side-by-side
+- `/explore` — interactive graph exploration with filters
+- `/about` — project background
