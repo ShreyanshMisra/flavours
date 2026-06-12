@@ -70,16 +70,25 @@ class Neo4jService:
             session.close()
 
     def execute_query(self, query: str, parameters: dict = None) -> list:
-        """Execute a query and return results as list of dicts."""
+        """Execute a read query and return results as list of dicts.
+
+        Uses a managed transaction so transient failures (e.g. stale pooled
+        connections after the Aura instance idles) are retried automatically
+        instead of surfacing as 500s.
+        """
         with self.get_session() as session:
-            result = session.run(query, parameters or {})
-            return [record.data() for record in result]
+            return session.execute_read(
+                lambda tx: [record.data() for record in tx.run(query, parameters or {})]
+            )
 
     def execute_single(self, query: str, parameters: dict = None) -> Optional[dict]:
-        """Execute a query and return single result or None."""
+        """Execute a read query and return single result or None."""
+        def work(tx):
+            record = tx.run(query, parameters or {}).single()
+            return record.data() if record else None
+
         with self.get_session() as session:
-            result = session.run(query, parameters or {}).single()
-            return result.data() if result else None
+            return session.execute_read(work)
 
 
 # Global service instance
