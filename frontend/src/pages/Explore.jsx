@@ -21,6 +21,7 @@ export function Explore() {
   const [selectedNode, setSelectedNode] = useState(null);
   const [minScore, setMinScore] = useState(0.4);
   const [nodeLimit, setNodeLimit] = useState(20);
+  const [showCrossLinks, setShowCrossLinks] = useState(true);
 
   const centerId = centerIngredient?.id;
   const { graphData, loading, error, refetch } = useGraphData(centerId, {
@@ -128,6 +129,15 @@ export function Explore() {
               onChange={(e) => setNodeLimit(parseInt(e.target.value))}
             />
           </label>
+
+          <label className="filter-toggle">
+            <input
+              type="checkbox"
+              checked={showCrossLinks}
+              onChange={(e) => setShowCrossLinks(e.target.checked)}
+            />
+            Show links between neighbors
+          </label>
         </div>
 
         {selectedNode && (
@@ -208,6 +218,7 @@ export function Explore() {
             width={window.innerWidth - 320}
             height={window.innerHeight - 40}
             onNodeClick={handleNodeClick}
+            showCrossLinks={showCrossLinks}
           />
         )}
 

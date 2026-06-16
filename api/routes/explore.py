@@ -107,6 +107,11 @@ def get_graph_data(
     center: str = Query(..., description="Center ingredient ID"),
     min_score: float = Query(0.4, ge=0, le=1, description="Minimum pairing score"),
     limit: int = Query(20, ge=1, le=50, description="Maximum neighbors to return"),
+    cross_min_score: float = Query(
+        0.6, ge=0, le=1,
+        description="Minimum score for links between neighbors (kept stricter "
+                    "than min_score so the graph isn't a hairball)"
+    ),
     db: Neo4jService = Depends(get_db)
 ):
     """
@@ -114,7 +119,8 @@ def get_graph_data(
 
     Returns nodes and links for a force-directed graph visualization.
     Includes the center ingredient, its top pairings (sorted by score),
-    and the pairings between those neighbors.
+    and the pairings between those neighbors. Neighbor-to-neighbor links use
+    a higher threshold (cross_min_score) so only strong connections show.
     """
     # Verify center ingredient exists
     center_ing = db.execute_single(
@@ -156,9 +162,11 @@ def get_graph_data(
             type="pairs_with"
         ))
 
-    # Pairings among the neighbors, so the graph is a network, not a star
+    # Pairings among the neighbors, so the graph is a network, not a star.
+    # Cross-links never use a looser threshold than the center spokes.
     if neighbors:
-        for link in db.execute_query(Q.EXPLORE_NEIGHBOR_LINKS, params):
+        cross_params = {**params, "cross_min_score": max(min_score, cross_min_score)}
+        for link in db.execute_query(Q.EXPLORE_NEIGHBOR_LINKS, cross_params):
             links.append(GraphLink(
                 source=link["source"],
                 target=link["target"],

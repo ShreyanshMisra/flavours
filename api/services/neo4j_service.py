@@ -261,7 +261,7 @@ class ExploreQueries:
         WITH collect(neighbor) as neighbors
         UNWIND neighbors as a
         MATCH (a)-[p2:PAIRS_WITH]-(b:Ingredient)
-        WHERE b IN neighbors AND a.id < b.id AND p2.score >= $min_score
+        WHERE b IN neighbors AND a.id < b.id AND p2.score >= $cross_min_score
         RETURN a.id as source, b.id as target, p2.score as score
     """
 

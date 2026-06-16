@@ -63,6 +63,20 @@
   accent-color: var(--color-primary);
 }
 
+.filter-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+}
+
+.filter-toggle input[type="checkbox"] {
+  accent-color: var(--color-primary);
+  cursor: pointer;
+}
+
 /* Selected Node */
 .selected-section {
   background: var(--color-primary-subtle);

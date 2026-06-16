@@ -9,7 +9,7 @@ import * as d3 from 'd3';
 import { getCategoryColor } from './IngredientCard';
 import './GraphExplorer.css';
 
-export function GraphExplorer({ data, onNodeClick, width = 800, height = 600, className = '' }) {
+export function GraphExplorer({ data, onNodeClick, width = 800, height = 600, className = '', showCrossLinks = true }) {
   const svgRef = useRef(null);
   const simulationRef = useRef(null);
   const zoomRef = useRef(null);
@@ -35,9 +35,16 @@ export function GraphExplorer({ data, onNodeClick, width = 800, height = 600, cl
     zoomRef.current = zoom;
     svg.call(zoom);
 
+    // The center is always the first node. Tag each link as a center spoke
+    // or a neighbor-to-neighbor (cross) link using the raw string endpoints,
+    // before d3 replaces them with node references.
+    const centerId = data.nodes[0]?.id;
+    const isCenterLink = (l) => l.source === centerId || l.target === centerId;
+
     // Create a copy of nodes and links for simulation
     const nodes = data.nodes.map(d => ({ ...d }));
-    const links = data.links.map(d => ({ ...d }));
+    const allLinks = data.links.map(d => ({ ...d, isCenter: isCenterLink(d) }));
+    const links = showCrossLinks ? allLinks : allLinks.filter(d => d.isCenter);
 
     // Create force simulation
     const simulation = d3.forceSimulation(nodes)
@@ -56,15 +63,17 @@ export function GraphExplorer({ data, onNodeClick, width = 800, height = 600, cl
     const borderColor = getComputedStyle(document.documentElement)
       .getPropertyValue('--color-text-muted').trim() || '#999';
 
-    // Draw links - increased thickness variation for visibility
+    // Draw links. Center spokes carry the primary signal (thicker, score-keyed
+    // opacity); cross-links are de-emphasized so they read as background texture.
     const link = g.append('g')
       .attr('class', 'links')
       .selectAll('line')
       .data(links)
       .join('line')
       .attr('stroke', borderColor)
-      .attr('stroke-opacity', d => 0.3 + (d.score || 0.5) * 0.5)
-      .attr('stroke-width', d => 1 + (d.score || 0.5) * 5);
+      .attr('stroke-opacity', d => d.isCenter ? 0.3 + (d.score || 0.5) * 0.5 : 0.12)
+      .attr('stroke-width', d => d.isCenter ? 1 + (d.score || 0.5) * 5 : 0.75)
+      .attr('stroke-dasharray', d => d.isCenter ? null : '2,3');
 
     // Draw nodes
     const node = g.append('g')
@@ -122,7 +131,7 @@ export function GraphExplorer({ data, onNodeClick, width = 800, height = 600, cl
     // Center the view
     svg.call(zoom.transform, d3.zoomIdentity.translate(0, 0).scale(1));
 
-  }, [data, width, height, onNodeClick]);
+  }, [data, width, height, onNodeClick, showCrossLinks]);
 
   useEffect(() => {
     createGraph();

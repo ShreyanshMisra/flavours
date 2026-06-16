@@ -319,6 +319,17 @@ class TestExploreEndpoints:
         assert cross_links == [{"source": "garlic", "target": "tomato",
                                 "score": 0.6, "type": "pairs_with"}]
 
+    def test_graph_cross_links_use_stricter_threshold(self, client, fake_db):
+        # Cross-links between neighbors should never use a looser threshold
+        # than the center spokes.
+        client.get("/explore/graph?center=basil&min_score=0.3")
+
+        cross_calls = [p for q, p in fake_db.calls
+                       if q is ExploreQueries.EXPLORE_NEIGHBOR_LINKS]
+        assert cross_calls, "neighbor-links query was never executed"
+        assert cross_calls[0]["cross_min_score"] >= cross_calls[0]["min_score"]
+        assert cross_calls[0]["cross_min_score"] == 0.6
+
     def test_graph_unknown_center_returns_404(self, client):
         response = client.get("/explore/graph?center=does-not-exist")
         assert response.status_code == 404
